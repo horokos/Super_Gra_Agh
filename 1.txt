@@ -1,0 +1,156 @@
+Ogr*od przed zamkiem *a *A *C *c *E *L *N *O *S *Z *X *a *c *e *l *n *o *s *z *x
+Budzisz sie w ogrodzie przed mrocznym zamkiem.\nNie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
+Ogrod przed zamkiem 2
+Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
+Akcja 1.2
+Wynik 1.2
+5
+3
+None
+Akcja 2.2
+Wynik 2.2
+0
+0
+None
+Akcja 3.2
+Wynik 3.2
+0
+0
+None
+Akcja 4.2
+Wynik 4.2
+1
+1
+Potwor
+Ogrod przed zamkiem 3
+Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
+Akcja 1.2
+Wynik 1.2
+5
+0
+None
+Akcja 2.2
+Wynik 2.2
+0
+20
+None
+Akcja 3.2
+Wynik 3.2
+0
+0
+None
+Akcja 4.2
+Wynik 4.2
+1
+1
+Stw*or
+Ogrod przed zamkiem 4
+Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
+Akcja 1.2
+Wynik 1.2
+5
+0
+None
+Akcja 2.2
+Wynik 2.2
+0
+20
+None
+Akcja 3.2
+Wynik 3.2
+0
+0
+None
+Akcja 4.2
+Wynik 4.2
+1
+1
+Stwor
+Ogrod przed zamkiem 5
+Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
+Akcja 1.2
+Wynik 1.2
+5
+0
+None
+Akcja 2.2
+Wynik 2.2
+0
+20
+None
+Akcja 3.2
+Wynik 3.2
+0
+0
+None
+Akcja 4.2
+Wynik 4.2
+1
+1
+Stwor
+Ogrod przed zamkiem 6
+Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
+Akcja 1.2
+Wynik 1.2
+5
+0
+None
+Akcja 2.2
+Wynik 2.2
+0
+20
+None
+Akcja 3.2
+Wynik 3.2
+0
+0
+None
+Akcja 4.2
+Wynik 4.2
+1
+1
+Stwor
+Ogrod przed zamkiem 7
+Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
+Akcja 1.2
+Wynik 1.2
+5
+0
+None
+Akcja 2.2
+Wynik 2.2
+0
+20
+None
+Akcja 3.2
+Wynik 3.2
+0
+0
+None
+Akcja 4.2
+Wynik 4.2
+1
+1
+Stwor
+Ogrod przed zamkiem 8
+Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
+Akcja 1.2
+Wynik 1.2
+5
+0
+None
+Akcja 2.2
+Wynik 2.2
+0
+20
+None
+Akcja 3.2
+Wynik 3.2
+0
+0
+None
+Akcja 4.2
+Wynik 4.2
+1
+1
+Stwor
