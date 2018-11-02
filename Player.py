@@ -5,7 +5,7 @@ import random
 class Player:
     def __init__(self):
         self.hp = 100
-        self.exp = 1
+        self.exp = 0
         self.lvl = 1
 
     def attack(self):
@@ -39,21 +39,37 @@ class Player:
 
             if enemy_hp <= 0:
                 tmp = random.randint(30, 60)
-                self.exp += tmp
                 print("Wygrałeś, dostałeś " + str(tmp) + " exp\n")
-                self.update_lvl()
+                self.update_lvl(tmp)
                 break
 
             tmp = random.randint(10, 20)
-            self.hp -= tmp
-            print("Przeciwnik odbiera Ci " + str(tmp) + " hp\n")
+            self.update_hp(tmp)
 
-            if self.hp <= 0:
-                print("Przegrałeś")
-                break
+    def update_lvl(self, value):
+        levelup = False
+        self.exp += value
 
-    def update_lvl(self):
-        if self.exp >= self.lvl * 100:
+        while self.exp >= self.lvl * 100:
             self.exp -= self.lvl * 100
             self.lvl += 1
-            print("Nowy poziom!\nTwój poziom: " + str(self.lvl))
+            levelup = True
+
+        if levelup:
+            print("*" * 20)
+            print("Nowy poziom!\nTwój poziom: " + str(self.lvl) + "\n")
+            self.hp = 100
+
+        else:
+            print("Brakuje Ci " + str(self.lvl * 100 - self.exp) + " exp do nowego poziomu")
+
+    def update_hp(self, value):
+        self.hp -= value
+        if self.hp <= 0:
+            print("Tracisz " + str(value) + " hp")
+            print("*RIP*")
+            print("Koniec gry :(\n")
+            input("Wciśnij dowolny klawisz, aby zakończyć")
+            exit(0)
+        else:
+            print("Tracisz " + str(value) + " hp, pozostało Ci " + str(self.hp) + "/100 hp")

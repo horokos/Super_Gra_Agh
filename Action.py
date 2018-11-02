@@ -29,38 +29,43 @@ class Action:
         print("-"*20)
         print("0. Anuluj")
         for i in range(len(self.description)):
-            print (str(i+1) + ". " + self.description[i])
+            print(str(i+1) + ". " + self.description[i])
 
     def do_action(self, player):
-        num = int(input("\nPodaj numer akcji: "))
+        self.print_actions()
+        num = -1
+
+        while not (0 <= num < len(self.description) + 1):
+            num = input("\nPodaj numer akcji: ")
+            try:
+                num = int(num)
+            except ValueError:
+                print("Wpisz cyfrę dzbanie!")
+                num = -1
 
         if num != 0:
-            while not (0 < num < len(self.description) + 1):
-                num = input("\nPodaj numer akcji: ")
 
             # tablica jest od zera wiec trzeba zmniejszyc
             num -= 1
 
             if not self.done[num]:
-                print("...\n")
-                print(self.description2[num])
+                print("\n...")
+                print(self.description2[num] + "\n")
                 self.done[num] = True
                 self.description[num] = "*Wykonano*"
 
                 if self.exp[num] > 0:
-                    player.exp += self.exp[num]
                     print("Dostałeś " + str(self.exp[num]) + " exp")
-                    player.update_lvl()
+                    player.update_lvl(self.exp[num])
 
                 if self.damage[num] > 0:
-                    player.hp -= self.damage[num]
-                    print("Straciłeś " + str(self.damage[num]) + " hp")
+                    player.update_hp(self.damage[num])
 
                 if self.enemy[num] != "None":
                     print(self.enemy[num] + " atakuje Cię!")
                     player.attack()
 
-                player.update_lvl()
+                print("...\n")
 
             else:
                 print("Akcje " + str(num+1) + " już wykonano\n")

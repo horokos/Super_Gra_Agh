@@ -1,4 +1,4 @@
-Ogr*od przed zamkiem *a *A *C *c *E *L *N *O *S *Z *X *a *c *e *l *n *o *s *z *x
+Ogr*od przed zamkiem
 Budzisz sie w ogrodzie przed mrocznym zamkiem.\nNie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
 Ogrod przed zamkiem 2
 Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
@@ -26,24 +26,24 @@ Ogrod przed zamkiem 3
 Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
 Akcja 1.2
 Wynik 1.2
-5
-0
+50
+50
 None
 Akcja 2.2
 Wynik 2.2
-0
-20
+50
+50
 None
 Akcja 3.2
 Wynik 3.2
-0
-0
+20
+100
 None
 Akcja 4.2
 Wynik 4.2
-1
-1
-Stw*or
+1000
+0
+None
 Ogrod przed zamkiem 4
 Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
 Akcja 1.2
