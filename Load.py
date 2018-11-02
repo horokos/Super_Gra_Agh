@@ -16,7 +16,7 @@ if os.path.isfile(FILE_NAME):
         data = f.readlines()
     f.close()
 
-    if data is not None and len(data) == 156:
+    if data is not None and len(data) == 324:
 
         for i in range(len(data)):
             data[i] = data[i].replace("\n", "")
@@ -40,14 +40,14 @@ if os.path.isfile(FILE_NAME):
             data[i] = data[i].replace("*X", "Ź")
             data[i] = data[i].replace("\r", "")
 
-        room.add_room(data[0], data[1].replace("\\n", "\n"))
+        room.add_room(data[0], data[0], data[1].replace("\\n", "\n"))
 
-        for i in range(2, len(data) - 1, 22):
-            room.add_room(data[i], data[i + 1].replace("\\n", "\n"))
+        for i in range(2, len(data) - 1, 23):
+            room.add_room(data[i], data[i + 1], data[i + 2].replace("\\n", "\n"))
 
             action.append(Action())
 
-            for x in range(2, 22, 5):
+            for x in range(3, 23, 5):
                 action[len(action)-1].add_action(data[i + x], data[i + x + 1], int(data[i + x + 2]), int(data[i + x + 3]), data[i + x + 4])
 
             action[len(action)-1].randomize()

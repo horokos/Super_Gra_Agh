@@ -1,6 +1,7 @@
-Ogr*od przed zamkiem
-Budzisz sie w ogrodzie przed mrocznym zamkiem.\nNie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
+Pokoju startowym
+To jest pok*oj, z kt*orego zaczynasz swoj*a przygod*e.
 Ogrod przed zamkiem 2
+Drzwi 1
 Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
 Akcja 1.2
 Wynik 1.2
@@ -23,6 +24,7 @@ Wynik 4.2
 1
 Potwor
 Ogrod przed zamkiem 3
+Drzwi 2
 Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
 Akcja 1.2
 Wynik 1.2
@@ -45,6 +47,7 @@ Wynik 4.2
 0
 None
 Ogrod przed zamkiem 4
+Drzwi 3
 Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
 Akcja 1.2
 Wynik 1.2
@@ -67,6 +70,7 @@ Wynik 4.2
 1
 Stwor
 Ogrod przed zamkiem 5
+Drzwi 4
 Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
 Akcja 1.2
 Wynik 1.2
@@ -89,6 +93,7 @@ Wynik 4.2
 1
 Stwor
 Ogrod przed zamkiem 6
+Drzwi 5
 Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
 Akcja 1.2
 Wynik 1.2
@@ -111,6 +116,7 @@ Wynik 4.2
 1
 Stwor
 Ogrod przed zamkiem 7
+Drzwi 6
 Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
 Akcja 1.2
 Wynik 1.2
@@ -133,6 +139,168 @@ Wynik 4.2
 1
 Stwor
 Ogrod przed zamkiem 8
+Drzwi 7
+Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
+Akcja 1.2
+Wynik 1.2
+5
+0
+None
+Akcja 2.2
+Wynik 2.2
+0
+20
+None
+Akcja 3.2
+Wynik 3.2
+0
+0
+None
+Akcja 4.2
+Wynik 4.2
+1
+1
+Stwor
+Ogrod przed zamkiem 9
+Drzwi 8
+Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
+Akcja 1.2
+Wynik 1.2
+50
+50
+None
+Akcja 2.2
+Wynik 2.2
+50
+50
+None
+Akcja 3.2
+Wynik 3.2
+20
+100
+None
+Akcja 4.2
+Wynik 4.2
+1000
+0
+None
+Ogrod przed zamkiem 10
+Drzwi 9
+Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
+Akcja 1.2
+Wynik 1.2
+5
+0
+None
+Akcja 2.2
+Wynik 2.2
+0
+20
+None
+Akcja 3.2
+Wynik 3.2
+0
+0
+None
+Akcja 4.2
+Wynik 4.2
+1
+1
+Stwor
+Ogrod przed zamkiem 11
+Drzwi 10
+Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
+Akcja 1.2
+Wynik 1.2
+5
+0
+None
+Akcja 2.2
+Wynik 2.2
+0
+20
+None
+Akcja 3.2
+Wynik 3.2
+0
+0
+None
+Akcja 4.2
+Wynik 4.2
+1
+1
+Stwor
+Ogrod przed zamkiem 12
+Drzwi 11
+Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
+Akcja 1.2
+Wynik 1.2
+5
+0
+None
+Akcja 2.2
+Wynik 2.2
+0
+20
+None
+Akcja 3.2
+Wynik 3.2
+0
+0
+None
+Akcja 4.2
+Wynik 4.2
+1
+1
+Stwor
+Ogrod przed zamkiem 13
+Drzwi 12
+Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
+Akcja 1.2
+Wynik 1.2
+5
+0
+None
+Akcja 2.2
+Wynik 2.2
+0
+20
+None
+Akcja 3.2
+Wynik 3.2
+0
+0
+None
+Akcja 4.2
+Wynik 4.2
+1
+1
+Stwor
+Ogrod przed zamkiem 14
+Drzwi 13
+Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
+Akcja 1.2
+Wynik 1.2
+5
+0
+None
+Akcja 2.2
+Wynik 2.2
+0
+20
+None
+Akcja 3.2
+Wynik 3.2
+0
+0
+None
+Akcja 4.2
+Wynik 4.2
+1
+1
+Stwor
+Ogrod przed zamkiem 15
+Drzwi 14
 Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
 Akcja 1.2
 Wynik 1.2

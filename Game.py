@@ -1,18 +1,17 @@
-import os
 from Struktura import Struktura
 from Player import Player
-from Load import room
-from Load import action
-
 
 player = Player()
-a = Struktura()
+stru = Struktura()
 
+print("Jesteś gotowy na przygodę?\n")
+print("Wybierz klasę (1/2/3)")
+print("1. Wojownik")
+print("2. Mag")
+print("3. Łotrzyk")
+
+klasa = input(">>>")
 
 while True:
-    a.p_move(room)
-    os.system('cls')
-    room.introduce(a.id_room - 1)
+    stru.p_move(player)
 
-    if a.id_room > 1:
-        action[a.id_room - 2].do_action(player)

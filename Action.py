@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import random
+import os
 
 
 class Action:
@@ -31,12 +32,15 @@ class Action:
         for i in range(len(self.description)):
             print(str(i+1) + ". " + self.description[i])
 
-    def do_action(self, player):
-        self.print_actions()
+    def do_action(self, player, room, room_id):
         num = -1
 
         while not (0 <= num < len(self.description) + 1):
-            num = input("\nPodaj numer akcji: ")
+            os.system('cls')
+            room.introduce(room_id)
+            self.print_actions()
+            print("\nPodaj numer akcji: ")
+            num = input(">>>")
             try:
                 num = int(num)
             except ValueError:
@@ -69,4 +73,6 @@ class Action:
 
             else:
                 print("Akcje " + str(num+1) + " już wykonano\n")
+
+            input("\nWciśnij dowolny klawisz, aby kontunuować...")
 
