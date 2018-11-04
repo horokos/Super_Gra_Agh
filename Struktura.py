@@ -1,25 +1,29 @@
 ﻿# -*- coding: utf-8 -*-
 import os
-from Load import room
-from Load import action
+import Load
+import Code
 
 
 class Struktura:
-    def __init__(self):
+    def __init__(self, filename):
         self.id_room = 1
+        Load.FILE_NAME = filename
+        Load.load()
 
     def p_move(self, player):
+        # pierwsza wyswietlanie ma byc wolne
+        sec = 0.005
         while True:
             os.system('cls')
-            room.introduce(self.id_room - 1)
+            Load.room.introduce(self.id_room - 1, sec)
 
             if self.id_room < 8:
-                print("-"*20 + "\nGdzie się ruszasz? (1/2/3)\n")
-                print("1. " + room.rooms_doors[self.id_room * 2 + - 1])
-                print("2. " + room.rooms_doors[self.id_room * 2])
-                print("3. Zawróć")
+                print("-"*20 + "\n\nGdzie się ruszasz? (1/2/3)\n")
+                print("1. " + Load.room.rooms_doors[self.id_room * 2 + - 1])
+                print("2. " + Load.room.rooms_doors[self.id_room * 2])
 
                 if self.id_room > 1:
+                    print("3. Zawróć")
                     print("\nLub...\n4. Wykonaj akcje\n")
 
                 move = input(">>>")
@@ -32,16 +36,14 @@ class Struktura:
                     self.id_room = self.id_room * 2 + 1
                     break
 
-                if move == "3":
-                    if self.id_room != 1:
-                        self.id_room = int(self.id_room / 2)
-                        break
-                    else:
-                        print("Nie możesz zawrócić!")
+                if self.id_room > 1:
+                    if move == "3":
+                            self.id_room = int(self.id_room / 2)
+                            break
 
-                if move == "4" and self.id_room > 1:
-                    action[self.id_room - 2].do_action(player, room, self.id_room - 1)
-                    break
+                    if move == "4":
+                        Load.action[self.id_room - 2].do_action(player, Load.room, self.id_room - 1)
+                        break
 
             else:
                 print("-" * 20 + "\nGdzie się ruszasz? (1/2)\n")
@@ -52,7 +54,7 @@ class Struktura:
                 move = input(">>>")
 
                 if move == "1":
-                    input("Podaj kod")
+                    Code.guess(player)
                     exit(0)
                     break
 
@@ -61,7 +63,10 @@ class Struktura:
                     break
 
                 if move == "3":
-                    action[self.id_room - 2].do_action(player, room, self.id_room - 1)
+                    Load.action[self.id_room - 2].do_action(player, Load.room, self.id_room - 1)
                     break
+
+            # kolejne wyswitlanie ma byc szybkie
+            sec = 0
 
     os.system('cls')

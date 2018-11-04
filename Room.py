@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import time
 
 
 class Room:
@@ -12,8 +13,15 @@ class Room:
         self.rooms_doors.append(doors)
         self.rooms_description.append(description)
 
-    def introduce(self, num):
+    def introduce(self, num, sec):
         print("-"*20)
-        print("Jesteś w " + self.rooms_names[num])
-        print(self.rooms_description[num] + "\n")
+        self.slow_print("Jesteś w " + self.rooms_names[num], sec)
+        self.slow_print(self.rooms_description[num], sec)
 
+    @staticmethod
+    def slow_print(string, sec):
+        for i in range(len(string)):
+            print(string[i], end="", flush=True)
+            time.sleep(sec)
+
+        print("\n")
