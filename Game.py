@@ -21,8 +21,10 @@ while True:
 player = Player()
 stru = Struktura(klasa + ".txt")
 
+
 Code.generate()
 
 while True:
     stru.p_move(player)
+
 

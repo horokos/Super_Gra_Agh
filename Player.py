@@ -1,21 +1,23 @@
 # -*- coding: utf-8 -*-
 import random
 import time
+import pickle
 
 
 class Player:
     def __init__(self):
         self.hp = 100
         self.exp = 0
-        self.lvl = 1
+        self.lvl = 5
+        self.max_hp = 100
 
     def attack(self):
-        enemy_hp = 100
+        enemy_hp = random.randint(4 + self.lvl, 9 + self.lvl) * 10
 
         while True:
             time.sleep(0.05)
             print("-"*20)
-            self.slow_print("Twoje hp " + str(self.hp) + "\nHp przeciwnika " + str(enemy_hp), 0.005)
+            self.slow_print("Hp Gracza: " + str(self.hp) + "\nHp przeciwnika: " + str(enemy_hp), 0.005)
 
             while True:
                 self.slow_print("Jak chcesz atakować? (Silny/Szybki)\n", 0.005)
@@ -52,19 +54,23 @@ class Player:
     def update_lvl(self, value):
         time.sleep(0.05)
         levelup = False
+        old_max_hp = self.max_hp
+
         self.exp += value
         self.slow_print("Dostałeś " + str(value) + " exp", 0.005)
 
         while self.exp >= self.lvl * 100:
             self.exp -= self.lvl * 100
             self.lvl += 1
+            self.max_hp += 10
             levelup = True
 
         if levelup:
             print("*" * 20)
-            self.slow_print("Nowy poziom!\nTwój poziom: " + str(self.lvl) + "\n", 0.005)
-            self.hp = 100
-
+            self.slow_print("Nowy poziom!\nTwój poziom: " + str(self.lvl) + "\nJesteś w pełni wyleczony."
+                            "\nTwój maksymalny poziom hp został zwiększony o " +
+                            str(self.max_hp - old_max_hp) + "\n", 0.005)
+            self.hp = self.max_hp
         else:
             self.slow_print("Brakuje Ci " + str(self.lvl * 100 - self.exp) + " exp do nowego poziomu", 0.005)
 
@@ -75,10 +81,16 @@ class Player:
             self.slow_print("Tracisz " + str(value) + " hp", 0.005)
             print("*RIP*")
             self.slow_print("Koniec gry :(\n", 0.005)
-            input("Wciśnij dowolny klawisz, aby zakończyć")
+            self.save_score()
+            input("Wciśnij ENTER, aby kontunuować...")
             exit(0)
+
+        elif value > 0:
+            self.slow_print("Tracisz %s hp, pozostało Ci %s/%s hp." % (str(value), str(self.hp), str(self.max_hp)), 0.005)
         else:
-            self.slow_print("Tracisz " + str(value) + " hp, pozostało Ci " + str(self.hp) + "/100 hp", 0.005)
+            if self.hp > self.max_hp:
+                self.hp = self.max_hp
+            self.slow_print("Zostajesz uleczony o %s hp, masz %s/%s hp." % (str(abs(value)), str(self.hp), str(self.max_hp)), 0.005)
 
     @staticmethod
     def slow_print(string, sec):
@@ -86,3 +98,7 @@ class Player:
             print(string[i], end="", flush=True)
             time.sleep(sec)
         print("\n")
+
+    def save_score(self):
+        pass
+

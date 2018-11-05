@@ -75,7 +75,8 @@ def load():
                 doors.append(room.rooms_doors[i])
 
                 if order.index(i) > 5:
-                    descriptions.append(room.rooms_description[i] + "\nZamiast kolejnych drzwi, widzisz przed sobą portal.")
+                    descriptions.append(room.rooms_description[i] +
+                                        "\nZamiast kolejnych drzwi, widzisz przed sobą portal.")
                 else:
                     descriptions.append(room.rooms_description[i])
                 actions.append(action[i - 1])
@@ -90,6 +91,6 @@ def load():
             exit(0)
 
     else:
-        input("Błąd w pliku danych!")
+        input("Brak pliku " + FILE_NAME)
         exit(0)
 

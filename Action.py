@@ -65,7 +65,7 @@ class Action:
             if self.exp[num] > 0:
                 player.update_lvl(self.exp[num])
 
-            if self.damage[num] > 0:
+            if abs(self.damage[num]) > 0:
                 player.update_hp(self.damage[num])
 
             if self.encounter[num] != "None" and self.encounter[num] != "Code":
@@ -74,5 +74,4 @@ class Action:
 
             print("...\n")
 
-            input("\nWciśnij dowolny klawisz, aby kontunuować...")
-
+            input("\nWciśnij ENTER, aby kontunuować...")
