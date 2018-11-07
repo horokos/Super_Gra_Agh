@@ -49,6 +49,9 @@ class Action:
                 room.slow_print("XD!\n\n", 0.5)
                 num = -1
 
+            if num == 0:
+                break
+
         if num != 0:
 
             # tablica jest od zera wiec trzeba zmniejszyc
@@ -70,7 +73,8 @@ class Action:
 
             if self.encounter[num] != "None" and self.encounter[num] != "Code":
                 room.slow_print(self.encounter[num] + " atakuje Cię!", 0.01)
-                player.attack()
+                input("\nWciśnij ENTER, aby kontunuować...")
+                player.attack(self.encounter[num])
 
             print("...\n")
 
