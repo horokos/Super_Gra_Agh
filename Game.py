@@ -1,8 +1,6 @@
 from Struktura import Struktura
 from Player import Player
 import Code
-from Items import Weapon
-from Items import Armor
 
 
 print("Jesteś gotowy na przygodę?\n")
@@ -11,28 +9,27 @@ print("1. Wojownik")
 print("2. Mag")
 print("3. Łotrzyk")
 
+player = Player()
+
 while True:
     klasa = input(">>>")
 
     if klasa == "1":
-        weapon = Weapon("Noga", 10, 80, 5, "Kopnięcie przeciwnika")
-        armor = Armor("Zardzewiała zbroja", 10)
-        player = Player(weapon, armor)
-        player.add_sword("Miecz pazia", 40, 60, 5, "Cios mieczem pazia")
+        player.add_weapon("Noga", 11, 80, 5, "Kopnięcie przeciwnika")
+        player.add_weapon("Miecz pazia", 40, 60, 5, "Cios mieczem pazia")
+        player.change_armor("Zardzewiała zbroja", 20)
         break
 
     elif klasa == "2":
-        weapon = Weapon("Ręce", 10, 80, 5, "Proste zaklęcie rażące")
-        armor = Armor("Stara szata", 5)
-        player = Player(weapon, armor)
-        player.add_sword("Dębowa różdżka", 50, 70, 10, "Silne zaklęcie oszałamiające")
+        player.add_weapon("Ręce", 11, 80, 5, "Proste zaklęcie rażące")
+        player.add_weapon("Dębowa różdżka", 50, 70, 10, "Silne zaklęcie oszałamiające")
+        player.change_armor("Stara szata", 10)
         break
 
     elif klasa == "3":
-        weapon = Weapon("Ręka", 10, 90, 3, "Sierpowy")
-        armor = Armor("Skurzana tunika", 8)
-        player = Player(weapon, armor)
-        player.add_sword("Sztylet złodziejaszka", 30, 80, 3, "Cios sztyletem")
+        player.add_weapon("Ręka", 11, 90, 3, "Sierpowy")
+        player.add_weapon("Sztylet złodziejaszka", 30, 80, 3, "Cios sztyletem")
+        player.change_armor("Skurzana tunika", 10)
         break
 
     else:

@@ -8,15 +8,13 @@ import pickle
 
 
 class Player:
-    def __init__(self, weapon, armor):
+    def __init__(self):
         self.exp = 0
         self.lvl = 1
         self.max_hp = 100
         self.hp = self.max_hp
-
-        self.sword = []
-        self.sword.append(weapon)
-        self.armor = armor
+        self.weapon = []
+        self.armor = None
 
     def attack(self, enemy_name):
         enemy_hp = random.randint(5 + self.lvl, 10 + self.lvl) * 10
@@ -24,13 +22,13 @@ class Player:
         while True:
             time.sleep(0.05)
             p = -1
-            while not (0 <= p < len(self.sword)):
+            while not (0 <= p < len(self.weapon)):
                 os.system('cls')
                 print("-" * 20)
                 self.slow_print("Hp Gracza: " + str(self.hp) + "\nHp przeciwnika: " + str(enemy_hp), 0.005)
 
-                for x in range(0, len(self.sword)):
-                    print(str(x+1) + ". " + self.sword[x].attack_name)
+                for x in range(0, len(self.weapon)):
+                    print("%s. %s   (dmg %s-%s)" % (x + 1, self.weapon[x].attack_name, self.weapon[x].dmg - 10, self.weapon[x].dmg + 10))
 
                 print("\nPodaj numer ataku")
                 p = input(">>>")
@@ -41,13 +39,15 @@ class Player:
                 except ValueError:
                     p = -1
 
-            if random.randint(0, 100) < self.sword[p].chance:
-                if random.randint(1, 100) > self.sword[p].crit:
-                    tmp = self.sword[p].dmg + random.randint(-10, 10)
+            print("...")
+            if random.randint(0, 100) < self.weapon[p].chance:
+                if random.randint(1, 100) > self.weapon[p].crit:
+                    tmp = self.weapon[p].dmg + random.randint(-10, 10)
                 else:
-                    tmp = (self.sword[p].dmg + random.randint(-10, 10))*2
+                    print("Obrażenia krytyczne!")
+                    tmp = (self.weapon[p].dmg + random.randint(-10, 10))*2
                 enemy_hp -= tmp
-                self.slow_print("\nTrafiłeś za " + str(tmp), 0.01)
+                self.slow_print("Trafiłeś za " + str(tmp), 0.01)
 
             else:
                 print("\nChybiłeś :(")
@@ -58,7 +58,7 @@ class Player:
                 self.update_lvl(tmp)
                 break
 
-            tmp = random.randint(10, 20)
+            tmp = random.randint(10, 25)
             self.slow_print(enemy_name + " atakuje Cię!", 0.01)
             self.update_hp(int(tmp*(100 - self.armor.armor)/100))
 
@@ -108,8 +108,8 @@ class Player:
     def change_armor(self, name, armor):
         self.armor = Armor(name, armor)
 
-    def add_sword(self, name, dmg, chance, crit, attack_name):
-        self.sword.append(Weapon(name, dmg, chance, crit, attack_name))
+    def add_weapon(self, name, dmg, chance, crit, attack_name):
+        self.weapon.append(Weapon(name, dmg, chance, crit, attack_name))
 
     @staticmethod
     def slow_print(string, sec):
