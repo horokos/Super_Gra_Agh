@@ -1,324 +1,324 @@
-Pokoju startowym
-To jest pok*oj, z kt*orego zaczynasz swoj*a przygod*e.
-Ogrod przed zamkiem 2
-Drzwi 1
-Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
-Akcja 1.2
-Wynik 1.2
+﻿Celi
+Budzisz si*e. Boli ci*e g*lowa, nie pami*etasz jak si*e tu znalaz*le*s.\nPewnie kt*ore*s z zak*l*e*c nie zadzia*la*lo jak nale*zy. Jedna tylko my*sl pulsuje Ci w g*lowie.\nMusisz wydosta*c si*e z tego miejsca.\nDopiero teraz rozgl*adasz si*e po pomieszczeniu. Jest to rodzaj celi. Zimnej i wilgotnej.\nWstajesz, podchodzisz do drzwi i chwytasz za klamk*e. O dziwo drzwi nie s*a zamkni*ete.\nNie wie*zysz w*lasnemu szcz*e*sciu. Wybiegasz w ciemno*s*c…
+D*lugim korytarzu
+Pusta dziura o regularnym kszta*lcie
+Czujesz przeci*ag i zapach wilgoci.\nZdecydowanie nie jest to miejsce, w kt*orym chcia*lby*s d*lugo przebywa*c.\nZauwa*zasz: oparte o *scian*e narz*edzia g*ornicze, odrapana komod*e, le*z*acy na ziemi p*laszcz i ogromnego martwego karaczana.
+Zbadaj narz*edzia
+O sciane oparty jest kilof, który przez nieuwag*e zrzucasz sobie na stop*e
+0
+10
+None
+Otw*orz szuflad*e w komodzie
+Szuflada opornie, ale wysuwa si*e ukazuj*ac plan podziemi, kt*ory zdecydowanie Ci pomoże szybciej dotrze*c do celu.
+40
+0
+None
+Podnie*s p*laszcz
+W wewn*etrznej kieszeni znajduje si*e fiolka z lekiem.
 5
-3
+-15
+None
+Przyjrzyj si*e zdech*lemu karaczanowi
+Karaczan okazuje si*e nie by*c martwy, k*asa ci*e i ucieka.
+0
+15
+None
+Kr*otkim korytarzu
+Zamszone dębowe drzwi
+*Sciany l*sni*a od wilgoci, a w powietrzu unosi sie zapach stechlizny.\nWzdrygasz sie. Jest to miejsce, kt*ore powinno zosta*c opuszczone jak najpr*edzej.\nZwracasz uwag*e na: skrzynk*e z butelkami, tajemnicz*a rosline doniczkowa, ludzk*a czaszk*e oraz stoliczek z jedn*a szufladk*a. 
+Sprawd*x skrzynk*e
+Przegl*adaj*ac puste butelki natrafiasz na jedn*a pe*ln*a, jest to ampu*lka z eliksirem leczniczym.
+0
+-25
+None
+Zobacz co to za ro*slina
+Nigdy nie widzia*le*s podobnej ro*sliny. Ma grub*a *lodyg*e z dwoma li*s*cmi oraz ogromny kwiatostan barwy g*l*ebokiej purpury. Zastanawiasz się jak ona ro*sne w tak s*labym *swietle. Nagle kwiatostan rozwiera si*e ukazuj*ac wielk*ą paszcz*e pe*ln*a ostrych jak brzytwa z*eb*ow.
+0
+0
+Rosiczka
+Obejrzyj ludzk*a czaszk*e
+Skoro jest tu ludzka czaszka to znaczy, *ze w pobli*zu mo*ze czai*c si*e niebezpiecze*nstwo.
+35
+0
+None
+Podejd*x do stoliczka
+Pr*obujesz otworzy*c szuflad*e, jednak za nic si*e nie da. Tylko pokaleczy*le*s si*e drzazgami.
+0
+10
+None
+*Swi*atynii ognia
+Czerwone wrota
+Wchodz*ac do *srodka czujesz gor*ac i duchot*e.\nPrzed tob*a rozpo*sciera si*e wielka sala. Sklepienie jest wsparte przez zdobione runami kolumny. Wsz*edzie porozstawiane s*a pochodnie. Na *srodku stoi wielki p*lon*acy znicz.
+W*l*o*z r*ek*e do znicza.
+Niepewnie zbli*zasz d*lo*n w stron*e p*lomieni, jednak zaskakuje Ci*e ch*l*od jaki emanuje od ognia. Okazuje si*e, *ze by*la to tylko iluzja, a w *srodku znicza znajdujesz kartk*e z napisem:.
+30
+0
 Code
-Akcja 2.2
-Wynik 2.2
-37
-0
-None
-Akcja 3.2
-Wynik 3.2
-0
-0
-None
-Akcja 4.2
-Wynik 4.2
-1
-1
-Potwor
-Ogrod przed zamkiem 3
-Drzwi 2
-Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
-Akcja 1.2
-Wynik 1.2
-50
-50
-None
-Akcja 2.2
-Wynik 2.2
-50
-50
-None
-Akcja 3.2
-Wynik 3.2
-20
-100
-None
-Akcja 4.2
-Wynik 4.2
-1000
-0
-None
-Ogrod przed zamkiem 4
-Drzwi 3
-Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
-Akcja 1.2
-Wynik 1.2
+Ogrzej się obok ognia
+Ciep*lo ognia sprawia, że czujesz się lepiej. 
 5
+-10
+None
+Zga*s pochodnie
+Nagle z dymu wyrasta przera*zający demon.
+0
+0
+Demon
+Spr*obuj odczyta*c tajemnicze runy
+Jest tam napisane: Wystrzegaj si*e przekl*etej Czarnej Ksi*egi. Hm jest to chyba jaka*s wskaz*owka...
+20
 0
 None
-Akcja 2.2
-Wynik 2.2
+*Swi*atynii wody
+B*l*ekitne wrota
+Przest*pujesz pr*og i czujesz ch*l*od oraz wilgo*c mocniejsz*a ni*z gdziekolwiek ind*xiej.\nPomieszczenie jest wielkie i wysoko sklepione. Jest bardzo *slisko.\nPomieszczenie o*swietlaj*a magiczne lampy o *lagodnym b*l*ekitnym blasku.\nW centralnej cz*e*sci znajduje si*e wielka fontanna ze szklan*a figurk*a syreny na szczycie.
+Podejd*x do fontanny
+Postanawiasz napi*c si*e wody, czujesz si*e jak nigdy przedtem.
+10
+-20
+None
+Obejd*x sal*e noko*lo
+Nie znalaz*le*s nic ciekawego, straci*le*s tylko czas.
+0
+0
+None 
+Podnie*s tabliczk*e z posadzki
+Na tabliczce znajduje si*e wiadomo*s*c w j*ezyku nimf, a poni*zej napis:
+0
+0
+Code
+Rozbij figurk*e syreny
+Z rozbitych od*lamk*ow unosi si*e b*l*ekitny dym, kt*ory przyjmuje posta*c Syreny naturalnych rozmiar*ow. Co gorsza jest ona najwyra*xniej w*sciek*la.
+0
+0
+Syrena
+*Swi*atynii powietrza
+Szare wrota
+Ju*z od wej*scia czu*le*s przeci*ag.\n Znalaz*le*s si*e w bardzo d*lugiej i niezbyt szerokiej sali.\nSufit ginie w ciemno*sci, a samo pomieszczenie o*swietlone jest od posadzki z l*sni*ących kryszta*l*ow, kryszta*ly, a na s*cianach powiewj*a na wietrze poszarpane sztandary W*ladcy Wichru P*o*lnocy. Wzdrygasz si*e od tego lodowatego podmuchu. Na *srodku dostrzegasz o*ltarz.
+Podejd*x do o*ltarza.
+Na o*ltarzu le*zy kilka fiolek z napisem “Oto podmuch Jego pot*egi, kto spo*zywa Jego podmuch ma oddech *swie*zy na wieki”. Za*zywasz jedn*a, i dzieje si*e tak jak g*losi napis.
+10
+-10
+None
+Zbadaj *sciany
+*sciany s*a pokryte rozci*agni*etym pismem wygl*adaj*acym jakby kto*s bez przerwy dmucha*l na atrament. Udaje Ci si*e odczyta*c napis:
+0
+0
+Code
+Poszukaj *xr*od*la wiatru
+Pr*obujesz i*s*c pod wiatr, ale im dalej idziesz tym wieje on mocniej.\nPo chwili przewracasz si*e pod jego naporem i mocno uderzasz w filar.
+0
+15
+None
+Wyzwij W*ladc*e Wichru P*olnocy
+Wzywasz W*ladc*e Wichru P*olnocy
+0
+0
+Wicher
+*Swi*atynii ziemi
+Czarne wrota
+Przechodzisz przez wrota i wchodzisz w ciemno*s*c.\nCzujesz zapach *swie*zej ziemi oraz wilgo*c i st*echlizn*e.\nJednym zakl*eciem przywo*lujesz magiczn*a kul*e, kt*ora roz*swietla pomieszczenie.\nJeste*s w nisko sklepionej sali ze spor*a ilo*sci*a filar*ow.\n*Sciany pokryte s*a napisami, a w centralnej cz*e*sci znajduje si*e bezdenna dziura w posadzce.
+Wskocz do dziury
+Spadasz bez ko*nca, to zak*l*eta dziura. Przez reszt*e *zycia *za*lujesz tej decyzji.
+0
+10000
+None
+Przeczytaj napisy
+S*a to bez w*atpienia wskaz*owki zapisane krasnoludzkimi runami. Udaje Ci si*e odzczyta*c tak*ze napis:
+10
+0
+Code
+Podnie*s artefakt
+To nie jest zwyk*ly przedmiot, ale pot*e*zny magiczny artefakt.
+0
+0
+Item
+Sprawd*x czy te stalaktyty s*a tak ostre jak wygl*adaj*a
+Skaleczy*le*s si*e stalaktytem, brawo Ty.
+0
+15
+None
+Sali tortur
+Stalowe wzmocnione drzwi
+Przechodzisz przez pr*og i od razu wyczuwasz ponur*a aur*e tego miejsca, kto*s tutaj cierpia*l, wielokrotnie.\nTo pomieszczenie jest a*z przesi*akni*ete cierpieniem i b*olem.\nNa *srodku znajduje si*e st*o*l do rozci*agania, pod *scian*a krzes*lo z pasami na pod*lokietnikach i nogach.\nZ sufitu zwisaj*a haki, a na ziemi le*z*a r*o*zne oc*egi. \nWszystko poplamione jest zaschni*et*a krwi*a, nie tylko ludzk*a\nJest to zdecydowanie sala tortur.
+Podejd*x do sto*lu
+Na stole znajdujesz zakl*ecie torturuj*ace, be*dzie przydatne w walce.
+30
+0
+None
+Podnie*s obc*egi
+Przytrzasn*a*le*s sobie palca
+0
+15
+None
+Podnie*s strzykawk*e
+Jest to specjalne serum, kt*ore dzia*la leczniczo uniemo*zliwiaj*ac ofiarom przedwczesn*a *smier*c.
+0
+-20
+None
+Obejrzyj znaki napisane krwi*a
+Możesz odczyta*c napis:
+0
+0
+Code
+Magazynie
+Dwuskrzyd*lowe duże drzwi
+Wchodzisz do pomieszczenia pe*lnego rega*l*ow i pude*l oraz innych rupieci. Czujesz zapach st*echlizy i starych mebli.
+Podejd*x do sekretarzyka.
+W szufladzie sekreta*zyka znajdujesz list z napisem:
+0
+0
+Code
+Zbadaj biurko.
+Przytrzasnasn*a*le*s sobie palce szuflad*a.
 0
 20
 None
-Akcja 3.2
-Wynik 3.2
-0
-0
-None
-Akcja 4.2
-Wynik 4.2
-1
-1
-Stwor
-Ogrod przed zamkiem 5
-Drzwi 4
-Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
-Akcja 1.2
-Wynik 1.2
+Przejrzyj pud*la
+Znajdujesz fiolke z mikstur*a lecznicz*a.
 5
-0
+-15
 None
-Akcja 2.2
-Wynik 2.2
+Zajrzyj pod rega*l
+Pod rega*lem by*l karaczan i ci*e dziabn*a*l.
 0
-20
+15
 None
-Akcja 3.2
-Wynik 3.2
-0
-0
-None
-Akcja 4.2
-Wynik 4.2
-1
-1
-Stwor
-Ogrod przed zamkiem 6
-Drzwi 5
-Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
-Akcja 1.2
-Wynik 1.2
+Pracownii alchemicznej
+Gazoszczelne drzwi
+Zaraz po przekroczeniu progu uderzy*l Ci*e zapach chemikali*ow.\nStarasz nieoddycha*c tymi oparami.\nPod *scian*a znajduje si*e aparatura alchemiczna, a naprzeciwko wej*scia szafka na sk*ladniki.
+Spr*obuj fiolki z niebieskim p*lynem
+Zrobi*lo Ci si*e s*labo, zacz*a*le*s si*e krztusi*c, nie by*lo to nic dobrego.
 5
-0
+15
 None
-Akcja 2.2
-Wynik 2.2
-0
-20
-None
-Akcja 3.2
-Wynik 3.2
-0
-0
-None
-Akcja 4.2
-Wynik 4.2
-1
-1
-Stwor
-Ogrod przed zamkiem 7
-Drzwi 6
-Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
-Akcja 1.2
-Wynik 1.2
+Spr*obuj buteleczki z zielon*a mikstur*a
+Poczu*le*s si*e *swietnie, by*la to mikstura lecznicza.
 5
-0
+-20
 None
-Akcja 2.2
-Wynik 2.2
+Spr*obuj prob*owki z czerwonym eliksirem
+Poczu*le*s si*e jakby kto*s udzerzy*l Ci*e w brzuch.\nZabrak*lo Ci tchu, zacz*a*le*s osuwa*c si*e na pod*log*e.\nResztk*ami si*l wypowiedzia*le*s zakl*ecie, kt*ore uratowa*lo Ci *zycie.
 0
 20
 None
-Akcja 3.2
-Wynik 3.2
-0
-0
-None
-Akcja 4.2
-Wynik 4.2
-1
-1
-Stwor
-Ogrod przed zamkiem 8
-Drzwi 7
-Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
-Akcja 1.2
-Wynik 1.2
+Spr*obuj ampu*lki z przezroczyst*a substancj*a
+Poczu*le*s si*e jak nowo narodzony. Trafi*le*s na eliksir regeneracji, i to wyj*atkowo dobry.
 5
+-25
+None
+Bibliotece ksi*ag magicznych
+Czerwone wyciszone drzwi
+Wchodzisz do *srodka. Pierwsze co Ci*e zaskakuje to cisza, miejsce to jest idealnie wyciszone. Przez ca*le pomieszczenie ci*agn*a si*e p*o*lki z ksi*egami.\nCzujesz pulsuj*ac*a w nich magi*e. 
+Przeczytaj ksi*eg*e w czerwonej oprawie
+Nauczy*le*s si*e przydatnego zakl*ecia bojowego.
+45
 0
 None
-Akcja 2.2
-Wynik 2.2
+Przeczytaj ksi*eg*e w czarnej oprawie
+Ta ksi*ega by*la przek*l*eta i wyssa*la cz*e*s*c twojej energii *zyciowej.
 0
 20
 None
-Akcja 3.2
-Wynik 3.2
+Przeczytaj ksi*eg*e w *z*o*ltej oprawie
+Ta ksi*ega zosta*la ob*lo*zona zakl*eciami ochronnymi, kt*ore zrobi*ly Ci spor*a krzywd*e.
 0
-0
+15
 None
-Akcja 4.2
-Wynik 4.2
-1
-1
-Stwor
-Ogrod przed zamkiem 9
-Drzwi 8
-Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
-Akcja 1.2
-Wynik 1.2
-50
-50
-None
-Akcja 2.2
-Wynik 2.2
-50
-50
-None
-Akcja 3.2
-Wynik 3.2
-20
-100
-None
-Akcja 4.2
-Wynik 4.2
-1000
-0
-None
-Ogrod przed zamkiem 10
-Drzwi 9
-Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
-Akcja 1.2
-Wynik 1.2
+Przeczytaj ksi*eg*e w niebieskiej oprawie
+Nauczy*le*s si*e przydatnego zakl*ecia leczniczego.
 5
+-20
+None
+Sali do rytua*l*ow
+Odrapane drzwi
+Od kiedy tylko przekroczy*le*s pr*og pomieszczenia odczuwasz nieuzasadniony niepok*oj. \nCzujesz, *ze kto*s lub kto*s lub co*s ci*e obserwuje. Na posadzce dostrzegasz namalowany krwi*a pentagram.\nPatrzysz na *scian*e i twoje serce zamiera, a sztylet strachu przeszywa twe serce. \nNa *scianach widniej*a symbole Upad*lych.\nPr*obujesz wyj*s*c, ale drzwi zatrzaskuj*a si*e z dono*snym hukiem.\nWiesz, *ze masz ma*lo czasu nim Oni si*e przebudz*a…
+Podejd*x do pentagramu
+Podchodzisz do pentagramu, a czarne *swiece w jego wierzcho*lkach zapalaj*a si*e.\nWiesz, *ze ju*z jest zap*o*xno na odwr*ocenie zakl*ecia.\nMusisz stawi*c czo*la Upad*lemu...
+0
+0
+Upad*ly
+Podnie*s artefakt
+Podnosisz przedmiot. Zapewnie by*l wykorzystywany w przekl*etych rytua*lach.\nBardzo ciemna magia…
+0
+0
+Item
+Zbadaj symbole
+Mi*edzy symbolami dostrzegasz przydatne zakl*ecie.
+35
 0
 None
-Akcja 2.2
-Wynik 2.2
+Podnie*s medalion
+Gdy tylko twoje palce dotkn*e*ly medalionu, zacz*a*le*s odczuwa*c ogromny b*ol.\nTakich medalion*ow u*zywano przy wzywaniu Upad*lych, kt*orzy *zywi*a si*e cierpieniem…
 0
 20
 None
-Akcja 3.2
-Wynik 3.2
+Marmurowej sali
+Bia*le drzwi
+Wchodzisz do *srodka. Podnios*lo*s*c tego pomieszczenia czu*c nawet bez magii.\nMarmurowa posadzka, marmurowe *sciany, marmurowe kolumny…\nNa przeciwleg*lej *scianie dostrzegasz tekst w j*ezyku elf*ow oraz 4 d*xwignie.\nNapis g*losi:\nOto *swi*ety ci*ag przekl*etych cyfr: 1, 6, 21, 62. Jaka b*edzie kolejna cyfra *swi*etego ci*agu?
+“81”
+*Xle wybra*le*s…
 0
-0
+15
+Sfinks
+“105”
+Brawo! Dobrze trafi*le*s!
+40
+-20
 None
-Akcja 4.2
-Wynik 4.2
-1
-1
-Stwor
-Ogrod przed zamkiem 11
-Drzwi 10
-Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
-Akcja 1.2
-Wynik 1.2
+“91”
+*Xle wybra*le*s…
+0
+15
+Sfinks
+“115”
+*Xle wybra*le*s…
+0
+15
+Sfinks
+Skarbcu
+Wzmocnione z*lote drzwi
+Jeszcze zanim przykroczy*le*s p*og pomieszczenia dostrzegasz blask bogactwa.\nSala wr*ecz nim ocieka. *Sciany, pod*loga, sufit - wszystko ze szczerego z*lota. Pod *scian*a znajduje si*e spory kufer.
+Zbadaj kufer
+W kufrze znajdujesz eliksir leczniczy.
 5
-0
+-20
 None
-Akcja 2.2
-Wynik 2.2
+Podnie*s jeden z le*z*acych na ziemi artefakt*ow
+Zdobywasz pot*e*zny magiczny artefakt
+0
+0
+Item
+Podejd*x do *sciany
+*Sciana jest tak wypolerowana, *ze nie zauwa*zasz kiedy wchodzisz w ni*a i w*la*snie st*luk*le*s sobie nos.
+0
+15
+None
+Przyjrzyj si*e swojemu odbiciu
+Patrzysz w z*loto jak w lustro i dostrzegasz skradaj*acego si*e za twoimi plecami potwora.
+0
+0
+Stra*znik
+Pracownii ru*zd*zkarskiej
+Lipowe drzwi
+Przest*epujesz pr*og i znajdujesz si*e w niewielkim pomieszczeniu, pe*lnym narz*edzi do obr*bki drewna oraz magicznych przyrz*ad*ow. Czujesz podekscytowanie. To staro*swiecka pracownia ru*zd*zkarska.
+Podejd*x do warsztatu
+Jeste*s nieuwa*zny i zrzucasz na siebie rega*l.
 0
 20
 None
-Akcja 3.2
-Wynik 3.2
+Podnie*s d*luto
+Przez nieuwag*e skaleczy*le*s si*e d*lutem.
 0
-0
+20
 None
-Akcja 4.2
-Wynik 4.2
-1
-1
-Stwor
-Ogrod przed zamkiem 12
-Drzwi 11
-Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
-Akcja 1.2
-Wynik 1.2
+Podnie*s artefakt
+Zdobywasz niezwykle pot*e*zny przedmiot magiczny.
+0
+0
+Item
+Przejrzyj szufladki
+W szufladzie znajdujesz eliksir leczniczy
 5
-0
+-15
 None
-Akcja 2.2
-Wynik 2.2
-0
-20
-None
-Akcja 3.2
-Wynik 3.2
-0
-0
-None
-Akcja 4.2
-Wynik 4.2
-1
-1
-Stwor
-Ogrod przed zamkiem 13
-Drzwi 12
-Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
-Akcja 1.2
-Wynik 1.2
-5
-0
-None
-Akcja 2.2
-Wynik 2.2
-0
-20
-None
-Akcja 3.2
-Wynik 3.2
-0
-0
-None
-Akcja 4.2
-Wynik 4.2
-1
-1
-Stwor
-Ogrod przed zamkiem 14
-Drzwi 13
-Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
-Akcja 1.2
-Wynik 1.2
-5
-0
-None
-Akcja 2.2
-Wynik 2.2
-0
-20
-None
-Akcja 3.2
-Wynik 3.2
-0
-0
-None
-Akcja 4.2
-Wynik 4.2
-1
-1
-Stwor
-Ogrod przed zamkiem 15
-Drzwi 14
-Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
-Akcja 1.2
-Wynik 1.2
-5
-0
-None
-Akcja 2.2
-Wynik 2.2
-0
-20
-None
-Akcja 3.2
-Wynik 3.2
-0
-0
-None
-Akcja 4.2
-Wynik 4.2
-1
-1
-Stwor

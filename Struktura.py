@@ -7,12 +7,18 @@ import Code
 class Struktura:
     def __init__(self, filename):
         self.id_room = 1
+        self.print_fast_id = 0
         Load.FILE_NAME = filename
         Load.load()
 
     def p_move(self, player):
         # pierwsza wyswietlanie ma byc wolne
-        sec = 0.001
+        if self.print_fast_id != self.id_room:
+            sec = 0.001
+            self.print_fast_id = self.id_room
+        else:
+            sec = 0
+
         while True:
             os.system('cls')
             Load.room.introduce(self.id_room - 1, sec)
@@ -44,6 +50,7 @@ class Struktura:
 
                     if move == "4" and not all(Load.action[self.id_room - 2].done):
                         Load.action[self.id_room - 2].do_action(player, Load.room, self.id_room - 1)
+                        self.print_fast_id = self.id_room
                         break
 
             else:
@@ -68,9 +75,11 @@ class Struktura:
 
                 if move == "3" and not all(Load.action[self.id_room - 2].done):
                     Load.action[self.id_room - 2].do_action(player, Load.room, self.id_room - 1)
+                    self.print_fast_id = self.id_room
                     break
 
             # kolejne wyswitlanie ma byc szybkie
+            self.print_fast_id = self.id_room
             sec = 0
 
     os.system('cls')

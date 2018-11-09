@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import random as r
+import os
 
 code = str()
 unknown = list()
@@ -25,10 +26,11 @@ def get_rand_num():
 
 
 def ending(player):
-    print("-"*20)
-    print("Przed Tobą znajdują się duże wrota otwirane kodem, a za Tobą portal.\n")
     while True:
-        print("\n\nCo robisz? (1/2)\n")
+        os.system('cls')
+        print("-" * 20)
+        print("Przed Tobą znajdują się duże wrota otwierane kodem, a za Tobą portal.\n\n")
+        print("Co robisz? (1/2)\n")
         print("1. Próbujesz wpisać kod")
         print("2. Wchodzisz to portalu")
         p = input(">>>")
@@ -41,9 +43,6 @@ def ending(player):
             print("Portal przenosi Cię do pokoju startowego.\n\n")
             input("\nWciśnij ENTER, aby kontunuować...")
             return 0
-
-        else:
-            print("Zła wartość!\n")
 
 
 def guess(player):
@@ -58,6 +57,7 @@ def guess(player):
         return 1
 
     else:
-        print("Zły kod.\nZ podłogi wysuwają się kłujące kolce.")
+        print("Zły kod.\nZ podłogi wysuwają się kłujące kolce.\n")
         player.update_hp(10)
+        input("\nWciśnij ENTER, aby kontunuować...")
         return 0

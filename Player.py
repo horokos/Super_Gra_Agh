@@ -120,4 +120,3 @@ class Player:
 
     def save_score(self):
         pass
-

@@ -17,7 +17,7 @@ def load():
 
     if os.path.isfile(FILE_NAME):
 
-        with open(FILE_NAME, "r") as f:
+        with open(FILE_NAME, "r", encoding='utf-8') as f:
             data = f.readlines()
         f.close()
 

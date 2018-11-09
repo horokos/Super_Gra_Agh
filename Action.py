@@ -65,13 +65,16 @@ class Action:
             if self.encounter[num] == "Code":
                 room.slow_print(Code.get_rand_num(), 0.05)
 
+            if self.encounter[num] == "Item":
+                room.slow_print("Znajdujesz przedmiot", 0.05)
+
             if self.exp[num] > 0:
                 player.update_lvl(self.exp[num])
 
             if abs(self.damage[num]) > 0:
                 player.update_hp(self.damage[num])
 
-            if self.encounter[num] != "None" and self.encounter[num] != "Code":
+            if self.encounter[num] not in ["None", "Item", "Code"]:
                 room.slow_print(self.encounter[num] + " atakuje Cię!", 0.01)
                 input("\nWciśnij ENTER, aby kontunuować...")
                 player.attack(self.encounter[num], random.randint(5 + player.lvl, 9 + player.lvl) * 10)
