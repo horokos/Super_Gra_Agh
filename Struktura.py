@@ -56,9 +56,11 @@ class Struktura:
                 move = input(">>>")
 
                 if move == "1":
-                    Code.guess(player)
-                    exit(0)
-                    break
+                    if Code.ending(player) == 1:
+                        exit(0)
+                    else:
+                        self.id_room = 1
+                        break
 
                 if move == "2":
                     self.id_room = int(self.id_room / 2)

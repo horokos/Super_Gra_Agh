@@ -16,8 +16,8 @@ class Player:
         self.weapon = []
         self.armor = None
 
-    def attack(self, enemy_name):
-        enemy_hp = random.randint(5 + self.lvl, 10 + self.lvl) * 10
+    def attack(self, enemy_name, senemy_hp):
+        enemy_hp = senemy_hp
 
         while True:
             time.sleep(0.05)

@@ -74,7 +74,7 @@ class Action:
             if self.encounter[num] != "None" and self.encounter[num] != "Code":
                 room.slow_print(self.encounter[num] + " atakuje Cię!", 0.01)
                 input("\nWciśnij ENTER, aby kontunuować...")
-                player.attack(self.encounter[num])
+                player.attack(self.encounter[num], random.randint(5 + player.lvl, 9 + player.lvl) * 10)
 
             print("...\n")
 
