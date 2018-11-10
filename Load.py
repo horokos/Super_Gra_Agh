@@ -17,7 +17,7 @@ def load():
 
     if os.path.isfile(FILE_NAME):
 
-        with open(FILE_NAME, "r") as f:
+        with open(FILE_NAME, "r", encoding='utf-8') as f:
             data = f.readlines()
         f.close()
 
@@ -25,6 +25,7 @@ def load():
 
             for i in range(len(data)):
                 data[i] = data[i].replace("\n", "")
+                data[i] = data[i].replace("\\n", "\n")
                 data[i] = data[i].replace("*a", "ą")
                 data[i] = data[i].replace("*A", "Ą")
                 data[i] = data[i].replace("*c", "ć")
@@ -45,10 +46,10 @@ def load():
                 data[i] = data[i].replace("*X", "Ź")
                 data[i] = data[i].replace("\r", "")
 
-            room.add_room(data[0], data[0], data[1].replace("\\n", "\n"))
+            room.add_room(data[0], data[1], "To jest pokój startowy. Nie ma tu nic ciekawego")
 
             for i in range(2, len(data) - 1, 23):
-                room.add_room(data[i], data[i + 1], data[i + 2].replace("\\n", "\n"))
+                room.add_room(data[i], data[i + 1], data[i + 2])
 
                 action.append(Action())
 
@@ -75,7 +76,8 @@ def load():
                 doors.append(room.rooms_doors[i])
 
                 if order.index(i) > 5:
-                    descriptions.append(room.rooms_description[i] + "\nZamiast kolejnych drzwi, widzisz przed sobą portal.")
+                    descriptions.append(room.rooms_description[i] +
+                                        "\nZamiast kolejnych drzwi, widzisz przed sobą portal.")
                 else:
                     descriptions.append(room.rooms_description[i])
                 actions.append(action[i - 1])
@@ -90,6 +92,6 @@ def load():
             exit(0)
 
     else:
-        input("Błąd w pliku danych!")
+        input("Brak pliku " + FILE_NAME)
         exit(0)
 

@@ -1,0 +1,16 @@
+lotr_weapon1
+lotr_attack1
+lotr_weapon2
+lotr_attack2
+lotr_weapon3
+lotr_attack3
+lotr_weapon4
+lotr_attack4
+lotr_weapon5
+lotr_attack5
+lotr_weapon6
+lotr_attack6
+lotr_weapon7
+lotr_attack7
+lotr_weapon8
+lotr_attack8

@@ -9,20 +9,41 @@ print("1. Wojownik")
 print("2. Mag")
 print("3. Łotrzyk")
 
+player = Player()
+
 while True:
     klasa = input(">>>")
 
-    if klasa in ["1", "2", "3"]:
+    if klasa == "1":
+        player.add_weapon("Noga", 11, 80, 5, "Kopnięcie przeciwnika")
+        player.add_weapon("Miecz pazia", 40, 60, 5, "Cios mieczem pazia")
+        player.change_armor("Zardzewiała zbroja", 20)
+        player.load_names('weapon1.txt')
+        break
+
+    elif klasa == "2":
+        player.add_weapon("Ręce", 11, 80, 5, "Proste zaklęcie rażące")
+        player.add_weapon("Dębowa różdżka", 50, 70, 10, "Silne zaklęcie oszałamiające")
+        player.change_armor("Stara szata", 10)
+        player.load_names('weapon2.txt')
+        break
+
+    elif klasa == "3":
+        player.add_weapon("Ręka", 11, 90, 3, "Sierpowy")
+        player.add_weapon("Sztylet złodziejaszka", 30, 80, 3, "Cios sztyletem")
+        player.change_armor("Skurzana tunika", 10)
+        player.load_names('weapon3.txt')
         break
 
     else:
-        print("Zła wartość")
+        print("Zła wartość!\n")
 
-player = Player()
+
 stru = Struktura(klasa + ".txt")
 
 Code.generate()
 
 while True:
     stru.p_move(player)
+
 

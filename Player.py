@@ -1,70 +1,91 @@
 # -*- coding: utf-8 -*-
+import os
 import random
 import time
+from Items import Weapon
+from Items import Armor
+import pickle
 
 
 class Player:
     def __init__(self):
-        self.hp = 100
         self.exp = 0
         self.lvl = 1
+        self.max_hp = 100
+        self.hp = self.max_hp
+        self.weapon = []
+        self.armor = None
+        self.random_weapon = []
+        self.random_attack = []
 
-    def attack(self):
-        enemy_hp = 100
+    def attack(self, enemy_name, senemy_hp):
+        enemy_hp = senemy_hp
 
         while True:
             time.sleep(0.05)
-            print("-"*20)
-            self.slow_print("Twoje hp " + str(self.hp) + "\nHp przeciwnika " + str(enemy_hp), 0.005)
+            p = -1
+            while not (0 <= p < len(self.weapon)):
+                os.system('cls')
+                print("-" * 20)
+                self.slow_print("Hp Gracza: " + str(self.hp) + "\nHp przeciwnika: " + str(enemy_hp), 0.005)
 
-            while True:
-                self.slow_print("Jak chcesz atakować? (Silny/Szybki)\n", 0.005)
-                p_attack = input(">>>")
+                for x in range(0, len(self.weapon)):
+                    print("%s. %s   (dmg %s-%s)" % (x + 1, self.weapon[x].attack_name, self.weapon[x].dmg - 10, self.weapon[x].dmg + 10))
 
-                if p_attack.upper() == "SILNY" and random.randint(0, 100) < 40:
-                    tmp = random.randint(40+self.lvl*10, 60+self.lvl*10)
-                    enemy_hp -= tmp
-                    self.slow_print("Trafiłeś za " + str(tmp), 0.01)
-                    break
+                print("\nPodaj numer ataku")
+                p = input(">>>")
 
-                elif p_attack.upper() == "SZYBKI" and random.randint(0, 100) < 80:
-                    tmp = random.randint(20+self.lvl*10, 40+self.lvl*10)
-                    enemy_hp -= tmp
-                    self.slow_print("Trafiłeś za " + str(tmp), 0.01)
-                    break
+                try:
+                    p = int(p)
+                    p -= 1
+                except ValueError:
+                    p = -1
 
-                elif p_attack.upper() != "SZYBKI" and p_attack.upper() != "SILNY":
-                    print("Musisz wpisać Silny/Szybki\n")
-
+            print("...")
+            if random.randint(0, 100) < self.weapon[p].chance:
+                if random.randint(1, 100) > self.weapon[p].crit:
+                    tmp = self.weapon[p].dmg + random.randint(-10, 10)
                 else:
-                    print("Chybiłeś :(\n")
-                    break
+                    print("Obrażenia krytyczne!")
+                    tmp = (self.weapon[p].dmg + random.randint(-10, 10))*2
+                enemy_hp -= tmp
+                self.slow_print("Trafiłeś za " + str(tmp), 0.01)
+
+            else:
+                print("\nChybiłeś :(")
 
             if enemy_hp <= 0:
                 tmp = random.randint(30, 60)
-                self.slow_print("Wygrałeś, dostałeś " + str(tmp) + " exp\n", 0.01)
+                self.slow_print("Wygrałeś!", 0.01)
                 self.update_lvl(tmp)
                 break
 
-            tmp = random.randint(10, 20)
-            self.update_hp(tmp)
+            tmp = int(random.randint(10, 25) * ((self.lvl / 8) + 1))
+            self.slow_print(enemy_name + " atakuje Cię!", 0.01)
+            self.update_hp(int(tmp*(100 - self.armor.armor)/100))
+
+            input("\n\nWciśnij ENTER, aby kontynuować...")
 
     def update_lvl(self, value):
         time.sleep(0.05)
         levelup = False
+        old_max_hp = self.max_hp
+
         self.exp += value
         self.slow_print("Dostałeś " + str(value) + " exp", 0.005)
 
         while self.exp >= self.lvl * 100:
             self.exp -= self.lvl * 100
             self.lvl += 1
+            self.max_hp += 10
             levelup = True
 
         if levelup:
             print("*" * 20)
-            self.slow_print("Nowy poziom!\nTwój poziom: " + str(self.lvl) + "\n", 0.005)
-            self.hp = 100
-
+            self.slow_print("Nowy poziom!\nTwój poziom: " + str(self.lvl) + "\nJesteś w pełni wyleczony."
+                            "\nTwój maksymalny poziom hp został zwiększony o " +
+                            str(self.max_hp - old_max_hp) + "\n", 0.005)
+            self.hp = self.max_hp
         else:
             self.slow_print("Brakuje Ci " + str(self.lvl * 100 - self.exp) + " exp do nowego poziomu", 0.005)
 
@@ -75,10 +96,38 @@ class Player:
             self.slow_print("Tracisz " + str(value) + " hp", 0.005)
             print("*RIP*")
             self.slow_print("Koniec gry :(\n", 0.005)
-            input("Wciśnij dowolny klawisz, aby zakończyć")
+            self.save_score()
+            input("Wciśnij ENTER, aby kontunuować...")
             exit(0)
+
+        elif value > 0:
+            self.slow_print("Tracisz %s hp, pozostało Ci %s/%s hp." % (value, self.hp, self.max_hp), 0.005)
         else:
-            self.slow_print("Tracisz " + str(value) + " hp, pozostało Ci " + str(self.hp) + "/100 hp", 0.005)
+            if self.hp > self.max_hp:
+                self.hp = self.max_hp
+            self.slow_print("Zostajesz uleczony o %s hp, masz %s/%s hp." % (abs(value), self.hp, self.max_hp), 0.005)
+
+    def change_armor(self, name, armor):
+        self.armor = Armor(name, armor)
+
+    def add_weapon(self, name, dmg, chance, crit, attack_name):
+        self.weapon.append(Weapon(name, dmg, chance, crit, attack_name))
+
+    def add_random_weapon(self):
+        name = self.random_weapon.pop(random.randint(0, len(self.random_weapon)-1))
+        dmg = random.randint(self.lvl, self.lvl+4)*10
+        chance = 50+(random.randint(self.lvl, self.lvl+5)*10)
+        crit = random.randint(self.lvl, self.lvl*10)
+        attack_name = self.random_attack.pop(random.randint(0, len(self.random_weapon)-1))
+        self.add_weapon(name, dmg, chance, crit, attack_name)
+
+    def load_names(self, file):
+        with open(file) as f:
+            lines = f.readlines()
+            for i in range(0, len(lines), 2):
+                self.random_weapon.append(lines[i])
+            for j in range(1, len(lines), 2):
+                self.random_attack.append(lines[j])
 
     @staticmethod
     def slow_print(string, sec):
@@ -86,3 +135,6 @@ class Player:
             print(string[i], end="", flush=True)
             time.sleep(sec)
         print("\n")
+
+    def save_score(self):
+        pass

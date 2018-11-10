@@ -5,23 +5,23 @@ Drzwi 1
 Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
 Akcja 1.2
 Wynik 1.2
-5
-3
+0
+20
 Code
 Akcja 2.2
 Wynik 2.2
-37
-0
+1000
+1000
 None
 Akcja 3.2
 Wynik 3.2
 0
-0
+-90
 None
 Akcja 4.2
 Wynik 4.2
-1
-1
+0
+-10
 Potwor
 Ogrod przed zamkiem 3
 Drzwi 2

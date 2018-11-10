@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import random
 import os
 import Code
@@ -49,6 +49,9 @@ class Action:
                 room.slow_print("XD!\n\n", 0.5)
                 num = -1
 
+            if num == 0:
+                break
+
         if num != 0:
 
             # tablica jest od zera wiec trzeba zmniejszyc
@@ -59,20 +62,23 @@ class Action:
             self.done[num] = True
             self.description[num] = "*Wykonano*"
 
-            if self.encounter[num] == "Code":
+            if self.encounter[num][:4] == "Code":
                 room.slow_print(Code.get_rand_num(), 0.05)
+
+            if self.encounter[num][:4] == "Item":
+                room.slow_print("Znajdujesz przedmiot", 0.05)
 
             if self.exp[num] > 0:
                 player.update_lvl(self.exp[num])
 
-            if self.damage[num] > 0:
+            if abs(self.damage[num]) > 0:
                 player.update_hp(self.damage[num])
 
-            if self.encounter[num] != "None" and self.encounter[num] != "Code":
+            if self.encounter[num][:4] not in ["None", "Item", "Code"]:
                 room.slow_print(self.encounter[num] + " atakuje Cię!", 0.01)
-                player.attack()
+                input("\nWciśnij ENTER, aby kontunuować...")
+                player.attack(self.encounter[num], random.randint(5 + player.lvl, 9 + player.lvl) * 10)
 
             print("...\n")
 
-            input("\nWciśnij dowolny klawisz, aby kontunuować...")
-
+            input("\nWciśnij ENTER, aby kontunuować...")
