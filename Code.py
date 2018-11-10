@@ -53,7 +53,12 @@ def guess(player):
         boss_name = r.choice(["Wilkorz"])
         print("Podałeś właściwy szyfr.")
         print("Wrota otwierają się\n" + boss_name + " chce pożreć Twoją duszę!")
+        input("\nWciśnij ENTER, aby kontunuować...")
         player.attack(boss_name, r.randint(8 + player.lvl, 13 + player.lvl) * 10)
+        print("\nKONIEC GRY")
+        player.save_score()
+        input("\nWciśnij ENTER, aby kontunuować...")
+        os.system('cls')
         return 1
 
     else:

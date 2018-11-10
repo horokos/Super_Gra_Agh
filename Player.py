@@ -14,9 +14,10 @@ class Player:
         self.max_hp = 100
         self.hp = self.max_hp
         self.weapon = []
-        self.armor = None
-        self.random_weapon = []
-        self.random_attack = []
+        self.armor = []
+        self.available_weapons = []
+        self.available_attack_names = []
+        self.available_armors = []
 
     def attack(self, enemy_name, senemy_hp):
         enemy_hp = senemy_hp
@@ -30,7 +31,7 @@ class Player:
                 self.slow_print("Hp Gracza: " + str(self.hp) + "\nHp przeciwnika: " + str(enemy_hp), 0.005)
 
                 for x in range(0, len(self.weapon)):
-                    print("%s. %s   (dmg %s-%s)" % (x + 1, self.weapon[x].attack_name, self.weapon[x].dmg - 10, self.weapon[x].dmg + 10))
+                    print("%s. %s   (dmg %s-%s, chance %s%%)" % (x + 1, self.weapon[x].attack_name, self.weapon[x].dmg - 10, self.weapon[x].dmg + 10, self.weapon[x].chance))
 
                 print("\nPodaj numer ataku")
                 p = input(">>>")
@@ -62,7 +63,11 @@ class Player:
 
             tmp = int(random.randint(10, 25) * ((self.lvl / 8) + 1))
             self.slow_print(enemy_name + " atakuje Cię!", 0.01)
-            self.update_hp(int(tmp*(100 - self.armor.armor)/100))
+
+            dmg_reduction = 0
+            for x in self.armor:
+                dmg_reduction += x.armor
+            self.update_hp(int(tmp*(100 - dmg_reduction)/100))
 
             input("\n\nWciśnij ENTER, aby kontynuować...")
 
@@ -94,10 +99,10 @@ class Player:
         self.hp -= value
         if self.hp <= 0:
             self.slow_print("Tracisz " + str(value) + " hp", 0.005)
-            print("*RIP*")
-            self.slow_print("Koniec gry :(\n", 0.005)
+            print("[*] RIP [*]")
+            self.slow_print("Koniec gry :(", 0.005)
             self.save_score()
-            input("Wciśnij ENTER, aby kontunuować...")
+            input("\nWciśnij ENTER, aby kontunuować...")
             exit(0)
 
         elif value > 0:
@@ -107,27 +112,67 @@ class Player:
                 self.hp = self.max_hp
             self.slow_print("Zostajesz uleczony o %s hp, masz %s/%s hp." % (abs(value), self.hp, self.max_hp), 0.005)
 
-    def change_armor(self, name, armor):
-        self.armor = Armor(name, armor)
+    def add_armor(self, name, armor):
+        self.armor.append(Armor(name, armor))
+
+    def add_random_armor(self):
+        if len(self.available_weapons) > 0:
+            name = self.available_armors.pop(random.randint(0, len(self.available_armors)-1))
+            armor = self.lvl*10
+            self.add_armor(name, armor)
+            self.slow_print("Znajdujesz %s (armor %s)" % (name, armor), 0.005)
 
     def add_weapon(self, name, dmg, chance, crit, attack_name):
         self.weapon.append(Weapon(name, dmg, chance, crit, attack_name))
 
     def add_random_weapon(self):
-        name = self.random_weapon.pop(random.randint(0, len(self.random_weapon)-1))
-        dmg = random.randint(self.lvl, self.lvl+4)*10
-        chance = 50+(random.randint(self.lvl, self.lvl+5)*10)
-        crit = random.randint(self.lvl, self.lvl*10)
-        attack_name = self.random_attack.pop(random.randint(0, len(self.random_weapon)-1))
-        self.add_weapon(name, dmg, chance, crit, attack_name)
+        if len(self.available_weapons) > 0:
+            index = random.randint(0, len(self.available_weapons) - 1)
+            name = self.available_weapons.pop(index)
+            dmg = random.randint(self.lvl + 2, self.lvl + 6) * 10
+            chance = random.randint(40, 90)
+            crit = random.randint(self.lvl + 1, self.lvl + 5)
+            attack_name = self.available_attack_names.pop(index)
+            self.add_weapon(name, dmg, chance, crit, attack_name)
+            self.slow_print("Znajdujesz %s (dmg %s-%s, chance %s%%, crit %s%%)" % (name, dmg - 10, dmg + 10, chance, crit), 0.005)
 
     def load_names(self, file):
         with open(file) as f:
             lines = f.readlines()
-            for i in range(0, len(lines), 2):
-                self.random_weapon.append(lines[i])
-            for j in range(1, len(lines), 2):
-                self.random_attack.append(lines[j])
+            for i in range(len(lines)):
+                lines[i] = lines[i].replace("*a", "ą")
+                lines[i] = lines[i].replace("*A", "Ą")
+                lines[i] = lines[i].replace("*c", "ć")
+                lines[i] = lines[i].replace("*C", "Ć")
+                lines[i] = lines[i].replace("*e", "ę")
+                lines[i] = lines[i].replace("*E", "Ę")
+                lines[i] = lines[i].replace("*l", "ł")
+                lines[i] = lines[i].replace("*L", "Ł")
+                lines[i] = lines[i].replace("*n", "ń")
+                lines[i] = lines[i].replace("*N", "Ń")
+                lines[i] = lines[i].replace("*s", "ś")
+                lines[i] = lines[i].replace("*S", "Ś")
+                lines[i] = lines[i].replace("*o", "ó")
+                lines[i] = lines[i].replace("*O", "Ó")
+                lines[i] = lines[i].replace("*z", "ż")
+                lines[i] = lines[i].replace("*Z", "Ż")
+                lines[i] = lines[i].replace("*x", "ź")
+                lines[i] = lines[i].replace("*X", "Ź")
+            for i in range(0, len(lines) - 1, 3):
+                self.available_weapons.append(lines[i].replace("\n", ""))
+                self.available_attack_names.append(lines[i + 1].replace("\n", ""))
+                self.available_armors.append(lines[i + 2].replace("\n", ""))
+
+        f.close()
+
+    def show_equipment(self):
+        os.system('cls')
+        print("-" * 20)
+        for x in range(1, len(self.weapon)):
+            print("%s. %s   (dmg %s-%s, chance %s%%, crit %s%%)" % (x, self.weapon[x].name, self.weapon[x].dmg - 10, self.weapon[x].dmg + 10, self.weapon[x].chance, self.weapon[x].crit))
+        for x in range(0, len(self.armor)):
+            print("%s. %s   (dmg reduction %s%%)" % (len(self.weapon) + x, self.armor[x].name, self.armor[x].armor))
+        input("\n\nWciśnij ENTER, aby kontunuować...")
 
     @staticmethod
     def slow_print(string, sec):
@@ -137,4 +182,9 @@ class Player:
         print("\n")
 
     def save_score(self):
-        pass
+        score = self.exp
+        for i in range(self.lvl + 1):
+            score += i * 100
+        score -= 100
+
+        print("\nZdobyłeś %s punktów!\n" % score)

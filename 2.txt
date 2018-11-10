@@ -32,7 +32,7 @@ Przegl*adaj*ac puste butelki natrafiasz na jedn*a pe*ln*a, jest to ampu*lka z el
 -25
 None
 Zobacz co to za ro*slina
-Nigdy nie widzia*le*s podobnej ro*sliny. Ma grub*a *lodyg*e z dwoma li*s*cmi oraz ogromny kwiatostan barwy g*l*ebokiej purpury.\nZastanawiasz się jak ona ro*sne w tak s*labym *swietle. Nagle kwiatostan rozwiera si*e ukazuj*ac wielk*ą paszcz*e pe*ln*a ostrych jak brzytwa z*eb*ow.
+Nigdy nie widzia*le*s podobnej ro*sliny.\nMa grub*a *lodyg*e z dwoma li*s*cmi oraz ogromny kwiatostan barwy g*l*ebokiej purpury.\nZastanawiasz się jak ona ro*sne w tak s*labym *swietle.\nNagle kwiatostan rozwiera si*e ukazuj*ac wielk*ą paszcz*e pe*ln*a ostrych jak brzytwa z*eb*ow.
 0
 0
 Rosiczka
@@ -48,15 +48,15 @@ Pr*obujesz otworzy*c szuflad*e, jednak za nic si*e nie da. Tylko pokaleczy*le*s 
 None
 *Swi*atynii ognia
 Czerwone wrota
-Wchodz*ac do *srodka czujesz gor*ac i duchot*e.\nPrzed tob*a rozpo*sciera si*e wielka sala. Sklepienie jest wsparte przez zdobione runami kolumny. Wsz*edzie porozstawiane s*a pochodnie. Na *srodku stoi wielki p*lon*acy znicz.
+Wchodz*ac do *srodka czujesz gor*ac i duchot*e.\nPrzed tob*a rozpo*sciera si*e wielka sala. Sklepienie jest wsparte przez zdobione runami kolumny.\nWsz*edzie porozstawiane s*a pochodnie.\nNa *srodku stoi wielki p*lon*acy znicz.
 W*l*o*z r*ek*e do znicza.
-Niepewnie zbli*zasz d*lo*n w stron*e p*lomieni, jednak zaskakuje Ci*e ch*l*od jaki emanuje od ognia. Okazuje si*e, *ze by*la to tylko iluzja, a w *srodku znicza znajdujesz kartk*e z napisem:.
+Niepewnie zbli*zasz d*lo*n w stron*e p*lomieni, jednak zaskakuje Ci*e ch*l*od jaki emanuje od ognia.\nOkazuje si*e, *ze by*la to tylko iluzja, a w *srodku znicza znajdujesz kartk*e z napisem:.
 30
 0
 Code
 Ogrzej się obok ognia
 Ciep*lo ognia sprawia, że czujesz się lepiej. 
-5
+10
 -10
 None
 Zga*s pochodnie
@@ -65,13 +65,13 @@ Nagle z dymu wyrasta przera*zający demon.
 0
 Demon
 Spr*obuj odczyta*c tajemnicze runy
-Jest tam napisane: Wystrzegaj si*e przekl*etej Czarnej Ksi*egi. Hm jest to chyba jaka*s wskaz*owka...
+Jest tam napisane: Wystrzegaj si*e przekl*etej Czarnej Ksi*egi. Hmm jest to chyba jaka*s wskaz*owka...
 20
 0
 None
 *Swi*atynii wody
 B*l*ekitne wrota
-Przest*pujesz pr*og i czujesz ch*l*od oraz wilgo*c mocniejsz*a ni*z gdziekolwiek ind*xiej.\nPomieszczenie jest wielkie i wysoko sklepione. Jest bardzo *slisko.\nPomieszczenie o*swietlaj*a magiczne lampy o *lagodnym b*l*ekitnym blasku.\nW centralnej cz*e*sci znajduje si*e wielka fontanna ze szklan*a figurk*a syreny na szczycie.
+Przest*pujesz pr*og i czujesz ch*l*od oraz wilgo*c mocniejsz*a ni*z gdziekolwiek indziej.\nPomieszczenie jest wielkie i wysoko sklepione. Jest bardzo *slisko.\nPomieszczenie o*swietlaj*a magiczne lampy o *lagodnym b*l*ekitnym blasku.\nW centralnej cz*e*sci znajduje si*e wielka fontanna ze szklan*a figurk*a syreny na szczycie.
 Podejd*x do fontanny
 Postanawiasz napi*c si*e wody, czujesz si*e jak nigdy przedtem.
 10
@@ -140,16 +140,16 @@ Skaleczy*le*s si*e stalaktytem, brawo Ty.
 None
 Sali tortur
 Stalowe wzmocnione drzwi
-Przechodzisz przez pr*og i od razu wyczuwasz ponur*a aur*e tego miejsca, kto*s tutaj cierpia*l, wielokrotnie.\nTo pomieszczenie jest a*z przesi*akni*ete cierpieniem i b*olem.\nNa *srodku znajduje si*e st*o*l do rozci*agania, pod *scian*a krzes*lo z pasami na pod*lokietnikach i nogach.\nZ sufitu zwisaj*a haki, a na ziemi le*z*a r*o*zne oc*egi. \nWszystko poplamione jest zaschni*et*a krwi*a, nie tylko ludzk*a\nJest to zdecydowanie sala tortur.
+Przechodzisz przez pr*og i od razu wyczuwasz ponur*a aur*e tego miejsca, kto*s tutaj cierpia*l, wielokrotnie.\nTo pomieszczenie jest a*z przesi*akni*ete cierpieniem i b*olem.\nNa *srodku znajduje si*e st*o*l do rozci*agania, pod *scian*a krzes*lo z pasami na pod*lokietnikach i nogach.\nZ sufitu zwisaj*a haki, a na ziemi le*z*a r*o*zne oc*egi.\nWszystko poplamione jest zaschni*et*a krwi*a, nie tylko ludzk*a.\nJest to zdecydowanie sala tortur.
 Podejd*x do sto*lu
-Na stole znajdujesz zakl*ecie torturuj*ace, be*dzie przydatne w walce.
-30
+Na stole znajdujesz magiczny artefakt, be*dzie przydatny w walce.
 0
-None
+0
+Item
 Podnie*s obc*egi
-Przytrzasn*a*le*s sobie palca
+Przytrzasn*a*le*s sobie palca.
 0
-15
+10
 None
 Podnie*s strzykawk*e
 Jest to specjalne serum, kt*ore dzia*la leczniczo uniemo*zliwiaj*ac ofiarom przedwczesn*a *smier*c.
@@ -172,7 +172,7 @@ Code
 Zbadaj biurko.
 Przytrzasnasn*a*le*s sobie palce szuflad*a.
 0
-20
+5
 None
 Przejrzyj pud*la
 Znajdujesz fiolke z mikstur*a lecznicz*a.
@@ -194,8 +194,8 @@ Zrobi*lo Ci si*e s*labo, zacz*a*le*s si*e krztusi*c, nie by*lo to nic dobrego.
 None
 Spr*obuj buteleczki z zielon*a mikstur*a
 Poczu*le*s si*e *swietnie, by*la to mikstura lecznicza.
-5
--20
+10
+-30
 None
 Spr*obuj prob*owki z czerwonym eliksirem
 Poczu*le*s si*e jakby kto*s udzerzy*l Ci*e w brzuch.\nZabrak*lo Ci tchu, zacz*a*le*s osuwa*c si*e na pod*log*e.\nResztk*ami si*l wypowiedzia*le*s zakl*ecie, kt*ore uratowa*lo Ci *zycie.
@@ -204,8 +204,8 @@ Poczu*le*s si*e jakby kto*s udzerzy*l Ci*e w brzuch.\nZabrak*lo Ci tchu, zacz*a*
 None
 Spr*obuj ampu*lki z przezroczyst*a substancj*a
 Poczu*le*s si*e jak nowo narodzony. Trafi*le*s na eliksir regeneracji, i to wyj*atkowo dobry.
-5
--25
+10
+-40
 None
 Bibliotece ksi*ag magicznych
 Czerwone wyciszone drzwi
@@ -227,12 +227,12 @@ Ta ksi*ega zosta*la ob*lo*zona zakl*eciami ochronnymi, kt*ore zrobi*ly Ci spor*a
 None
 Przeczytaj ksi*eg*e w niebieskiej oprawie
 Nauczy*le*s si*e przydatnego zakl*ecia leczniczego.
-5
+20
 -20
 None
 Sali do rytua*l*ow
 Odrapane drzwi
-Od kiedy tylko przekroczy*le*s pr*og pomieszczenia odczuwasz nieuzasadniony niepok*oj. \nCzujesz, *ze kto*s lub kto*s lub co*s ci*e obserwuje. Na posadzce dostrzegasz namalowany krwi*a pentagram.\nPatrzysz na *scian*e i twoje serce zamiera, a sztylet strachu przeszywa twe serce. \nNa *scianach widniej*a symbole Upad*lych.\nPr*obujesz wyj*s*c, ale drzwi zatrzaskuj*a si*e z dono*snym hukiem.\nWiesz, *ze masz ma*lo czasu nim Oni si*e przebudz*a…
+Od kiedy tylko przekroczy*le*s pr*og pomieszczenia odczuwasz nieuzasadniony niepok*oj.\nCzujesz, *ze kto*s lub kto*s lub co*s ci*e obserwuje. Na posadzce dostrzegasz namalowany krwi*a pentagram.\nPatrzysz na *scian*e i twoje serce zamiera, a sztylet strachu przeszywa twe serce.\nNa *scianach widniej*a symbole Upad*lych.\nPr*obujesz wyj*s*c, ale drzwi zatrzaskuj*a si*e z dono*snym hukiem.\nWiesz, *ze masz ma*lo czasu nim Oni si*e przebudz*a…
 Podejd*x do pentagramu
 Podchodzisz do pentagramu, a czarne *swiece w jego wierzcho*lkach zapalaj*a si*e.\nWiesz, *ze ju*z jest zap*o*xno na odwr*ocenie zakl*ecia.\nMusisz stawi*c czo*la Upad*lemu...
 0
@@ -256,32 +256,32 @@ None
 Marmurowej sali
 Bia*le drzwi
 Wchodzisz do *srodka. Podnios*lo*s*c tego pomieszczenia czu*c nawet bez magii.\nMarmurowa posadzka, marmurowe *sciany, marmurowe kolumny…\nNa przeciwleg*lej *scianie dostrzegasz tekst w j*ezyku elf*ow oraz 4 d*xwignie.\nNapis g*losi:\nOto *swi*ety ci*ag przekl*etych cyfr: 1, 6, 21, 62. Jaka b*edzie kolejna cyfra *swi*etego ci*agu?
-“81”
+D*xwignia z liczb*a “81”
 *Xle wybra*le*s…
 0
-15
+30
 Sfinks
-“105”
-Brawo! Dobrze trafi*le*s!
-40
--20
-None
-“91”
+D*xwignia z liczb*a “105”
+Brawo! Dobra odpowied*x!\nZ sufitu spada przedmiot.
+80
+0
+Item
+D*xwignia z liczb*a “91”
 *Xle wybra*le*s…
 0
-15
+30
 Sfinks
-“115”
+D*xwignia z liczb*a “115”
 *Xle wybra*le*s…
 0
-15
+30
 Sfinks
 Skarbcu
 Wzmocnione z*lote drzwi
 Jeszcze zanim przykroczy*le*s p*og pomieszczenia dostrzegasz blask bogactwa.\nSala wr*ecz nim ocieka. *Sciany, pod*loga, sufit - wszystko ze szczerego z*lota. Pod *scian*a znajduje si*e spory kufer.
 Zbadaj kufer
 W kufrze znajdujesz eliksir leczniczy.
-5
+10
 -20
 None
 Podnie*s jeden z le*z*acych na ziemi artefakt*ow
@@ -305,20 +305,20 @@ Przest*epujesz pr*og i znajdujesz si*e w niewielkim pomieszczeniu, pe*lnym narz*
 Podejd*x do warsztatu
 Jeste*s nieuwa*zny i zrzucasz na siebie rega*l.
 0
-20
+10
 None
 Podnie*s d*luto
 Przez nieuwag*e skaleczy*le*s si*e d*lutem.
 0
-20
+5
 None
 Podnie*s artefakt
 Zdobywasz niezwykle pot*e*zny przedmiot magiczny.
-0
+10
 0
 Item
 Przejrzyj szufladki
 W szufladzie znajdujesz eliksir leczniczy
-5
+10
 -15
 None
