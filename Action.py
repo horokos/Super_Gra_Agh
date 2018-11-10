@@ -34,51 +34,53 @@ class Action:
             print(str(i+1) + ". " + self.description[i])
 
     def do_action(self, player, room, room_id):
-        num = -1
+        while not all(self.done):
+            num = -1
 
-        while not (0 <= num < len(self.description) + 1 and not self.done[num - 1]):
-            os.system('cls')
-            room.introduce(room_id, 0)
-            self.print_actions()
-            print("\nPodaj numer akcji: ")
-            num = input(">>>")
-            try:
-                num = int(num)
-            except ValueError:
-                room.slow_print("Wpisz cyfrę dzbanie!", 0.01)
-                room.slow_print("XD!\n\n", 0.5)
-                num = -1
+            while not (0 <= num < len(self.description) + 1 and not self.done[num - 1]):
+                os.system('cls')
+                room.introduce(room_id, 0)
+                self.print_actions()
+                print("\nPodaj numer akcji: ")
+                num = input(">>>")
+                try:
+                    num = int(num)
+                except ValueError:
+                    room.slow_print("Wpisz cyfrę dzbanie!", 0.01)
+                    room.slow_print("XD!\n\n", 0.5)
+                    num = -1
 
-            if num == 0:
-                break
+                if num == 0:
+                    break
 
-        if num != 0:
+            if num != 0:
+                # tablica jest od zera wiec trzeba zmniejszyc
+                num -= 1
 
-            # tablica jest od zera wiec trzeba zmniejszyc
-            num -= 1
+                print("\n...")
+                room.slow_print(self.description2[num], 0.01)
+                self.done[num] = True
+                self.description[num] = "*Wykonano*"
 
-            print("\n...")
-            room.slow_print(self.description2[num], 0.01)
-            self.done[num] = True
-            self.description[num] = "*Wykonano*"
+                if self.encounter[num][:4] == "Code":
+                    room.slow_print(Code.get_rand_num(), 0.05)
 
-            if self.encounter[num][:4] == "Code":
-                room.slow_print(Code.get_rand_num(), 0.05)
+                if self.encounter[num][:4] == "Item":
+                    player.add_random_weapon()
 
-            if self.encounter[num][:4] == "Item":
-                player.add_random_weapon()
+                if self.exp[num] > 0:
+                    player.update_lvl(self.exp[num])
 
-            if self.exp[num] > 0:
-                player.update_lvl(self.exp[num])
+                if abs(self.damage[num]) > 0:
+                    player.update_hp(self.damage[num])
 
-            if abs(self.damage[num]) > 0:
-                player.update_hp(self.damage[num])
+                if self.encounter[num][:4] not in ["None", "Item", "Code"]:
+                    room.slow_print(self.encounter[num] + " atakuje Cię!", 0.01)
+                    input("\nWciśnij ENTER, aby kontunuować...")
+                    player.attack(self.encounter[num], random.randint(5 + player.lvl, 9 + player.lvl) * 10)
 
-            if self.encounter[num][:4] not in ["None", "Item", "Code"]:
-                room.slow_print(self.encounter[num] + " atakuje Cię!", 0.01)
+                print("...\n")
+
                 input("\nWciśnij ENTER, aby kontunuować...")
-                player.attack(self.encounter[num], random.randint(5 + player.lvl, 9 + player.lvl) * 10)
-
-            print("...\n")
-
-            input("\nWciśnij ENTER, aby kontunuować...")
+            else:
+                break

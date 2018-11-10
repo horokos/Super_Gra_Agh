@@ -8,6 +8,7 @@ class Struktura:
     def __init__(self, filename):
         self.id_room = 1
         self.print_fast_id = 0
+        self.end = False
         Load.FILE_NAME = filename
         Load.load()
         os.system('cls')
@@ -33,7 +34,11 @@ class Struktura:
                 if self.id_room > 1:
                     print("3. Zawróć")
                     if not all(Load.action[self.id_room - 2].done):
-                        print("\nLub...\n4. Wykonaj akcje\n")
+                        print("\nLub...\n4. Wykonaj akcje\n5. Pokaż ekwipunek\n")
+                    else:
+                        print("\nLub...\n4. Pokaż ekwipunek\n")
+                else:
+                    print("\nLub...\n3. Pokaż ekwipunek\n")
 
                 move = input(">>>")
 
@@ -45,27 +50,41 @@ class Struktura:
                     self.id_room = self.id_room * 2 + 1
                     break
 
+                if move == "3" and self.id_room == 1:
+                    player.show_equipment()
+                    break
+
                 if self.id_room > 1:
                     if move == "3":
                             self.id_room = int(self.id_room / 2)
                             break
 
-                    if move == "4" and not all(Load.action[self.id_room - 2].done):
-                        Load.action[self.id_room - 2].do_action(player, Load.room, self.id_room - 1)
-                        self.print_fast_id = self.id_room
-                        break
+                    if move == "4":
+                        if not all(Load.action[self.id_room - 2].done):
+                            Load.action[self.id_room - 2].do_action(player, Load.room, self.id_room - 1)
+                            self.print_fast_id = self.id_room
+                            break
+                        else:
+                            player.show_equipment()
+
+                if move == "5" and not all(Load.action[self.id_room - 2].done):
+                    player.show_equipment()
 
             else:
                 print("1. Wejdź do portalu")
                 print("2. Zawróć")
                 if not all(Load.action[self.id_room - 2].done):
-                    print("\nLub...\n3. Wykonaj akcje\n")
+                    print("\nLub...\n3. Wykonaj akcje\n4. Pokaż ekwipunek\n")
+                else:
+                    print("\nLub...\n3. Pokaż ekwipunek\n")
 
                 move = input(">>>")
 
                 if move == "1":
                     if Code.ending(player) == 1:
-                        exit(0)
+                        player.save_score()
+                        self.end = True
+                        break
                     else:
                         self.id_room = 1
                         break
@@ -74,10 +93,16 @@ class Struktura:
                     self.id_room = int(self.id_room / 2)
                     break
 
-                if move == "3" and not all(Load.action[self.id_room - 2].done):
-                    Load.action[self.id_room - 2].do_action(player, Load.room, self.id_room - 1)
-                    self.print_fast_id = self.id_room
-                    break
+                if move == "3":
+                    if not all(Load.action[self.id_room - 2].done):
+                        Load.action[self.id_room - 2].do_action(player, Load.room, self.id_room - 1)
+                        self.print_fast_id = self.id_room
+                        break
+                    else:
+                        player.show_equipment()
+
+                if move == "4" and not all(Load.action[self.id_room - 2].done):
+                    player.show_equipment()
 
             # kolejne wyswitlanie ma byc szybkie
             self.print_fast_id = self.id_room

@@ -14,7 +14,7 @@ class Player:
         self.max_hp = 100
         self.hp = self.max_hp
         self.weapon = []
-        self.armor = None
+        self.armor = []
         self.available_weapons = []
         self.available_attack_names = []
 
@@ -62,7 +62,11 @@ class Player:
 
             tmp = int(random.randint(10, 25) * ((self.lvl / 8) + 1))
             self.slow_print(enemy_name + " atakuje Cię!", 0.01)
-            self.update_hp(int(tmp*(100 - self.armor.armor)/100))
+
+            dmg_reduction = 0
+            for x in self.armor:
+                dmg_reduction += x.armor
+            self.update_hp(int(tmp*(100 - dmg_reduction)/100))
 
             input("\n\nWciśnij ENTER, aby kontynuować...")
 
@@ -94,10 +98,10 @@ class Player:
         self.hp -= value
         if self.hp <= 0:
             self.slow_print("Tracisz " + str(value) + " hp", 0.005)
-            print("*RIP*")
-            self.slow_print("Koniec gry :(\n", 0.005)
+            print("[*] RIP [*]")
+            self.slow_print("Koniec gry :(", 0.005)
             self.save_score()
-            input("Wciśnij ENTER, aby kontunuować...")
+            input("\nWciśnij ENTER, aby kontunuować...")
             exit(0)
 
         elif value > 0:
@@ -107,8 +111,8 @@ class Player:
                 self.hp = self.max_hp
             self.slow_print("Zostajesz uleczony o %s hp, masz %s/%s hp." % (abs(value), self.hp, self.max_hp), 0.005)
 
-    def change_armor(self, name, armor):
-        self.armor = Armor(name, armor)
+    def add_armor(self, name, armor):
+        self.armor.append(Armor(name, armor))
 
     def add_weapon(self, name, dmg, chance, crit, attack_name):
         self.weapon.append(Weapon(name, dmg, chance, crit, attack_name))
@@ -132,6 +136,15 @@ class Player:
                 self.available_attack_names.append(lines[i + 1].replace("\n", ""))
         f.close()
 
+    def show_equipment(self):
+        os.system('cls')
+        print("-" * 20)
+        for x in range(1, len(self.weapon)):
+            print("%s. %s   (dmg %s-%s, chance %s%%)" % (x, self.weapon[x].name, self.weapon[x].dmg - 10, self.weapon[x].dmg + 10, self.weapon[x].chance))
+        for x in range(0, len(self.armor)):
+            print("%s. %s   (dmg reduction %s%%)" % (len(self.weapon) + x, self.armor[x].name, self.armor[x].armor))
+        input("\n\nWciśnij ENTER, aby kontunuować...")
+
     @staticmethod
     def slow_print(string, sec):
         for i in range(len(string)):
@@ -140,4 +153,9 @@ class Player:
         print("\n")
 
     def save_score(self):
-        pass
+        score = self.exp
+        for i in range(self.lvl + 1):
+            score += i * 100
+        score -= 100
+
+        print("\nZdobyłeś %s punktów!\n" % score)

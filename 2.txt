@@ -149,7 +149,7 @@ Item
 Podnie*s obc*egi
 Przytrzasn*a*le*s sobie palca.
 0
-15
+10
 None
 Podnie*s strzykawk*e
 Jest to specjalne serum, kt*ore dzia*la leczniczo uniemo*zliwiaj*ac ofiarom przedwczesn*a *smier*c.
@@ -172,7 +172,7 @@ Code
 Zbadaj biurko.
 Przytrzasnasn*a*le*s sobie palce szuflad*a.
 0
-20
+5
 None
 Przejrzyj pud*la
 Znajdujesz fiolke z mikstur*a lecznicz*a.
@@ -194,8 +194,8 @@ Zrobi*lo Ci si*e s*labo, zacz*a*le*s si*e krztusi*c, nie by*lo to nic dobrego.
 None
 Spr*obuj buteleczki z zielon*a mikstur*a
 Poczu*le*s si*e *swietnie, by*la to mikstura lecznicza.
-5
--20
+10
+-30
 None
 Spr*obuj prob*owki z czerwonym eliksirem
 Poczu*le*s si*e jakby kto*s udzerzy*l Ci*e w brzuch.\nZabrak*lo Ci tchu, zacz*a*le*s osuwa*c si*e na pod*log*e.\nResztk*ami si*l wypowiedzia*le*s zakl*ecie, kt*ore uratowa*lo Ci *zycie.
@@ -204,8 +204,8 @@ Poczu*le*s si*e jakby kto*s udzerzy*l Ci*e w brzuch.\nZabrak*lo Ci tchu, zacz*a*
 None
 Spr*obuj ampu*lki z przezroczyst*a substancj*a
 Poczu*le*s si*e jak nowo narodzony. Trafi*le*s na eliksir regeneracji, i to wyj*atkowo dobry.
-5
--25
+10
+-40
 None
 Bibliotece ksi*ag magicznych
 Czerwone wyciszone drzwi
@@ -227,7 +227,7 @@ Ta ksi*ega zosta*la ob*lo*zona zakl*eciami ochronnymi, kt*ore zrobi*ly Ci spor*a
 None
 Przeczytaj ksi*eg*e w niebieskiej oprawie
 Nauczy*le*s si*e przydatnego zakl*ecia leczniczego.
-5
+20
 -20
 None
 Sali do rytua*l*ow
@@ -256,32 +256,32 @@ None
 Marmurowej sali
 Bia*le drzwi
 Wchodzisz do *srodka. Podnios*lo*s*c tego pomieszczenia czu*c nawet bez magii.\nMarmurowa posadzka, marmurowe *sciany, marmurowe kolumny…\nNa przeciwleg*lej *scianie dostrzegasz tekst w j*ezyku elf*ow oraz 4 d*xwignie.\nNapis g*losi:\nOto *swi*ety ci*ag przekl*etych cyfr: 1, 6, 21, 62. Jaka b*edzie kolejna cyfra *swi*etego ci*agu?
-“81”
+D*xwignia z liczb*a “81”
 *Xle wybra*le*s…
 0
-15
+30
 Sfinks
-“105”
-Brawo! Dobrze trafi*le*s!
-40
--20
-None
-“91”
+D*xwignia z liczb*a “105”
+Brawo! Dobra odpowied*x!\nZ sufitu spada przedmiot.
+80
+0
+Item
+D*xwignia z liczb*a “91”
 *Xle wybra*le*s…
 0
-15
+30
 Sfinks
-“115”
+D*xwignia z liczb*a “115”
 *Xle wybra*le*s…
 0
-15
+30
 Sfinks
 Skarbcu
 Wzmocnione z*lote drzwi
 Jeszcze zanim przykroczy*le*s p*og pomieszczenia dostrzegasz blask bogactwa.\nSala wr*ecz nim ocieka. *Sciany, pod*loga, sufit - wszystko ze szczerego z*lota. Pod *scian*a znajduje si*e spory kufer.
 Zbadaj kufer
 W kufrze znajdujesz eliksir leczniczy.
-5
+10
 -20
 None
 Podnie*s jeden z le*z*acych na ziemi artefakt*ow
@@ -305,20 +305,20 @@ Przest*epujesz pr*og i znajdujesz si*e w niewielkim pomieszczeniu, pe*lnym narz*
 Podejd*x do warsztatu
 Jeste*s nieuwa*zny i zrzucasz na siebie rega*l.
 0
-20
+10
 None
 Podnie*s d*luto
 Przez nieuwag*e skaleczy*le*s si*e d*lutem.
 0
-20
+5
 None
 Podnie*s artefakt
 Zdobywasz niezwykle pot*e*zny przedmiot magiczny.
-0
+10
 0
 Item
 Przejrzyj szufladki
 W szufladzie znajdujesz eliksir leczniczy
-5
+10
 -15
 None

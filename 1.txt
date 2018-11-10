@@ -12,12 +12,12 @@ Akcja 2.2
 Wynik 2.2
 1000
 1000
-None
+Item
 Akcja 3.2
 Wynik 3.2
 0
 -90
-None
+Item
 Akcja 4.2
 Wynik 4.2
 0
@@ -30,22 +30,22 @@ Akcja 1.2
 Wynik 1.2
 50
 50
-None
+Item
 Akcja 2.2
 Wynik 2.2
 50
 50
-None
+Item
 Akcja 3.2
 Wynik 3.2
 20
 100
-None
+Item
 Akcja 4.2
 Wynik 4.2
 1000
 0
-None
+Item
 Ogrod przed zamkiem 4
 Drzwi 3
 Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
@@ -53,17 +53,17 @@ Akcja 1.2
 Wynik 1.2
 5
 0
-None
+Item
 Akcja 2.2
 Wynik 2.2
 0
 20
-None
+Item
 Akcja 3.2
 Wynik 3.2
 0
 0
-None
+Item
 Akcja 4.2
 Wynik 4.2
 1
@@ -76,17 +76,17 @@ Akcja 1.2
 Wynik 1.2
 5
 0
-None
+Item
 Akcja 2.2
 Wynik 2.2
 0
 20
-None
+Item
 Akcja 3.2
 Wynik 3.2
 0
 0
-None
+Item
 Akcja 4.2
 Wynik 4.2
 1
@@ -99,17 +99,17 @@ Akcja 1.2
 Wynik 1.2
 5
 0
-None
+Item
 Akcja 2.2
 Wynik 2.2
 0
 20
-None
+Item
 Akcja 3.2
 Wynik 3.2
 0
 0
-None
+Item
 Akcja 4.2
 Wynik 4.2
 1
@@ -122,17 +122,17 @@ Akcja 1.2
 Wynik 1.2
 5
 0
-None
+Item
 Akcja 2.2
 Wynik 2.2
 0
 20
-None
+Item
 Akcja 3.2
 Wynik 3.2
 0
 0
-None
+Item
 Akcja 4.2
 Wynik 4.2
 1
@@ -145,17 +145,17 @@ Akcja 1.2
 Wynik 1.2
 5
 0
-None
+Item
 Akcja 2.2
 Wynik 2.2
 0
 20
-None
+Item
 Akcja 3.2
 Wynik 3.2
 0
 0
-None
+Item
 Akcja 4.2
 Wynik 4.2
 1
@@ -168,22 +168,22 @@ Akcja 1.2
 Wynik 1.2
 50
 50
-None
+Item
 Akcja 2.2
 Wynik 2.2
 50
 50
-None
+Item
 Akcja 3.2
 Wynik 3.2
 20
 100
-None
+Item
 Akcja 4.2
 Wynik 4.2
 1000
 0
-None
+Item
 Ogrod przed zamkiem 10
 Drzwi 9
 Nie pamietasz kim jestes ani co tu robisz, ale wiesz, ze masz misje do wykonania.
@@ -191,17 +191,17 @@ Akcja 1.2
 Wynik 1.2
 5
 0
-None
+Item
 Akcja 2.2
 Wynik 2.2
 0
 20
-None
+Item
 Akcja 3.2
 Wynik 3.2
 0
 0
-None
+Item
 Akcja 4.2
 Wynik 4.2
 1
@@ -214,17 +214,17 @@ Akcja 1.2
 Wynik 1.2
 5
 0
-None
+Item
 Akcja 2.2
 Wynik 2.2
 0
 20
-None
+Item
 Akcja 3.2
 Wynik 3.2
 0
 0
-None
+Item
 Akcja 4.2
 Wynik 4.2
 1
@@ -237,17 +237,17 @@ Akcja 1.2
 Wynik 1.2
 5
 0
-None
+Item
 Akcja 2.2
 Wynik 2.2
 0
 20
-None
+Item
 Akcja 3.2
 Wynik 3.2
 0
 0
-None
+Item
 Akcja 4.2
 Wynik 4.2
 1
@@ -260,17 +260,17 @@ Akcja 1.2
 Wynik 1.2
 5
 0
-None
+Item
 Akcja 2.2
 Wynik 2.2
 0
 20
-None
+Item
 Akcja 3.2
 Wynik 3.2
 0
 0
-None
+Item
 Akcja 4.2
 Wynik 4.2
 1
@@ -283,17 +283,17 @@ Akcja 1.2
 Wynik 1.2
 5
 0
-None
+Item
 Akcja 2.2
 Wynik 2.2
 0
 20
-None
+Item
 Akcja 3.2
 Wynik 3.2
 0
 0
-None
+Item
 Akcja 4.2
 Wynik 4.2
 1
@@ -306,17 +306,17 @@ Akcja 1.2
 Wynik 1.2
 5
 0
-None
+Item
 Akcja 2.2
 Wynik 2.2
 0
 20
-None
+Item
 Akcja 3.2
 Wynik 3.2
 0
 0
-None
+Item
 Akcja 4.2
 Wynik 4.2
 1
