@@ -66,7 +66,7 @@ class Action:
                 room.slow_print(Code.get_rand_num(), 0.05)
 
             if self.encounter[num][:4] == "Item":
-                room.slow_print("Znajdujesz przedmiot", 0.05)
+                player.add_random_weapon()
 
             if self.exp[num] > 0:
                 player.update_lvl(self.exp[num])
