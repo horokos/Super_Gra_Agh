@@ -140,7 +140,7 @@ Skaleczy*le*s si*e stalaktytem, brawo Ty.
 None
 Sali tortur
 Stalowe wzmocnione drzwi
-Przechodzisz przez pr*og i od razu wyczuwasz ponur*a aur*e tego miejsca, kto*s tutaj cierpia*l, wielokrotnie.\nTo pomieszczenie jest a*z przesi*akni*ete cierpieniem i b*olem.\nNa *srodku znajduje si*e st*o*l do rozci*agania, pod *scian*a krzes*lo z pasami na pod*lokietnikach i nogach.\nZ sufitu zwisaj*a haki, a na ziemi le*z*a r*o*zne oc*egi. \nWszystko poplamione jest zaschni*et*a krwi*a, nie tylko ludzk*a.\nJest to zdecydowanie sala tortur.
+Przechodzisz przez pr*og i od razu wyczuwasz ponur*a aur*e tego miejsca, kto*s tutaj cierpia*l, wielokrotnie.\nTo pomieszczenie jest a*z przesi*akni*ete cierpieniem i b*olem.\nNa *srodku znajduje si*e st*o*l do rozci*agania, pod *scian*a krzes*lo z pasami na pod*lokietnikach i nogach.\nZ sufitu zwisaj*a haki, a na ziemi le*z*a r*o*zne oc*egi.\nWszystko poplamione jest zaschni*et*a krwi*a, nie tylko ludzk*a.\nJest to zdecydowanie sala tortur.
 Podejd*x do sto*lu
 Na stole znajdujesz magiczny artefakt, be*dzie przydatny w walce.
 0
@@ -232,7 +232,7 @@ Nauczy*le*s si*e przydatnego zakl*ecia leczniczego.
 None
 Sali do rytua*l*ow
 Odrapane drzwi
-Od kiedy tylko przekroczy*le*s pr*og pomieszczenia odczuwasz nieuzasadniony niepok*oj. \nCzujesz, *ze kto*s lub kto*s lub co*s ci*e obserwuje. Na posadzce dostrzegasz namalowany krwi*a pentagram.\nPatrzysz na *scian*e i twoje serce zamiera, a sztylet strachu przeszywa twe serce. \nNa *scianach widniej*a symbole Upad*lych.\nPr*obujesz wyj*s*c, ale drzwi zatrzaskuj*a si*e z dono*snym hukiem.\nWiesz, *ze masz ma*lo czasu nim Oni si*e przebudz*a…
+Od kiedy tylko przekroczy*le*s pr*og pomieszczenia odczuwasz nieuzasadniony niepok*oj.\nCzujesz, *ze kto*s lub kto*s lub co*s ci*e obserwuje. Na posadzce dostrzegasz namalowany krwi*a pentagram.\nPatrzysz na *scian*e i twoje serce zamiera, a sztylet strachu przeszywa twe serce.\nNa *scianach widniej*a symbole Upad*lych.\nPr*obujesz wyj*s*c, ale drzwi zatrzaskuj*a si*e z dono*snym hukiem.\nWiesz, *ze masz ma*lo czasu nim Oni si*e przebudz*a…
 Podejd*x do pentagramu
 Podchodzisz do pentagramu, a czarne *swiece w jego wierzcho*lkach zapalaj*a si*e.\nWiesz, *ze ju*z jest zap*o*xno na odwr*ocenie zakl*ecia.\nMusisz stawi*c czo*la Upad*lemu...
 0
