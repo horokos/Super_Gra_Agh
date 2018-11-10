@@ -10,6 +10,8 @@ class Struktura:
         self.print_fast_id = 0
         Load.FILE_NAME = filename
         Load.load()
+        os.system('cls')
+        Load.room.start()
 
     def p_move(self, player):
         # pierwsza wyswietlanie ma byc wolne
@@ -22,9 +24,9 @@ class Struktura:
         while True:
             os.system('cls')
             Load.room.introduce(self.id_room - 1, sec)
+            print("-" * 20 + "\n\nGdzie się ruszasz?\n")
 
             if self.id_room < 8:
-                print("-"*20 + "\n\nGdzie się ruszasz? (1/2/3)\n")
                 print("1. " + Load.room.rooms_doors[self.id_room * 2 + - 1])
                 print("2. " + Load.room.rooms_doors[self.id_room * 2])
 
@@ -54,7 +56,6 @@ class Struktura:
                         break
 
             else:
-                print("-" * 20 + "\nGdzie się ruszasz? (1/2)\n")
                 print("1. Wejdź do portalu")
                 print("2. Zawróć")
                 if not all(Load.action[self.id_room - 2].done):

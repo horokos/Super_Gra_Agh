@@ -58,7 +58,7 @@ class Player:
                 self.update_lvl(tmp)
                 break
 
-            tmp = random.randint(10, 25)
+            tmp = int(random.randint(10, 25) * ((self.lvl / 8) + 1))
             self.slow_print(enemy_name + " atakuje Cię!", 0.01)
             self.update_hp(int(tmp*(100 - self.armor.armor)/100))
 
@@ -99,11 +99,11 @@ class Player:
             exit(0)
 
         elif value > 0:
-            self.slow_print("Tracisz %s hp, pozostało Ci %s/%s hp." % (str(value), str(self.hp), str(self.max_hp)), 0.005)
+            self.slow_print("Tracisz %s hp, pozostało Ci %s/%s hp." % (value, self.hp, self.max_hp), 0.005)
         else:
             if self.hp > self.max_hp:
                 self.hp = self.max_hp
-            self.slow_print("Zostajesz uleczony o %s hp, masz %s/%s hp." % (str(abs(value)), str(self.hp), str(self.max_hp)), 0.005)
+            self.slow_print("Zostajesz uleczony o %s hp, masz %s/%s hp." % (abs(value), self.hp, self.max_hp), 0.005)
 
     def change_armor(self, name, armor):
         self.armor = Armor(name, armor)
