@@ -9,6 +9,7 @@ import pickle
 
 class Player:
     def __init__(self):
+        self.type = 0
         self.exp = 0
         self.lvl = 1
         self.max_hp = 100
