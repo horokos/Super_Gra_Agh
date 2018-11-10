@@ -36,6 +36,7 @@ while True:
         print("Zła wartość!\n")
 
 
+player.load_names('weapon' + klasa + '.txt')
 stru = Struktura(klasa + ".txt")
 
 Code.generate()

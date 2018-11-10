@@ -48,9 +48,9 @@ Pr*obujesz otworzy*c szuflad*e, jednak za nic si*e nie da. Tylko pokaleczy*le*s 
 None
 *Swi*atynii ognia
 Czerwone wrota
-Wchodz*ac do *srodka czujesz gor*ac i duchot*e.\nPrzed tob*a rozpo*sciera si*e wielka sala. Sklepienie jest wsparte przez zdobione runami kolumny. Wsz*edzie porozstawiane s*a pochodnie. Na *srodku stoi wielki p*lon*acy znicz.
+Wchodz*ac do *srodka czujesz gor*ac i duchot*e.\nPrzed tob*a rozpo*sciera si*e wielka sala. Sklepienie jest wsparte przez zdobione runami kolumny.\nWsz*edzie porozstawiane s*a pochodnie. Na *srodku stoi wielki p*lon*acy znicz.
 W*l*o*z r*ek*e do znicza.
-Niepewnie zbli*zasz d*lo*n w stron*e p*lomieni, jednak zaskakuje Ci*e ch*l*od jaki emanuje od ognia. Okazuje si*e, *ze by*la to tylko iluzja, a w *srodku znicza znajdujesz kartk*e z napisem:.
+Niepewnie zbli*zasz d*lo*n w stron*e p*lomieni, jednak zaskakuje Ci*e ch*l*od jaki emanuje od ognia.\nOkazuje si*e, *ze by*la to tylko iluzja, a w *srodku znicza znajdujesz kartk*e z napisem:.
 30
 0
 Code
@@ -71,7 +71,7 @@ Jest tam napisane: Wystrzegaj si*e przekl*etej Czarnej Ksi*egi. Hm jest to chyba
 None
 *Swi*atynii wody
 B*l*ekitne wrota
-Przest*pujesz pr*og i czujesz ch*l*od oraz wilgo*c mocniejsz*a ni*z gdziekolwiek ind*xiej.\nPomieszczenie jest wielkie i wysoko sklepione. Jest bardzo *slisko.\nPomieszczenie o*swietlaj*a magiczne lampy o *lagodnym b*l*ekitnym blasku.\nW centralnej cz*e*sci znajduje si*e wielka fontanna ze szklan*a figurk*a syreny na szczycie.
+Przest*pujesz pr*og i czujesz ch*l*od oraz wilgo*c mocniejsz*a ni*z gdziekolwiek indziej.\nPomieszczenie jest wielkie i wysoko sklepione. Jest bardzo *slisko.\nPomieszczenie o*swietlaj*a magiczne lampy o *lagodnym b*l*ekitnym blasku.\nW centralnej cz*e*sci znajduje si*e wielka fontanna ze szklan*a figurk*a syreny na szczycie.
 Podejd*x do fontanny
 Postanawiasz napi*c si*e wody, czujesz si*e jak nigdy przedtem.
 10

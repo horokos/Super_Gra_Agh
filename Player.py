@@ -15,6 +15,8 @@ class Player:
         self.hp = self.max_hp
         self.weapon = []
         self.armor = None
+        self.available_weapons = []
+        self.available_attack_names = []
 
     def attack(self, enemy_name, senemy_hp):
         enemy_hp = senemy_hp
@@ -28,7 +30,7 @@ class Player:
                 self.slow_print("Hp Gracza: " + str(self.hp) + "\nHp przeciwnika: " + str(enemy_hp), 0.005)
 
                 for x in range(0, len(self.weapon)):
-                    print("%s. %s   (dmg %s-%s)" % (x + 1, self.weapon[x].attack_name, self.weapon[x].dmg - 10, self.weapon[x].dmg + 10))
+                    print("%s. %s   (dmg %s-%s, chance %s%%)" % (x + 1, self.weapon[x].attack_name, self.weapon[x].dmg - 10, self.weapon[x].dmg + 10, self.weapon[x].chance))
 
                 print("\nPodaj numer ataku")
                 p = input(">>>")
@@ -110,6 +112,25 @@ class Player:
 
     def add_weapon(self, name, dmg, chance, crit, attack_name):
         self.weapon.append(Weapon(name, dmg, chance, crit, attack_name))
+
+    def add_random_weapon(self):
+        if len(self.available_weapons) > 0:
+            index = random.randint(0, len(self.available_weapons) - 1)
+            name = self.available_weapons.pop(index)
+            dmg = random.randint(self.lvl + 2, self.lvl + 6) * 10
+            chance = random.randint(40, 90)
+            crit = random.randint(self.lvl + 1, self.lvl + 5)
+            attack_name = self.available_attack_names.pop(index)
+            self.add_weapon(name, dmg, chance, crit, attack_name)
+            self.slow_print("Znajdujesz %s (dmg %s-%s, chance %s%%)" % (name, dmg - 10, dmg + 10, chance), 0.005)
+
+    def load_names(self, file):
+        with open(file) as f:
+            lines = f.readlines()
+            for i in range(0, len(lines) - 1):
+                self.available_weapons.append(lines[i].replace("\n", ""))
+                self.available_attack_names.append(lines[i + 1].replace("\n", ""))
+        f.close()
 
     @staticmethod
     def slow_print(string, sec):
