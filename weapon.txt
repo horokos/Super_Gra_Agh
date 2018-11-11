@@ -23,30 +23,30 @@ woj_weapon8
 woj_attack8
 woj_armor8
 ...
-R*o*zd*zka lipowa
-Zakl*ecie unieruchamaj*ace
-Magiczny Pl*aszcz
-Kostuch d*ebowy
-Kl*atwa natychmiastowego cierpienia
-Bia*la Szata
-Laska W*ladcy Wichr*ow
-Tr*aba powietrzna
+Różdżka lipowa
+Zaklęcie unieruchamające
+Magiczny Płaszcz
+Kostuch dębowy
+Klątwa natychmiastowego cierpienia
+Biała Szata
+Laska Władcy Wichrów
+Trąba powietrzna
 Szata wiatru
 Laska Ognia
-Zakl*ecie zapalaj*ace
-Pl*omienny P*laszcz
+Zaklęcie zapalające
+Płomienny płaszcz
 Dzida Przeznaczenia
-Zakl*ecie Tysi*aca Igie*l
+Zaklęcie Tysiąca Igieł
 Peleryna niewitka
-R*o*zd*zka Maga P*o*lnocy
-Zakl*ecie zamra*zaj*ace
-Pl*aszcz ze smoczych l*usk
-Kostuch Wycie*nczenia
-Zakl*ecie wycie*nczaj*ace
+Różdżka Maga Północy
+Zaklęcie zamrażające
+Płaszcz ze smoczych łusk
+Kostuch Wycieńczenia
+Zaklęcie wycieńczające
 Szata Kameleona
 Laska Dusz
-Kl*atwa defragmentacji duszy
-Peleryna z duz*ym S w diamencie
+Klątwa defragmentacji duszy
+Peleryna z dużym 'S' w diamencie
 ...
 lotr_weapon1
 lotr_attack1

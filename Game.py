@@ -4,6 +4,12 @@ import os
 import Code
 
 
+FILE_NAME = ["1.txt", "2.txt", "3.txt", "boss.txt", "weapon.txt"]
+for i in FILE_NAME:
+    if not os.path.isfile(i):
+        input("Brak pliku " + i)
+        exit(0)
+
 while True:
     print("Jesteś gotowy na przygodę?\n")
     print("Wybierz klasę (1/2/3)")
@@ -37,10 +43,10 @@ while True:
         else:
             print("Zła wartość!\n")
 
+    Code.generate(5)
+
     player.load_names(int(klasa))
     stru = Struktura(klasa + ".txt")
-
-    Code.generate()
 
     # wczytywanie obrazka z bossem
     Code.boss_name = ['Deathwing', 'Czarnoksieznik', 'Ksiezniczka'][int(klasa) - 1]

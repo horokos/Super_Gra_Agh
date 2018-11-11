@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import random as r
 import os
+import Addons
 
 code = ""
 unknown = []
@@ -8,10 +9,12 @@ boss_name = ""
 boss_pict = ""
 
 
-def generate():
+def generate(amount):
     global code
     global unknown
-    code = "%s%s%s%s%s" % (r.randint(1, 9), r.randint(1, 9), r.randint(1, 9), r.randint(1, 9), r.randint(1, 9))
+    code = ""
+    for i in range(amount):
+        code += str(r.randint(1, 9))
 
     for i in range(len(code)):
         unknown.append("*" * i + code[i] + "*" * (len(code) - i - 1))
@@ -54,16 +57,11 @@ def guess(player):
     if code == code1:
         print("Podałeś właściwy szyfr.")
         print("Wrota otwierają się\n" + boss_name + " chce pożreć Twoją duszę!")
-        print(boss_pict)
+        Addons.slow_print(boss_pict, 0.0001)
 
         input("\nWciśnij ENTER, aby kontunuować...")
         player.attack(boss_name, r.randint(8 + player.lvl, 13 + player.lvl) * 10)
-
-        f = open('win.txt')
-        for i in f:
-            print(i.strip())
-        f.close()
-
+        Addons.print_congrats()
         print("\nKONIEC GRY")
         player.save_score()
         input("\nWciśnij ENTER, aby kontunuować...")

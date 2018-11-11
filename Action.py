@@ -2,6 +2,7 @@
 import random
 import os
 import Code
+import Addons
 
 
 class Action:
@@ -46,8 +47,8 @@ class Action:
                 try:
                     num = int(num)
                 except ValueError:
-                    room.slow_print("Wpisz cyfrę dzbanie!", 0.01)
-                    room.slow_print("XD!\n\n", 0.5)
+                    Addons.slow_print("Wpisz cyfrę dzbanie!", 0.01)
+                    Addons.slow_print("XD!\n\n", 0.5)
                     num = -1
 
                 if num == 0:
@@ -58,12 +59,12 @@ class Action:
                 num -= 1
 
                 print("\n...")
-                room.slow_print(self.description2[num], 0.01)
+                Addons.slow_print(self.description2[num], 0.01)
                 self.done[num] = True
                 self.description[num] = "*Wykonano*"
 
                 if self.encounter[num][:4] == "Code":
-                    room.slow_print(Code.get_rand_num(), 0.05)
+                    Addons.slow_print(Code.get_rand_num(), 0.05)
 
                 if self.encounter[num][:4] == "Item":
                     if random.randint(0, len(player.available_armors) + len(player.available_weapons)) > len(player.available_armors):
@@ -78,7 +79,7 @@ class Action:
                     player.update_hp(self.damage[num])
 
                 if self.encounter[num][:4] not in ["None", "Item", "Code"]:
-                    room.slow_print(self.encounter[num] + " atakuje Cię!", 0.01)
+                    Addons.slow_print(self.encounter[num] + " atakuje Cię!", 0.01)
                     input("\nWciśnij ENTER, aby kontunuować...")
                     player.attack(self.encounter[num], random.randint(5 + player.lvl, 9 + player.lvl) * 10)
 
