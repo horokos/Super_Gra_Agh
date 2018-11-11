@@ -26,6 +26,7 @@ class Struktura:
             os.system('cls')
             Load.room.introduce(self.id_room - 1, sec)
             print("-" * 20 + "\n\nGdzie się ruszasz?\n")
+            Code.cp()
 
             if self.id_room < 8:
                 print("1. " + Load.room.rooms_doors[self.id_room * 2 + - 1])

@@ -42,10 +42,11 @@ while True:
             print("Zła wartość!\n")
 
     player.load_names('weapon' + klasa + '.txt')
-
+    player.add_weapon('op', 1000, 100, 1, 'op')
     stru = Struktura(klasa + ".txt")
 
     Code.generate()
+
 
     while True:
         stru.p_move(player)
