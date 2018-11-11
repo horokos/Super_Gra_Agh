@@ -2,8 +2,10 @@
 import random as r
 import os
 
-code = str()
-unknown = list()
+code = ""
+unknown = []
+boss_name = ""
+boss_pict = ""
 
 
 def generate():
@@ -32,7 +34,7 @@ def ending(player):
         print("Przed Tobą znajdują się duże wrota otwierane kodem, a za Tobą portal.\n\n")
         print("Co robisz? (1/2)\n")
         print("1. Próbujesz wpisać kod")
-        print("2. Wchodzisz to portalu")
+        print("2. Wchodzisz do portalu")
         p = input(">>>")
 
         if p == "1":
@@ -50,11 +52,18 @@ def guess(player):
     code1 = input(">>>")
 
     if code == code1:
-        boss_name = r.choice(["Wilkorz"])
         print("Podałeś właściwy szyfr.")
         print("Wrota otwierają się\n" + boss_name + " chce pożreć Twoją duszę!")
+        print(boss_pict)
+
         input("\nWciśnij ENTER, aby kontunuować...")
         player.attack(boss_name, r.randint(8 + player.lvl, 13 + player.lvl) * 10)
+
+        f = open('win.txt')
+        for i in f:
+            print(i.strip())
+        f.close()
+
         print("\nKONIEC GRY")
         player.save_score()
         input("\nWciśnij ENTER, aby kontunuować...")

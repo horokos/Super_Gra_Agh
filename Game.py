@@ -37,10 +37,23 @@ while True:
         else:
             print("Zła wartość!\n")
 
-    player.load_names('weapon' + klasa + '.txt')
+    player.load_names(int(klasa))
     stru = Struktura(klasa + ".txt")
 
     Code.generate()
+
+    # wczytywanie obrazka z bossem
+    Code.boss_name = ['Deathwing', 'Czarnoksieznik', 'Ksiezniczka'][int(klasa) - 1]
+    with open("boss.txt", "r") as f:
+        tmp = 0
+        for line in f:
+            if line[:3] == "x x":
+                tmp += 1
+            if tmp > int(klasa) * 2:
+                break
+            if tmp > int(klasa) * 2 - 2:
+                Code.boss_pict += line
+    f.close()
 
     while True:
         stru.p_move(player)

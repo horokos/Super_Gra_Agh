@@ -46,7 +46,7 @@ Pr*obujesz otworzy*c szuflad*e, jednak za nic si*e nie da. Tylko pokaleczy*le*s 
 0
 10
 None
-*Swi*atynii ognia
+*Swi*atyni ognia
 Czerwone wrota
 Wchodz*ac do *srodka czujesz gor*ac i duchot*e.\nPrzed tob*a rozpo*sciera si*e wielka sala. Sklepienie jest wsparte przez zdobione runami kolumny.\nWsz*edzie porozstawiane s*a pochodnie.\nNa *srodku stoi wielki p*lon*acy znicz.
 W*l*o*z r*ek*e do znicza.
@@ -108,7 +108,7 @@ Code
 Poszukaj *xr*od*la wiatru
 Pr*obujesz i*s*c pod wiatr, ale im dalej idziesz tym wieje on mocniej.\nPo chwili przewracasz si*e pod jego naporem i mocno uderzasz w filar.
 0
-15
+10
 None
 Wyzwij W*ladc*e Wichru P*olnocy
 Wzywasz W*ladc*e Wichru P*olnocy
@@ -136,7 +136,7 @@ Item
 Sprawd*x czy te stalaktyty s*a tak ostre jak wygl*adaj*a
 Skaleczy*le*s si*e stalaktytem, brawo Ty.
 0
-15
+10
 None
 Sali tortur
 Stalowe wzmocnione drzwi
@@ -251,7 +251,7 @@ None
 Podnie*s medalion
 Gdy tylko twoje palce dotkn*e*ly medalionu, zacz*a*le*s odczuwa*c ogromny b*ol.\nTakich medalion*ow u*zywano przy wzywaniu Upad*lych, kt*orzy *zywi*a si*e cierpieniem…
 0
-20
+15
 None
 Marmurowej sali
 Bia*le drzwi
@@ -259,7 +259,7 @@ Wchodzisz do *srodka. Podnios*lo*s*c tego pomieszczenia czu*c nawet bez magii.\n
 D*xwignia z liczb*a “81”
 *Xle wybra*le*s…
 0
-30
+15
 Sfinks
 D*xwignia z liczb*a “105”
 Brawo! Dobra odpowied*x!\nZ sufitu spada przedmiot.
@@ -269,12 +269,12 @@ Item
 D*xwignia z liczb*a “91”
 *Xle wybra*le*s…
 0
-30
+15
 Sfinks
-D*xwignia z liczb*a “115”
+D*xwignia z liczb*a  “115”
 *Xle wybra*le*s…
 0
-30
+15
 Sfinks
 Skarbcu
 Wzmocnione z*lote drzwi
@@ -292,7 +292,7 @@ Item
 Podejd*x do *sciany
 *Sciana jest tak wypolerowana, *ze nie zauwa*zasz kiedy wchodzisz w ni*a i w*la*snie st*luk*le*s sobie nos.
 0
-15
+10
 None
 Przyjrzyj si*e swojemu odbiciu
 Patrzysz w z*loto jak w lustro i dostrzegasz skradaj*acego si*e za twoimi plecami potwora.

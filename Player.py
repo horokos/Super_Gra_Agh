@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import os
 import random
 import time
@@ -17,6 +17,7 @@ class Player:
         self.armor = []
         self.available_weapons = []
         self.available_attack_names = []
+        self.available_armors = []
 
     def attack(self, enemy_name, senemy_hp):
         enemy_hp = senemy_hp
@@ -55,7 +56,7 @@ class Player:
                 print("\nChybiłeś :(")
 
             if enemy_hp <= 0:
-                tmp = random.randint(30, 60)
+                tmp = random.randint(int(senemy_hp * (self.lvl / 10 + 1)) - 20, int(senemy_hp * (self.lvl / 10 + 1)))
                 self.slow_print("Wygrałeś!", 0.01)
                 self.update_lvl(tmp)
                 break
@@ -100,6 +101,12 @@ class Player:
             self.slow_print("Tracisz " + str(value) + " hp", 0.005)
             print("[*] RIP [*]")
             self.slow_print("Koniec gry :(", 0.005)
+
+            p = open('gameover.txt')
+            for i in p:
+                print(i.strip())
+            p.close()
+
             self.save_score()
             input("\nWciśnij ENTER, aby kontunuować...")
             exit(0)
@@ -123,24 +130,64 @@ class Player:
             name = self.available_weapons.pop(index)
             dmg = random.randint(self.lvl + 2, self.lvl + 6) * 10
             chance = random.randint(40, 90)
-            crit = random.randint(self.lvl + 1, self.lvl + 5)
+            crit = random.randint(self.lvl + 1, self.lvl + 10)
             attack_name = self.available_attack_names.pop(index)
             self.add_weapon(name, dmg, chance, crit, attack_name)
-            self.slow_print("Znajdujesz %s (dmg %s-%s, chance %s%%)" % (name, dmg - 10, dmg + 10, chance), 0.005)
+            self.slow_print("Otrzymujesz przedmiot: %s (dmg %s-%s, chance %s%%, crit %s%%)" % (name, dmg - 10, dmg + 10, chance, crit), 0.005)
 
-    def load_names(self, file):
-        with open(file) as f:
-            lines = f.readlines()
-            for i in range(0, len(lines) - 1):
-                self.available_weapons.append(lines[i].replace("\n", ""))
-                self.available_attack_names.append(lines[i + 1].replace("\n", ""))
+    def add_random_armor(self):
+        if len(self.available_weapons) > 0:
+            name = self.available_armors.pop(random.randint(0, len(self.available_armors) - 1))
+            armor = random.randint(1, 2) * 5
+            self.add_armor(name, armor)
+            self.slow_print("Otrzymujesz przedmiot: %s (dmg reduction %s%%)" % (name, armor), 0.005)
+
+    def load_names(self, count):
+        with open("weapon.txt") as f:
+            lines = []
+            tmp = 1
+            for i, line in enumerate(f):
+                if "..." in line:
+                    tmp += 1
+                if tmp > count:
+                    break
+
+                if tmp > count - 1 and "..." not in line:
+                    lines.append(line)
+
+            for i in range(len(lines)):
+                lines[i] = lines[i].replace("*a", "ą")
+                lines[i] = lines[i].replace("*A", "Ą")
+                lines[i] = lines[i].replace("*c", "ć")
+                lines[i] = lines[i].replace("*C", "Ć")
+                lines[i] = lines[i].replace("*e", "ę")
+                lines[i] = lines[i].replace("*E", "Ę")
+                lines[i] = lines[i].replace("*l", "ł")
+                lines[i] = lines[i].replace("*L", "Ł")
+                lines[i] = lines[i].replace("*n", "ń")
+                lines[i] = lines[i].replace("*N", "Ń")
+                lines[i] = lines[i].replace("*s", "ś")
+                lines[i] = lines[i].replace("*S", "Ś")
+                lines[i] = lines[i].replace("*o", "ó")
+                lines[i] = lines[i].replace("*O", "Ó")
+                lines[i] = lines[i].replace("*z", "ż")
+                lines[i] = lines[i].replace("*Z", "Ż")
+                lines[i] = lines[i].replace("*x", "ź")
+                lines[i] = lines[i].replace("*X", "Ź")
+                lines[i] = lines[i].replace("\n", "")
+            for i in range(0, len(lines) - 1, 3):
+                self.available_weapons.append(lines[i])
+                self.available_attack_names.append(lines[i + 1])
+                self.available_armors.append(lines[i + 2])
         f.close()
 
     def show_equipment(self):
         os.system('cls')
         print("-" * 20)
         for x in range(1, len(self.weapon)):
-            print("%s. %s   (dmg %s-%s, chance %s%%)" % (x, self.weapon[x].name, self.weapon[x].dmg - 10, self.weapon[x].dmg + 10, self.weapon[x].chance))
+            print("%s. %s   (dmg %s-%s, chance %s%%, crit %s%%)" % (
+                x, self.weapon[x].name, self.weapon[x].dmg - 10, self.weapon[x].dmg + 10, self.weapon[x].chance, self.weapon[x].crit))
+
         for x in range(0, len(self.armor)):
             print("%s. %s   (dmg reduction %s%%)" % (len(self.weapon) + x, self.armor[x].name, self.armor[x].armor))
         input("\n\nWciśnij ENTER, aby kontunuować...")

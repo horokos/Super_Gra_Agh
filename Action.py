@@ -66,7 +66,10 @@ class Action:
                     room.slow_print(Code.get_rand_num(), 0.05)
 
                 if self.encounter[num][:4] == "Item":
-                    player.add_random_weapon()
+                    if random.randint(0, len(player.available_armors) + len(player.available_weapons)) > len(player.available_armors):
+                        player.add_random_weapon()
+                    else:
+                        player.add_random_armor()
 
                 if self.exp[num] > 0:
                     player.update_lvl(self.exp[num])
