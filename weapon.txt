@@ -1,27 +1,27 @@
-woj_weapon1
-woj_attack1
-woj_armor1
-woj_weapon2
-woj_attack2
-woj_armor2
-woj_weapon3
-woj_attack3
-woj_armor3
-woj_weapon4
-woj_attack4
-woj_armor4
-woj_weapon5
-woj_attack5
-woj_armor5
-woj_weapon6
-woj_attack6
-woj_armor6
-woj_weapon7
-woj_attack7
-woj_armor7
-woj_weapon8
-woj_attack8
-woj_armor8
+Dwimerytowy miecz
+cios mieczem
+Dwimerytowa zbroja
+Szabla muszkietera 
+cięcie szabla
+Zbroja z łuski smoka
+Krótki miecz samurajski
+cios samurajski
+Lodowa tarcza
+Widelec do sera
+cios widelcem
+Diamentowa zbroja
+Kryształowa dzida
+pchnięcie dzidą
+Zbroja niedżwiedzia
+Francuzka kusza
+wystrzelenie strzały
+Papierowa tuniika
+Lodowa maczuga
+cios maczugą
+Nefrytowa zbroja
+Tasak rzeżnika 
+cios tasakiem
+Zbroja Lancelota
 ...
 Różdżka lipowa
 Zaklęcie unieruchamające
