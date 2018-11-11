@@ -99,9 +99,11 @@ class Player:
         time.sleep(0.05)
         self.hp -= value
         if self.hp <= 0:
+            p = open('gameover.txt')
             self.slow_print("Tracisz " + str(value) + " hp", 0.005)
-            print("[*] RIP [*]")
-            self.slow_print("Koniec gry :(", 0.005)
+            for i in p:
+                print(i.strip())
+            p.close()
             self.save_score()
             input("\nWciśnij ENTER, aby kontunuować...")
             exit(0)

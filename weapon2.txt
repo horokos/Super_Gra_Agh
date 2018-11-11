@@ -1,24 +1,24 @@
 R*o*zd*zka lipowa
 Zakl*ecie unieruchamaj*ace
-mag_armor1
+Magiczny Pl*aszcz
 Kostuch d*ebowy
 Kl*atwa natychmiastowego cierpienia
-mag_armor2
+Bial*a Szata
 Laska W*ladcy Wichr*ow
 Tr*aba powietrzna
-mag_armor3
+Szata wiatru
 Laska Ognia
 Zakl*ecie zapalaj*ace
-mag_armor4
+Pl*omienny Pl*aszcz
 Dzida Przeznaczenia
 Zakl*ecie Tysi*aca Igie*l
-mag_armor5
+Peleryna niewitka
 R*o*zd*zka Maga P*o*lnocy
 Zakl*ecie zamra*zaj*ace
-mag_armor6
+Pl*aszcz ze smoczych l*usk
 Kostuch Wycie*nczenia
 Zakl*ecie wycie*nczaj*ace
-mag_armor7
+Szata Kameleona
 Laska Dusz
 Kl*atwa defragmentacji duszy
-mag_armor8
+Peleryna z duz*ym S w diamencie

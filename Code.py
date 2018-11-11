@@ -36,7 +36,7 @@ def ending(player):
         print("Przed Tobą znajdują się duże wrota otwierane kodem, a za Tobą portal.\n\n")
         print("Co robisz? (1/2)\n")
         print("1. Próbujesz wpisać kod")
-        print("2. Wchodzisz to portalu")
+        print("2. Wchodzisz do portalu")
         p = input(">>>")
 
         if p == "1":
@@ -70,6 +70,10 @@ def guess(player):
         input("\nWciśnij ENTER, aby kontunuować...")
         p.close()
         player.attack(boss_name, r.randint(8 + player.lvl, 13 + player.lvl) * 10)
+        f = open('win.txt')
+        player.update_lvl(500)
+        for i in f:
+            print(i.strip())
         print("\nKONIEC GRY")
         player.save_score()
         input("\nWciśnij ENTER, aby kontunuować...")
