@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 import Addons
 import Code
 
@@ -22,6 +22,6 @@ class Room:
     def start(self):
         print("-" * 20)
         Addons.slow_print(self.rooms_doors[0], 0.001)
-        Addons.slow_print("W kieszeni znajdujesz kartkę z napisem:\n" +
-                          Code.get_rand_num() + "Masz przeczucie, że jest to istotna iformacja.", 0.05)
+        Addons.slow_print("W kieszeni znajdujesz kartkę z napisem: " +
+                          Code.get_rand_num() + "Masz przeczucie, że jest to istotna informacja.", 0.05)
         input("\n\nWciśnij ENTER, aby kontynuować...")

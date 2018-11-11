@@ -1,5 +1,5 @@
 ﻿Celi
-Budzisz się. Boli Cię g*lowa, nie pami*etasz jak si*e tu znalaz*le*s.\nPewnie kt*ore*s z zak*l*e*c nie zadzia*la*lo jak nale*zy. Jedna tylko my*sl pulsuje Ci w g*lowie.\nMusisz wydosta*c si*e z tego miejsca.\nDopiero teraz rozgl*adasz si*e po pomieszczeniu. Jest to rodzaj celi. Zimnej i wilgotnej.\nWstajesz, podchodzisz do drzwi i chwytasz za klamk*e. O dziwo drzwi nie s*a zamkni*ete.\nNie wie*zysz w*lasnemu szcz*e*sciu. Wybiegasz w ciemno*s*c…
+Budzisz się. Boli Cię g*lowa, nie pami*etasz jak si*e tu znalaz*le*s.\nPewnie kt*ore*s z zak*l*e*c nie zadzia*la*lo jak nale*zy. Jedna tylko my*sl pulsuje Ci w g*lowie.\nMusisz wydosta*c si*e z tego miejsca.\nDopiero teraz rozgl*adasz si*e po pomieszczeniu. Jest to rodzaj celi. Zimnej i wilgotnej.\nWstajesz, podchodzisz do drzwi i chwytasz za klamk*e. O dziwo drzwi nie s*a zamkni*ete.\nNie wierzysz w*lasnemu szcz*e*sciu. Wybiegasz w ciemno*s*c…
 D*lugim korytarzu
 Pusta dziura o regularnym kszta*lcie
 Czujesz przeci*ag i zapach wilgoci.\nZdecydowanie nie jest to miejsce, w kt*orym chcia*lby*s d*lugo przebywa*c.\nZauwa*zasz: oparte o *scian*e narz*edzia g*ornicze, odrapana komod*e, le*z*acy na ziemi p*laszcz i ogromnego martwego karaczana.
@@ -71,7 +71,7 @@ Jest tam napisane: Wystrzegaj si*e przekl*etej Czarnej Ksi*egi. Hmm jest to chyb
 None
 *Swi*atynii wody
 B*l*ekitne wrota
-Przest*pujesz pr*og i czujesz ch*l*od oraz wilgo*c mocniejsz*a ni*z gdziekolwiek indziej.\nPomieszczenie jest wielkie i wysoko sklepione. Jest bardzo *slisko.\nPomieszczenie o*swietlaj*a magiczne lampy o *lagodnym b*l*ekitnym blasku.\nW centralnej cz*e*sci znajduje si*e wielka fontanna ze szklan*a figurk*a syreny na szczycie.
+Przest*epujesz pr*og i czujesz ch*l*od oraz wilgo*c mocniejsz*a ni*z gdziekolwiek indziej.\nPomieszczenie jest wielkie i wysoko sklepione. Jest bardzo *slisko.\nPomieszczenie o*swietlaj*a magiczne lampy o *lagodnym b*l*ekitnym blasku.\nW centralnej cz*e*sci znajduje si*e wielka fontanna ze szklan*a figurk*a syreny na szczycie.
 Podejd*x do fontanny
 Postanawiasz napi*c si*e wody, czujesz si*e jak nigdy przedtem.
 10

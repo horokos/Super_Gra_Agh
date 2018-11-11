@@ -23,19 +23,19 @@ while True:
         klasa = input(">>>")
 
         if klasa == "1":
-            player.add_weapon("Noga", 11, 80, 5, "Kopnięcie przeciwnika")
+            player.add_weapon("Noga", 11, 90, 5, "Kopnięcie przeciwnika")
             player.add_weapon("Miecz pazia", 40, 60, 5, "Cios mieczem pazia")
             player.add_armor("Zardzewiała zbroja", 15)
             break
 
         elif klasa == "2":
-            player.add_weapon("Ręce", 11, 80, 5, "Proste zaklęcie rażące")
+            player.add_weapon("Ręce", 11, 90, 5, "Proste zaklęcie rażące")
             player.add_weapon("Dębowa różdżka", 50, 70, 10, "Silne zaklęcie oszałamiające")
             player.add_armor("Stara szata", 5)
             break
 
         elif klasa == "3":
-            player.add_weapon("Ręka", 11, 90, 3, "Sierpowy")
+            player.add_weapon("Ręka", 11, 90, 5, "Sierpowy")
             player.add_weapon("Sztylet złodziejaszka", 30, 80, 3, "Cios sztyletem")
             player.add_armor("Skurzana tunika", 10)
             break
@@ -44,7 +44,6 @@ while True:
             print("Zła wartość!\n")
 
     Code.generate(5)
-
     player.load_names(int(klasa))
     stru = Struktura(klasa + ".txt")
 

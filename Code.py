@@ -30,6 +30,18 @@ def get_rand_num():
         return "Kod: " + code
 
 
+def return_known_code():
+    know = list(code)
+
+    for i in unknown:
+        for x in range(len(i)):
+            if i[x] != "*":
+                know[x] = "*"
+                break
+    know = "".join(know)
+    return know
+
+
 def ending(player):
     while True:
         os.system('cls')
@@ -58,8 +70,8 @@ def guess(player):
         print("Podałeś właściwy szyfr.")
         print("Wrota otwierają się\n" + boss_name + " chce pożreć Twoją duszę!")
         Addons.slow_print(boss_pict, 0.0001)
-
         input("\nWciśnij ENTER, aby kontunuować...")
+
         player.attack(boss_name, r.randint(8 + player.lvl, 13 + player.lvl) * 10)
         Addons.print_congrats()
         print("\nKONIEC GRY")
