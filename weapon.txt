@@ -48,28 +48,28 @@ Laska Dusz
 Klątwa defragmentacji duszy
 Peleryna z dużym 'S' w diamencie
 ...
-lotr_weapon1
-lotr_attack1
-lotr_armor1
-lotr_weapon2
-lotr_attack2
-lotr_armor2
-lotr_weapon3
-lotr_attack3
-lotr_armor3
-lotr_weapon4
-lotr_attack4
-lotr_armor4
-lotr_weapon5
-lotr_attack5
-lotr_armor5
-lotr_weapon6
-lotr_attack6
-lotr_armor6
-lotr_weapon7
-lotr_attack7
-lotr_armor7
-lotr_weapon8
-lotr_attack8
-lotr_armor8
+Sztylet Brutusa
+dźgnięcie sztyletem
+Zbroja kota
+Żądełko
+użądlenie
+Lekka zbroja łotra
+Gladius
+cios rzymski
+Lekka rzymska tunika
+Egipski krótki miecz
+cios egipski
+Miedziana zbroja
+Krótki łuk elficki
+strzała elficka
+Elfika zbroja
+Dwa miecze nindży
+cios dwoma mieczami nindży
+Kostium nindży
+Szuriken
+Rzut szurikenem
+Perska tunika
+Zatruty miecz
+cios zatrutym mieczem
+Szata ze skóry Kobry
 ...
