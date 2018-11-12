@@ -15,6 +15,7 @@ class Player:
         self.lvl = 1
         self.max_hp = 100
         self.hp = self.max_hp
+        self.dead = False
         self.weapon = []
         self.armor = []
         self.available_weapons = []
@@ -51,22 +52,22 @@ class Player:
                 if random.randint(1, 100) > self.weapon[p].crit:
                     tmp = self.weapon[p].dmg + random.randint(-10, 10)
                 else:
-                    print("Obrażenia krytyczne!")
+                    Addons.slow_print("Obrażenia krytyczne!", 0.05)
                     tmp = (self.weapon[p].dmg + random.randint(-10, 10))*2
                 enemy_hp -= tmp
-                Addons.slow_print("Trafiłeś za " + str(tmp), 0.01)
+                Addons.slow_print("Trafiłeś za " + str(tmp), 0.05)
 
             else:
-                print("\nChybiłeś :(")
+                Addons.slow_print("\nChybiłeś", 0.05)
 
             if enemy_hp <= 0:
                 tmp = random.randint(int(senemy_hp * (self.lvl / 10 + 1)) - 20, int(senemy_hp * (self.lvl / 10 + 1)))
-                Addons.slow_print("Wygrałeś!", 0.01)
+                Addons.slow_print("Wygrałeś!", 0.05)
                 self.update_lvl(tmp)
                 break
 
             tmp = int(random.randint(10, 25) * ((self.lvl / 6) + 1))
-            Addons.slow_print(enemy_name + " atakuje Cię!", 0.01)
+            Addons.slow_print(enemy_name + " atakuje Cię!", 0.05)
             self.update_hp(tmp)
 
             input("\n\nWciśnij ENTER, aby kontynuować...")
@@ -77,7 +78,7 @@ class Player:
         old_max_hp = self.max_hp
 
         self.exp += value
-        Addons.slow_print("Dostałeś " + str(value) + " exp", 0.005)
+        Addons.slow_print("Dostałeś " + str(value) + " exp", 0.05)
 
         while self.exp >= self.lvl * 100:
             self.exp -= self.lvl * 100
@@ -87,12 +88,12 @@ class Player:
 
         if levelup:
             print("*" * 20)
-            Addons.slow_print("Nowy poziom!\nTwój poziom: " + str(self.lvl) + "\nJesteś w pełni wyleczony."
+            Addons.slow_print("Nowy poziom!\nTwój poziom: " + str(self.lvl) + "\n\nJesteś w pełni wyleczony."
                             "\nTwój maksymalny poziom hp został zwiększony o " +
-                            str(self.max_hp - old_max_hp) + "\n", 0.005)
+                            str(self.max_hp - old_max_hp) + "\n", 0.05)
             self.hp = self.max_hp
         else:
-            Addons.slow_print("Brakuje Ci " + str(self.lvl * 100 - self.exp) + " exp do nowego poziomu", 0.005)
+            Addons.slow_print("Brakuje Ci " + str(self.lvl * 100 - self.exp) + " exp do nowego poziomu", 0.05)
 
     def update_hp(self, value):
         time.sleep(0.05)
@@ -109,15 +110,15 @@ class Player:
             print("[*] RIP [*]")
             Addons.print_gameover()
             self.save_score()
+            self.dead = True
             input("\nWciśnij ENTER, aby kontunuować...")
-            exit(0)
 
         elif value > 0:
-            Addons.slow_print("Tracisz %s hp, pozostało Ci %s/%s hp." % (value, self.hp, self.max_hp), 0.005)
+            Addons.slow_print("Tracisz %s hp, pozostało Ci %s/%s hp." % (value, self.hp, self.max_hp), 0.05)
         else:
             if self.hp > self.max_hp:
                 self.hp = self.max_hp
-            Addons.slow_print("Zostajesz uleczony o %s hp, masz %s/%s hp." % (abs(value), self.hp, self.max_hp), 0.005)
+            Addons.slow_print("Zostajesz uleczony o %s hp, masz %s/%s hp." % (abs(value), self.hp, self.max_hp), 0.05)
 
     def add_armor(self, name, armor):
         self.armor.append(Armor(name, armor))
@@ -134,14 +135,14 @@ class Player:
             crit = random.randint(self.lvl + 1, self.lvl + 10)
             attack_name = self.available_attack_names.pop(index)
             self.add_weapon(name, dmg, chance, crit, attack_name)
-            Addons.slow_print("Otrzymujesz przedmiot: %s (dmg %s-%s, chance %s%%, crit %s%%)" % (name, dmg - 10, dmg + 10, chance, crit), 0.005)
+            Addons.slow_print("Otrzymujesz przedmiot: %s (dmg %s-%s, chance %s%%, crit %s%%)" % (name, dmg - 10, dmg + 10, chance, crit), 0.05)
 
     def add_random_armor(self):
         if len(self.available_weapons) > 0:
             name = self.available_armors.pop(random.randint(0, len(self.available_armors) - 1))
             armor = random.randint(1, 2) * 5
             self.add_armor(name, armor)
-            Addons.slow_print("Otrzymujesz przedmiot: %s (redukcja obrażeń %s%%)" % (name, armor), 0.005)
+            Addons.slow_print("Otrzymujesz przedmiot: %s (redukcja obrażeń %s%%)" % (name, armor), 0.05)
 
     def load_names(self, count):
         with open("weapon.txt", encoding='utf-8') as f:
@@ -176,6 +177,12 @@ class Player:
         input("\n\nWciśnij ENTER, aby kontunuować...")
 
     def save_score(self):
+        if not os.path.isfile("scores.dat"):
+            file = open("scores.dat", "wb")
+            for i in range(3):
+                pickle.dump([0, 0, 0], file)
+            file.close()
+
         score = self.exp
         for i in range(self.lvl + 1):
             score += i * 100
@@ -183,3 +190,23 @@ class Player:
 
         score += (len(self.weapon) - 2) * 50 + (len(self.armor) - 1) * 50
         print("\nZdobyłeś %s punktów!\n" % score)
+
+        file = open("scores.dat", "rb")
+        all_scores = pickle.load(file)
+        file.close()
+
+        all_scores.append(score)
+        all_scores.sort(reverse=True)
+
+        print("Tabela wyników:")
+        for i in range(0, 3):
+            print(str(i + 1) + ". " + str(all_scores[i]))
+
+        if all_scores[3] == score and not all(all_scores) == score:
+            print("...\n4. " + str(score))
+
+        all_scores.remove(all_scores[3])
+
+        file = open("scores.dat", "wb")
+        pickle.dump(all_scores, file)
+        file.close()

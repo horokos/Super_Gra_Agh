@@ -46,6 +46,7 @@ def load():
             data[i] = data[i].replace("*X", "Ź")
             data[i] = data[i].replace("\r", "")
 
+        data[0] = data[0][data[0].index("#") + 1:]
         room.add_room(data[0], data[1], "To jest pokój startowy. Nie ma tu nic ciekawego")
 
         for i in range(2, len(data) - 1, 23):
@@ -86,7 +87,6 @@ def load():
         room.rooms_doors = doors
         room.rooms_description = descriptions
         action = actions
-
     else:
         input("Ktoś majstrowal przy plikach z danymi!")
         exit(0)

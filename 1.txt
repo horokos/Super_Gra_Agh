@@ -1,63 +1,63 @@
-﻿Ogrodach zamkowych
-Budzisz si*e na zimnej i mokrej od rosy trawie. Nie masz poj*ecia jak si*e tu znalaz*le*s./nOstatnie co sobie przypominasz to rozpocz*ecie turnieju i ostr*a szar*z*e na przeciwnika./nCh*l*od bardzo wczesnego poranka sprawia, *ze wr*ecz trz*esiesz si*e z zimna./nRozgl*adasz si*e dooko*la. Znajdujesz si*e w ma*lym, przyzamkowym sadzie  otoczonym murem./nJedynym wyj*sciem jakie dostrzegasz s*a drewniane, stare drzwi./nPrzeczucie ci m*owi, *ze im szybciej wydostaniesz si*e z tego tajemniczego miejsca, tym lepiej./nPodchodzisz do drzwi i mocnym pchni*eciem wywarzasz je z zawias*ow./nWybiegasz w ciemno*s*c...
+﻿#Ogrodach zamkowych
+Budzisz si*e na zimnej i mokrej od rosy trawie. Nie masz poj*ecia jak si*e tu znalaz*le*s.\nOstatnie co sobie przypominasz to rozpocz*ecie turnieju i ostr*a szar*z*e na przeciwnika.\nCh*l*od bardzo wczesnego poranka sprawia, *ze wr*ecz trz*esiesz si*e z zimna.\nRozgl*adasz si*e dooko*la. Znajdujesz si*e w ma*lym, przyzamkowym sadzie  otoczonym murem.\nPrzeczucie ci m*owi, *ze im szybciej wydostaniesz si*e z tego tajemniczego miejsca, tym lepiej…
 Sporych rozmiar*ow komnacie
 Du*ze, dwuskrzyd*lowe drzwi
-Komnata robi na tobie spore wra*zenie./nNajprawdopodobniej to tu kiedy*s przyjmowano go*sci przychodz*acych na licznie organizowane bale./nDostrzegasz liczne wieszaki, a na nich lekko przyku*zone szaty i innego rodzaju odzienie./nW k*acie stoi drewniana skrzynia, a nad ni*a wisi lampion.
+Komnata robi na Tobie spore wra*zenie.\nNajprawdopodobniej to tu kiedy*s przyjmowano go*sci przychodz*acych na licznie organizowane bale.\nDostrzegasz porozstawiane wieszaki, a na nich lekko przyku*zone szaty i innego rodzaju odzienie.\nW k*acie stoi drewniana skrzynia, a nad ni*a wisi lampion.
 Zbadaj ubranie
-Ubierasz jeden z p*laszczy zawieszonych na wieszakach./nTeraz jest ci naprawd*e ciep*lo.
+Ubierasz jeden z p*laszczy zawieszonych na wieszakach.\nTeraz jest ci naprawd*e ciep*lo.
 0
 -30
 None
 Zbadaj skrzynie
-Podchodzisz do skrzyni. Pr*obujesz j*a otworzy*c, ale pordzewia*le zawiasy nie puszczaj*a wcale tak *latwo./nTracisz sporo energii. W ko*cu udaje ci si*e otworzy*c skrzyni*e, ale w *srodku nie znajdujesz nic warto*sciowego./nStraci*le*s tylko cenny czas i energi*e.
+Podchodzisz do skrzyni. Pr*obujesz j*a otworzy*c, ale pordzewia*le zawiasy nie puszczaj*a wcale tak *latwo.\nTracisz sporo energii. W ko*cu udaje ci si*e otworzy*c skrzyni*e, ale w *srodku nie znajdujesz nic warto*sciowego.\nStraci*le*s tylko cenny czas i energi*e.
 0
-20
+10
 None
 Zbadaj lampion
-Zdejm*ojesz lampion ze *sciany, w nadziei, *ze uda ci si*e go zapali*c./nJednak nic z tego. Zapa*lki, kt*ore nie wiedzie*c czemu mia*le*s w kieszeni, zamok*ly.
-0
+Zdejm*ojesz lampion ze *sciany, w nadziei, *ze uda ci si*e go zapali*c.\nJednak nic z tego. Zapa*lki, kt*ore nie wiedzie*c czemu mia*le*s w kieszeni, zamok*ly.
+10
 0
 None
 Przejrzyj si*e w lustrze
-Zdajesz sobie spraw*e jak brudny i jednocze*snie ca*ly we krwi jeste*s./n Pr*ob*ojesz wytrze*c chocia*z twarz. Nagle w lustrze dostrzegasz, *ze nie jeste*s sam./nZa tob*a stoi dziwnie ubrany jegomo*s*c i powoli wyci*aga zza plec*ow sztylet.
+Zdajesz sobie spraw*e jak brudny i jednocze*snie ca*ly we krwi jeste*s.\nPr*ob*ojesz wytrze*c chocia*z twarz. Nagle w lustrze dostrzegasz, *ze nie jeste*s sam.\nZa Tobą stoi dziwnie ubrany jegomo*s*c i powoli wyci*aga zza plec*ow sztylet.
 0
 0
 Jegomo*s*c
 Zbrojowni
-Okute żelazem drzwi
-Wchodz*ac rozgl*adasz si*e dooko*la./nNa *scianach i na pod*lodze le*z*a zbroje i bro*n wszelkiego rodzaju.
-Zbadaj przedmiot
+Okute *zelazem drzwi
+Wchodz*ac rozgl*adasz si*e dooko*la.\nMo*na tu znale*x*c du*zo ciekawych przedmiotów.\nWidzisz du*z*a skrzynie i st*o*l a na nim zdobiony miecz.
+Zajrzyj do skrzyni
 Zdoby*le*s cenny przedmiot, kt*ory mo*ze ci si*e potem przyda*c.
 0
 0
 Item
-Zbadaj przedmiot
-Zdoby*le*s cenny przedmiot, kt*ory mo*ze ci si*e potem przyda*c./nJednak niesienie ci*e*zkiego sprz*etu powoduje, *ze szybko si*e m*eczysz.
-0
-5
-Item
-Zbadaj przedmiot
-Podnosisz z ziemi obiecuj*aco wygl*adaj*acy sztylet./nSprawdzasz ostro*s*c i natychmiast wypuszczasz sztylet z r*ak. Jest tak ostry, *ze twoja sk*ora w kontakcie z nim zachowa*la si*e jak podgrzane mas*lo./nTwoja lewa r*eka mocno krwawi.
+Podnie*s miecz ze sto*lu
+Natychmiast wypuszczasz miecz z r*ak.\nMiecz okazał się objęty klątwą.\nTwoja sk*ora w kontakcie z nim zachowa*la si*e jak podgrzane mas*lo.\nCzujesz jak Twoja r*eka mocno krwawi.
 0
 25
 None
+Rozglądnij się za przydatnym wyposażeniem
+Wśród starych tępych mieczy, natrafiasz na prawdziwy okaz
+10
+0
+Item
 Podejd*x do *sciany
-Na *scianie wisi sporo r*o*znego rodzaju plan*ow zwi*azanych z kuciem broni./nUdaje ci si*e cz*e*s*c zapami*eta*c./nJe*sli uda ci si*e wydosta*c b*edziesz m*og*l przekaza*c je swojemu panu.
-25
+Na *scianie wisi sporo r*o*znego rodzaju plan*ow zwi*azanych z kuciem broni.\nUdaje ci si*e cz*e*s*c zapami*eta*c.\nJe*sli uda ci si*e wydosta*c b*edziesz m*og*l przekaza*c je swojemu panu.
+30
 0
 None
 Lochu
 Kamienne wej*scie zamykane opuszczan*a krat*a.
-Wzdrygasz si*e. W k*acie pod *scian*a zauwa*zasz szcz*atki ko*sci nieznanego pochodzenia./nJest bardzo wilgotno i duszno. Z sufitu skapuje woda./nNa pierwszy rzut oka nie ma tu nic co mog*loby ci si*e przyda*c./nJednak po chwili, gdy oczy nieco przyzwyczajaj*a si*e do panuj*acego tu p*o*lmroku dostrzegasz zapisan*a na *scianie wapnem cyfr*e.
+Wzdrygasz si*e. W k*acie pod *scian*a zauwa*zasz szcz*atki ko*sci nieznanego pochodzenia.\nJest bardzo wilgotno i duszno. Z sufitu skapuje woda.\nNa pierwszy rzut oka nie ma tu nic co mog*loby ci si*e przyda*c.\nJednak po chwili, gdy oczy nieco przyzwyczajaj*a si*e do panuj*acego tu p*o*lmroku\ndostrzegasz zapisan*a na *scianie wapnem cyfr*e.
 Podejd*x do *sciany
-Podchodz*ac potykasz si*e o le*z*acy na pod*lodze gruz. Zrani*le*s si*e w kolano./nTeraz jednak mo*zesz odczyta*c napis na *scianie:
+Podchodz*ac potykasz si*e o le*z*acy na pod*lodze gruz. Zrani*le*s si*e w kolano.\nTeraz jednak mo*zesz odczyta*c napis na *scianie:
 30
-25
+10
 Code
 Zbadaj krat*e 
-Jeste*s bardzo ciekaw mechanizmu, dzi*eki kt*oremu mo*zna podnosi*c krat*e./nJeste*s do tego stopnia ciekawy, *ze zapominaj*ac o ostro*zno*sci ze wszystkich si*l pr*obujesz j*a op*o*sci*c./nUdaje ci si*e to. Krata z hukiem spada prosto na twoj*a stop*e.
+Jeste*s bardzo ciekaw mechanizmu, dzi*eki kt*oremu mo*zna podnosi*c krat*e.\nJeste*s do tego stopnia ciekawy, *ze zapominaj*ac o ostro*zno*sci ze wszystkich si*l pr*obujesz j*a op*o*sci*c.\nUdaje ci si*e to. Krata z hukiem spada prosto na twoj*a stop*e.
 0
-40
+20
 None
 Schyl si*e
 Pod stopami dojrza*le*s co*s ciekawego. Podnosisz to i nie wierzysz w*lasnym oczom.
@@ -65,67 +65,68 @@ Pod stopami dojrza*le*s co*s ciekawego. Podnosisz to i nie wierzysz w*lasnym ocz
 0
 Item
 Napij si*e skapuj*acej wody
-Woda jako*s dziwnie smakuje i zaczynasz *za*lowa*c swojej decyzji./nNie dzia*la najlepiej na tw*oj organizm.
+Woda jako*s dziwnie smakuje i zaczynasz *za*lowa*c swojej decyzji.\nNie dzia*la najlepiej na tw*oj organizm.
 0
 15
 None
 Sali tronowej
 Pot*e*zne, poz*lacane drzwi
-Wchodzisz do olbrzymiej komnaty. Ca*le wn*etrze jest bardzo bogato zdobione./nNa *scianach wisz*a chor*agwie i sztandary./nChcesz zrobi*c nast*epny krok, ale przy kolejnych drzwiach dostrzegasz stra*znika.
-Walka ze stra*znikem
+Wchodzisz do olbrzymiej komnaty. Ca*le wn*etrze jest bardzo bogato zdobione.\nNa *scianach wisz*a chor*agwie i sztandary.\nW boku sali znajduje si*e rze*xba przedstawiaj*a a rycerza.
+Dotknij rze*xby
+Z wn*e trza kamienia s*lycha*c pomruk.\nPrzyzwa*e*s ducha, kt*ory nie jest rad z Twojego towarzystwa.
 0
 0
-Stra*znik
+Duch
 Usi*ad*x na tronie
-Wyobra*zasz sobie jak by to by*lo rz*adzi*c z tego miejsca ca*lym kr*olestwem./nTwoje morale od razu podnosz*a si*e.
-0
--10
+Wyobra*zasz sobie jak by to by*lo rz*adzi*c z tego miejsca ca*lym kr*olestwem.\nTwoje morale od razu podnosz*a si*e.
+40
+-5
 None
 Zbadaj sztandary
-Po kolei ogl*adasz sztandary. Jeden ci si*e wyj*atkowo spodoba*l./nPostanawiasz zabra*c go ze sob*a. Jednak tym dzia*laniem zak*lucasz spok*oj ducha kr*ola./nAby zabra*c sztandar musisz go najpierw pokona*c.
+Po kolei ogl*adasz sztandary. Jeden ci si*e wyj*atkowo spodoba*l.\nPostanawiasz zabra*c go ze sob*a. Jednak tym dzia*laniem zak*lucasz spok*oj ducha kr*ola.\nAby zabra*c sztandar musisz go najpierw pokona*c.
 0
 0
 Duch kr*ola
 Podejd*x do *zyrandola 
-Wielkie diamentowe *zyrandole zwieszaj*a si*e do*s*c nisko nad ziemi*a./nS*a w zasi*egu twoich r*ak. Zawsze chcia*le*s to zrobi*c./nNie mija chwila jak le*zysz obok zupe*lnie rozbitego *zyrandola z bol*acymi plecami./nMimo wszystko warto by*lo…
+Wielkie diamentowe *zyrandole zwieszaj*a si*e do*s*c nisko nad ziemi*a.\nS*a w zasi*egu twoich r*ak. Zawsze chcia*le*s to zrobi*c.\nNie mija chwila jak le*zysz obok zupe*lnie rozbitego *zyrandola z bol*acymi plecami.\nMimo wszystko warto by*lo…
 20
-20
+10
 None
 Kuchni
 Bia*le, drewniane drzwi
-Rozgl*adasz si*e po sporej wielko*sci pomieszczeniu./nW zasadzie ca*l*a jego powieszchni*e zajmuj*a blaty./nNa *Scianach porozwieszane s*a r*o*znej wielko*sci garnki i chochle./nPo twojej lewej stronie stoj*a drewniane beczki, a nad nimi wisz*a pozamykane szafki.
+Rozgl*adasz si*e po sporej wielko*sci pomieszczeniu.\nW zasadzie ca*l*a jego powieszchni*e zajmuj*a blaty.\nNa *Scianach porozwieszane s*a r*o*znej wielko*sci garnki i chochle.\nPo Twojej lewej stronie stoj*a drewniane beczki, a nad nimi wisz*a pozamykane szafki.
 Zbadaj beczk*e
-Po podwa*zeniu g*ornej cz*e*sci beczki okazuje si*e, *ze w *srodku znajduje si*e pyszne, stare wino./nOczywi*scie nie wypada si*e nie pocz*estowa*c./nWino ci*e rozgrzewa i dodaje odwagi.
-0
+Po podwa*zeniu g*ornej cz*e*sci beczki okazuje si*e, *ze w *srodku znajduje si*e pyszne, stare wino.\nOczywi*scie nie wypada si*e nie pocz*estowa*c.\nWino Cię rozgrzewa i dodaje odwagi.
+20
 -30
 None
 Zbadaj szafk*e
-Otwierasz szafk*e w nadziei znalezienia jakiego*s jedzenia, ale jedyne co ukazuje si*e twoim oczom to zdech*ly szczur./nJego zapach powoduje, *ze robi ci si*e niedobrze./nMusisz usi*a*s*c by doj*s*c do siebie.
+Otwierasz szafk*e w nadziei znalezienia jakiego*s jedzenia, ale jedyne co ukazuje si*e twoim oczom to zdech*ly szczur.\nJego zapach powoduje, *ze robi ci si*e niedobrze.\nMusisz usi*a*s*c by doj*s*c do siebie.
 0
-10
+5
 None
 Otw*orz klap*e w pod*lodze
-Potykasz si*e i wpadasz do niewielkiej jamy./nLe*zysz na przegni*lych ziemniakach. Mocno si*e pot*luk*le*s, ale op*laci*lo si*e./nObok ciebie le*zy karteczka z cyfr*a:
+Potykasz si*e i wpadasz do niewielkiej jamy.\nLe*zysz na przegni*lych ziemniakach. Mocno si*e pot*luk*le*s, ale op*laci*lo si*e.\nZauwa*znasz karteczk*e z napisem:
 30
 0
 Code
 Zajrzyj do wielkiego garnka
-W garnku niczego ciekawego nie ma. Jest zupe*lnie pusty.
-0
+W garnku nie ma niczego ciekawego. Jest zupe*lnie pusty.
+1
 0
 None
 Jadalni
 Drewniane drzwi z wyrze*xbionym widelcem i *ly*zk*a
-Masz wra*zenie jakby to miejsce zosta*lo co dopiero opuszczone przez biesiadnik*ow./nOgromny drewniany st*o*l w kszta*lcie prostok*ata po brzegi zastawiony jest r*o*znego rodzaju naczyniami i srebrn*a zastaw*a. 
-Zbadaj przedmiot
-Zyska*le*s kolejny, cenny ekwipunek.
+Masz wra*zenie jakby to miejsce zosta*lo co dopiero opuszczone przez biesiadnik*ow.\nOgromny drewniany st*o*l w kszta*lcie prostok*ata po brzegi zastawiony jest\nr*o*znego rodzaju naczyniami i srebrn*a zastaw*a.
+Po rozgl*a daj si*e woko*lo
+Znajdujesz ciekawy przedmiot.
 0
 0
 Item
-Podejd*x do sto*lu 
-Zjadasz resztki jedzenia, kt*ore osta*ly si*e po uczcie szczur*ow./nNie by*l to najlepszy pomys*l. Zaczyna bole*c ci*e brzuch.
+Spr*obuj jedzenia że sto*lu
+Zjadasz resztki jedzenia, kt*ore osta*ly si*e po uczcie szczur*ow.\nNie by*l to najlepszy pomys*l. Zaczyna bole*c Cię brzuch.
 0
-30
+15
 None
 Podnie*s talerz
 Pod talerzem znajdujesz wyryt*a w drewnie cyfr*e:
@@ -133,60 +134,66 @@ Pod talerzem znajdujesz wyryt*a w drewnie cyfr*e:
 0
 Code
 Pchnij *scian*e
-W zamkach tak ju*z jest, *ze nigdy nic nie wiadomo. Sam wiesz o tym najlepiej./nJednak w tym wypadku *sciana okaza*la si*e by*c poprostu *scian*a.
+W zamkach tak ju*z jest, *ze nigdy nic nie wiadomo. Sam wiesz o tym najlepiej.\nJednak w tym wypadku *sciana okaza*la si*e by*c poprostu *scian*a.
 0
 0
 None
 Sali balowej
 Ogromne, poz*lacane drzwi
-Rozgl*adasz si*e po olbrzymiej sali, w kt*orej niegdy*s odbywa*ly si*e liczne przyj*ecia i bale./nNa *scianach wisz*a obrazy, a na pod*lodze le*zy sporo ma*lych karteczek ze znajduj*acymi si*e na nich imionami go*sci.
+Rozgl*adasz si*e po olbrzymiej sali, w kt*orej niegdy*s odbywa*ly si*e liczne przyj*ecia i bale.\nNa *scianach wisz*a obrazy, a na pod*lodze le*zy sporo ma*lych karteczek ze znajduj*acymi si*e na nich imionami go*sci.\nPod *scianami poustawiane s*a stoliki, na kt*orych zapewne znajdowa*ly si*e przek*aski i napoje.
 Zbadaj obraz
-Odchylasz obraz w nadziei zobaczenia ukrytej za nim tajnej skrytki,/nlecz pordzewia*le już, wisz*ace tu od setek lat haki puszczaj*a i wielki obraz spada ci prosto na g*low*e.
+Odchylasz obraz w nadziei zobaczenia ukrytej za nim tajnej skrytki,\nlecz pordzewia*le już, wisz*ace tu od setek lat haki puszczaj*a i wielki obraz spada ci prosto na g*low*e.
 0
-35
+25
 None
 Podnie*s karteczki
-Zbierasz z pod*logi porozrzucane karteczki./nW wi*ekszo*sci znajduj*a si*e na nich imiona mo*znow*ladc*ow, ale na jednej znajduje si*e tajemnicza cyfra:
+Zbierasz z pod*logi porozrzucane karteczki.\nW wi*ekszo*sci znajduj*a si*e na nich imiona mo*znow*ladc*ow, ale na jednej znajduje si*e tajemnicza napis:
 30
 0
 Code
 Podejd*x do stanowiska orkiestry
-Rozgl*adasz si*e w poszukiwaniu czego*s, co mog*lo by ci si*e przyda*c./nNiestetu opr*ocz poprzewracanych b*ebn*ow i innych instrument*ow nic tutaj nie ma.
+Rozgl*adasz si*e w poszukiwaniu czego*s, co mog*lo by ci si*e przyda*c.\nNiestetu opr*ocz poprzewracanych b*ebn*ow i innych instrument*ow nic tutaj nie ma.
 0
 0
 None
+Zbadaj stoliki
+Na stolikach opr*ocz kilku butelek nic nie ma. W jednej jest nawet jeszcze zawarto*s*c.
+0
+-20
+None
 Kaplicy zamkowej
-Czujesz tajemniczy klimat grozy tego miejsca./nStare drewniane *lawki trzeszcz*a z*lowieszczo./nWidoczno*s*c jest bardzo ma*la, z powodu ci*agle tl*acego si*e kadzid*la./nNagle s*lyszysz szmer. Odwracasz si*e.
-Walka z mnichem
-Nie wiadomo jak si*e tutaj pojawi*l, ale zdecydowanie nie ma przyjaznych zamiar*ow.
+Przeszklone drzwi
+Czujesz tajemniczy klimat grozy tego miejsca.\nStare drewniane *lawki trzeszcz*a z*lowieszczo.\nWidoczno*s*c jest bardzo ma*la, z powodu ci*agle tl*acego si*e kadzid*la.
+Zga*s kadzid*lo
+Nagle s*lyszysz szmer. Odwracasz si*e.\nNie wiadomo jak si*e tutaj pojawi*l, ale zdecydowanie nie ma przyjaznych zamiar*ow. 
 0
 0
 Mnich
 Usi*ad*x w *lawce
-Chwil*e odpoczywasz i jednicze*snie znajdujesz zagatkow*a ksi*a*zeczk*e./nMo*ze ci si*e do czego*s przyda*c.
+Chwil*e odpoczywasz i jednicze*snie znajdujesz zagatkow*a ksi*a*zeczk*e.\nMo*ze ci si*e do czego*s przyda*c.
 15
 0
 None
 Pom*odl si*e 
-Twoja modlitwa podoba si*e Bogu, kt*ory podarowuje ci wspania*ly przedmiot.
+Twoja modlitwa podoba si*e Bogu, kt*ory zsyła na Ciebie błogosławieństwo. 
 0
 0
 Item
 Podejd*x do o*ltarza
-Z*lote kielichy mog*lyby by*c dobrym *lupem, ale jeste*s honorowym rycerzem, przestrzegaj*acym kodeksu,/nwi*ec zostawiasz je tam gdzie le*z*a.
-0
+Z*lote kielichy mog*lyby by*c dobrym *lupem, ale jeste*s honorowym rycerzem, przestrzegaj*acym kodeksu,\nwi*ec zostawiasz je tam gdzie le*z*a.
+20
 0
 None
 Bibliotece zamkowej
 Ciemnobrązowe, drewniane drzwi
-Jest tu cicho i spokojnie. Drewniana pod*loga delikatnie skrzypi pod twoimi stopami./nW którą stronę nie spojrzysz wsz*edzie znajduj*a si*e rega*ly z ksi*a*zkami.
+Jest tu cicho i spokojnie. Drewniana pod*loga delikatnie skrzypi pod twoimi stopami.\nW którą stronę nie spojrzysz wsz*edzie znajduj*a si*e rega*ly z ksi*a*zkami.
 Zbadaj rega*l po prawej
-Z zainteresowaniem ogl*adasz kolejne p*o*lki z ksi*a*zkami./nJedna szczeg*olnie przyci*aga twoj*a uwag*e. Jest to wielka ksi*ega z zakl*eciami./nNigdy jako*s specjalnie si*e tymi sprawami nie interesowa*le*s, wi*ec otwierasz ksi*eg*e na losowej stronie i odczytujesz kilka wers*ow./nTo by*l b*l*ad. Nagle przez okno wlatuje piorun, kt*ory powala ci*e na ziemi*e.
+Z zainteresowaniem ogl*adasz kolejne p*o*lki z ksi*a*zkami.\nJedna szczeg*olnie przyci*aga twoj*a uwag*e. Jest to wielka ksi*ega z zakl*eciami.\nNigdy jako*s specjalnie si*e tymi sprawami nie interesowa*le*s, wi*ec otwierasz ksi*eg*e na losowej stronie i odczytujesz kilka wers*ow.\nTo by*l b*l*ad. Nagle przez okno wlatuje piorun, kt*ory powala Cię na ziemi*e.
 0
 40
 None
 Zbadaj rega*l po lewej
-Wszystkie ksi*a*zki wydaj*a ci si*e podobne. Opr*ocz jednej./nOtwierasz j*a i przegl*adasz. Jedna strona jest zupe*lnie pusta i widnieje na niej napis:
+Wszystkie ksi*a*zki wydaj*a ci si*e podobne. Opr*ocz jednej.\nOtwierasz j*a i przegl*adasz. Jedna strona jest zupe*lnie pusta i widnieje na niej napis:
 0
 0
 Code
@@ -202,25 +209,30 @@ Przegl*adasz dok*ladnie kolejne kartki, jednak nie znajduje si*e na nich nic cie
 None
 *La*xniach kr*olewskich
 Marmurowe drzwi
-*La*xnia ca*la wy*lo*zona jest marmurowymi kafelkami. Znajduje si*e tu kilka pewnego rodzaju basen*ow./nW k*acie pi*etrz*a si*e stosy r*ecznik*ow.
+*La*xnia ca*la wy*lo*zona jest marmurowymi kafelkami.\nZnajduje si*e tu kilka pewnego rodzaju basen*ow.\nW k*acie pi*etrz*a si*e stosy r*ecznik*ow.
 Podejd*x do basenu
-Podchodz*ac oczywi*scie po*slizgn*a*le*s si*e na idealnie g*ladkim marmurze i wyl*adowa*le*s po pas w wodzie./nJeste*s totalnie przemoczony i zaczyna ci by*c badzo zimno.
+Podchodz*ac oczywi*scie po*slizgn*a*le*s si*e na idealnie g*ladkim marmurze i wyl*adowa*le*s po pas w wodzie.\nJeste*s totalnie przemoczony i zaczyna ci by*c badzo zimno.
 0
 20
 None
 Zbadaj stos r*ecznik*ow
-Nic ciekawego nie dostrzegasz, ale aby upewni*c si*e czy przypadkiem nie ma jakiego*s tajnego przej*scia,/npodnisisz kilka ze stosu. Nagle za tob*a pojawia si*e zdenerwowana do granic mo*zliwo*sci sprz*ataczka./nBez walki si*e nie obejdzie.
+Nic ciekawego nie dostrzegasz, ale aby upewni*c si*e czy przypadkiem nie ma jakiego*s tajnego przej*scia,\npodnisisz kilka ze stosu. Nagle za Tobą pojawia si*e zdenerwowana do granic mo*zliwo*sci sprz*ataczka.\nBez walki si*e nie obejdzie.
 0
 0
 Sprz*ataczka
 Zbadaj szafk*e
-W szafce znajduj*a si*e rzeczy takie jak myd*la i wonno*sci. Zabierasz kilka ze sob*a./nW ko*ncu higiena wa*zna rzecz.
+W szafce znajduj*a si*e rzeczy takie jak myd*la i wonno*sci. Zabierasz kilka ze sob*a.\nW ko*ncu higiena wa*zna rzecz.
 15
 0
 None
-Cmentarz
+Zbadaj wn*ek*e w *scianie
+Wn*eka okazuje si*e by*c przej*sciem do groty solnej.\nCzyste powietrze zjonizowane dzi*eki soli ma w*la*sciwo*sci lecznicze.\nPozostajesz tam przez d*lu*zsz*a chwil*e.
+0
+-15
+None
+Cmentarzu
 Okute *zelazem drzwi
-Wychodzisz na *swie*ze powietrze. Znajdujesz si*e na pewnego rodzaju dziedzi*ncu poro*sni*etym wysok*a traw*a./nWszystko dooko*la jest jakby szare, bez *zycia./nNagle dostrzegasz, *ze z ziemi wystaj*a krzy*ze. To nie mo*ze by*c nic innego. To cmentarz…
+Wychodzisz na *swie*ze powietrze. Znajdujesz si*e na pewnego rodzaju dziedzi*ncu poro*sni*etym wysok*a traw*a.\nWszystko dooko*la jest jakby szare, bez *zycia.\nNagle dostrzegasz, *ze z ziemi wystaj*a krzy*ze. To nie mo*ze by*c nic innego. To cmentarz…
 Podejd*x do najbli*zszego grobu
 Podchodzisz powoli i nic si*e nie dzieje…
 0
@@ -237,20 +249,20 @@ W trawie le*zy jaki*s przedmiot. Podtosisz go. Zastanawiasz si*e jak m*og*l si*e
 0
 Item
 Rzu*c kamieniem w ciemno*s*c
-Nie wiesz po co, ale wyrzucasz podniesiony z ziemi kamie*n. Mija chwila./nNajdziwniejsze jest to, *ze nie s*lysza*le*s uderzenia kamienia o ziemi*e./nNagle ten sam kamie*n trafia ci*e prosto w g*low*e. Nawet nie chcesz wiedzie*c jak to si*e sta*lo.
+Nie wiesz po co, ale wyrzucasz podniesiony z ziemi kamie*n. Mija chwila.\nNajdziwniejsze jest to, *ze nie s*lysza*le*s uderzenia kamienia o ziemi*e.\nNagle ten sam kamie*n trafia Cię prosto w g*low*e. Nawet nie chcesz wiedzie*c jak to si*e sta*lo.
 0
 30
 None
 Ukrytej komnacie
-Tajemne przej*scie ukrytw w *scianie
-Znajdujesz si*e w ma*lym pomieszczeniu. Jest tu zaledwie kilka przedmiot*ow./nWarto sprawdzi*c czy co*s ci si*e nie przyda.
+Tajemne przej*scie ukryte w *scianie
+Znajdujesz si*e w ma*lym pomieszczeniu. Jest tu zaledwie kilka przedmiot*ow.\nWarto sprawdzi*c czy co*s ci si*e nie przyda.
 Zbadaj stolik
-Na stoliku nie ma w zasadzie niczego opr*ocz ka*lamarza i pi*ora. Zagl*adasz jeszcze pod blat./nMasz szcz*e*scie, *ze na to wpad*le*s, bo dostrzegasz wyryty napis:
+Na stoliku nie ma w zasadzie niczego opr*ocz ka*lamarza i pi*ora. Zagl*adasz jeszcze pod blat.\nMasz szcz*e*scie, *ze na to wpad*le*s, bo dostrzegasz wyryty napis:
 0
 0
 Code
 Zbadaj szafk*e 
-Otwieraj*ac szafk*e wyp*loszy*le*s *spi*ace nietoperze./nPrzestraszy*le*s si*e tak bardzo, *ze nawet nie zagl*adn*a*le*s do *srodka.
+Otwieraj*ac szafk*e wyp*loszy*le*s *spi*ace nietoperze.\nPrzestraszy*le*s si*e tak bardzo, *ze nawet nie zagl*adn*a*le*s do *srodka.
 0
 0
 None
@@ -260,25 +272,25 @@ Masz szcz*e*scie. W k*acie zauwa*zasz co*s bardzo przydatnego.
 0
 Item
 Przejd*x si*e po pomieszczeniu
-Chcesz sprawdzi*c czy aby nic nie umkn*e*lo twojej uwagi./nId*ac asekuracyjnie przytrzymujesz si*e *sciany i rozcinasz sobie r*ek*e o wystaj*acy gw*o*x*c.
+Chcesz sprawdzi*c czy aby nic nie umkn*e*lo Twojej uwagi.\nId*ac asekuracyjnie przytrzymujesz si*e *sciany i rozcinasz sobie r*ek*e o wystaj*acy gw*o*x*c.
 0
 15
 None 
 Skarbcu
 Wzmacniane, masywne drzwi
-Rozgl*adasz si*e dooko*la. Blask sztabek z*lota a*z cie o*slepia./n*Za*lujesz, *ze nie masz przy sobie *zadnej torby.
+Rozgl*adasz si*e dooko*la. Blask sztabek z*lota a*z cie o*slepia.\n*Za*lujesz, *ze nie masz przy sobie *zadnej torby.
 Rab*oj sztaby
-Niestety nic nie jest takie proste. Zza naro*znika wychodzi wartownik./nRaczej nie przystanie na twoj*a propozycj*e p*o*l na p*o*l.
+Niestety nic nie jest takie proste. Zza naro*znika wychodzi wartownik.\nRaczej nie przystanie na twoj*a propozycj*e p*o*l na p*o*l.
 0
 0
 Wartownik
 We*x diamenty
-Upychasz diamenty w kieszeniach. Byle wi*ecej. Zaczynasz marzy*c o w*lasnym koniu./nTeraz b*edze cie na niego sta*c
+Upychasz diamenty w kieszeniach. Byle wi*ecej. Zaczynasz marzy*c o w*lasnym koniu.\nTeraz b*edze cie na niego sta*c
 30
 0
 None
 Sprawd*x pancern*a szafk*e
-Niestety si*la twoich biceps*ow nie wystarcza na wy*lamanie drzwiczek tej szafki./n Mocowa*le*s si*e z ni*a ponad 15 minut i mocno si*e zm*eczy*le*s.
+Niestety si*la twoich biceps*ow nie wystarcza na wy*lamanie drzwiczek tej szafki.\nMocowa*le*s si*e z ni*a ponad 15 minut i mocno si*e zm*eczy*le*s.
 0
 15
 None
@@ -289,11 +301,11 @@ Wszystkiego nie dasz rady zabra*c, ale dlaczego ma to wpa*s*c w r*ece twoich wro
 None
 Sypialni kr*olewskiej
 Bogato zdobione drzwi 
-Znajdujesz si*e w sypialni kr*olewskiej. *Swiadczy o tym, stoj*ace na *srodku, wielkie *lo*ze z baldachimem./nOpr*ocz tego za kotar*a jak si*e domy*slasz znajduje si*e garderoba.
+Znajdujesz si*e w sypialni kr*olewskiej. *Swiadczy o tym, stoj*ace na *srodku, wielkie *lo*ze z baldachimem.\nOpr*ocz tego za kotar*a jak si*e domy*slasz znajduje si*e garderoba.
 Po*l*o*z si*e 
 Jeste*s na tyle zm*eczony, *ze kr*otka drzemka na pewno ci nie zaszkodzi.
 0
--25
+-30
 None
 Zbadaj garderob*e
 W garderobie nie znajdujesz nic opr*ocz ubra*n. Kto by si*e spodziewa*l…
@@ -301,12 +313,12 @@ W garderobie nie znajdujesz nic opr*ocz ubra*n. Kto by si*e spodziewa*l…
 0
 None
 Zbadaj Toaletk*e
-Na Toaletce stoi du*ze lustro. Przegl*adasz po kolei szufladki z bi*zuteri*a i zastanawiasz si*e do kogo mog*la nale*ze*c./nNie musisz d*lugo czeka*c na odpowied*x,/nbo nagle pojawia si*e duch oburzonej kr*olowej.
+Na Toaletce stoi du*ze lustro. Przegl*adasz po kolei szufladki z bi*zuteri*a i zastanawiasz si*e do kogo mog*la nale*ze*c.\nNie musisz d*lugo czeka*c na odpowied*x,\nbo nagle pojawia si*e duch oburzonej kr*olowej.
 0
 0
 Duch kr*olowej
 Zbadaj przestrze*n pod *lu*zkiem
-Zagl*adasz pod to jak*ze nienaturalnie du*ze *lo*ze./nJednak opr*ocz paj*aka, kt*ory gryzie ci*e w palec nie ma tam nic.
+Zagl*adasz pod to jak*ze nienaturalnie du*ze *lo*ze.\nJednak opr*ocz paj*aka, kt*ory gryzie Cię w palec nie ma tam nic.
 0
 15
 None

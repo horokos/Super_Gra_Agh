@@ -1,15 +1,15 @@
-﻿Celi
-Budzisz się. Boli Cię g*lowa, nie pami*etasz jak si*e tu znalaz*le*s.\nPewnie kt*ore*s z zak*l*e*c nie zadzia*la*lo jak nale*zy. Jedna tylko my*sl pulsuje Ci w g*lowie.\nMusisz wydosta*c si*e z tego miejsca.\nDopiero teraz rozgl*adasz si*e po pomieszczeniu. Jest to rodzaj celi. Zimnej i wilgotnej.\nWstajesz, podchodzisz do drzwi i chwytasz za klamk*e. O dziwo drzwi nie s*a zamkni*ete.\nNie wierzysz w*lasnemu szcz*e*sciu. Wybiegasz w ciemno*s*c…
+﻿#Celi
+Budzisz się. Boli Cię głowa, nie pami*etasz jak si*e tu znalazłeś.\nPewnie kt*ore*s z zak*l*e*c nie zadzia*la*lo jak nale*zy. Jedna tylko my*sl pulsuje Ci w g*lowie.\nMusisz wydosta*c si*e z tego miejsca.\nDopiero teraz rozgl*adasz si*e po pomieszczeniu. Jest to rodzaj celi. Zimnej i wilgotnej.\nWstajesz, podchodzisz do drzwi i chwytasz za klamk*e. O dziwo drzwi nie s*a zamkni*ete.\nNie wierzysz w*lasnemu szcz*e*sciu. Wybiegasz w ciemno*s*c…
 D*lugim korytarzu
 Pusta dziura o regularnym kszta*lcie
-Czujesz przeci*ag i zapach wilgoci.\nZdecydowanie nie jest to miejsce, w kt*orym chcia*lby*s d*lugo przebywa*c.\nZauwa*zasz: oparte o *scian*e narz*edzia g*ornicze, odrapana komod*e, le*z*acy na ziemi p*laszcz i ogromnego martwego karaczana.
+Czujesz przeci*ag i zapach wilgoci.\nZdecydowanie nie jest to miejsce, w kt*orym chcia*lby*s d*lugo przebywa*c.\nZauwa*zasz: oparte o *scian*e narz*edzia g*ornicze, odrapana komod*e,\nle*z*acy na ziemi p*laszcz i ogromnego martwego karaczana.
 Zbadaj narz*edzia
 O sciane oparty jest kilof, który przez nieuwag*e zrzucasz sobie na stop*e
 0
 10
 None
 Otw*orz szuflad*e w komodzie
-Szuflada opornie, ale wysuwa si*e ukazuj*ac plan podziemi, kt*ory zdecydowanie Ci pomoże szybciej dotrze*c do celu.
+Szuflada opornie, ale wysuwa si*e ukazuj*ac plan podziemi,\nkt*ory zdecydowanie Ci pomoże szybciej dotrze*c do celu.
 40
 0
 None
@@ -19,13 +19,13 @@ W wewn*etrznej kieszeni znajduje si*e fiolka z lekiem.
 -15
 None
 Przyjrzyj si*e zdech*lemu karaczanowi
-Karaczan okazuje si*e nie by*c martwy, k*asa ci*e i ucieka.
+Karaczan okazuje si*e nie by*c martwy, k*asa Cię i ucieka.
 0
 15
 None
 Kr*otkim korytarzu
 Zamszone dębowe drzwi
-*Sciany l*sni*a od wilgoci, a w powietrzu unosi sie zapach stechlizny.\nWzdrygasz sie. Jest to miejsce, kt*ore powinno zosta*c opuszczone jak najpr*edzej.\nZwracasz uwag*e na: skrzynk*e z butelkami, tajemnicz*a rosline doniczkowa, ludzk*a czaszk*e oraz stoliczek z jedn*a szufladk*a. 
+*Sciany l*sni*a od wilgoci, a w powietrzu unosi sie zapach stechlizny.\nWzdrygasz sie. Jest to miejsce, kt*ore powinno zosta*c opuszczone jak najpr*edzej.\nZwracasz uwag*e na: skrzynk*e z butelkami, tajemnicz*a rosline doniczkowa,\nludzk*a czaszk*e oraz stoliczek z jedn*a szufladk*a. 
 Sprawd*x skrzynk*e
 Przegl*adaj*ac puste butelki natrafiasz na jedn*a pe*ln*a, jest to ampu*lka z eliksirem leczniczym.
 0
@@ -48,9 +48,9 @@ Pr*obujesz otworzy*c szuflad*e, jednak za nic si*e nie da. Tylko pokaleczy*le*s 
 None
 *Swi*atyni ognia
 Czerwone wrota
-Wchodz*ac do *srodka czujesz gor*ac i duchot*e.\nPrzed tob*a rozpo*sciera si*e wielka sala. Sklepienie jest wsparte przez zdobione runami kolumny.\nWsz*edzie porozstawiane s*a pochodnie.\nNa *srodku stoi wielki p*lon*acy znicz.
+Wchodz*ac do *srodka czujesz gor*ac i duchot*e.\nPrzed tob*a rozpo*sciera si*e wielka sala.\nSklepienie jest wsparte przez zdobione runami kolumny.\nWsz*edzie porozstawiane s*a pochodnie.\nNa *srodku stoi wielki p*lon*acy znicz.
 W*l*o*z r*ek*e do znicza.
-Niepewnie zbli*zasz d*lo*n w stron*e p*lomieni, jednak zaskakuje Ci*e ch*l*od jaki emanuje od ognia.\nOkazuje si*e, *ze by*la to tylko iluzja, a w *srodku znicza znajdujesz kartk*e z napisem:.
+Niepewnie zbli*zasz d*lo*n w stron*e p*lomieni, jednak zaskakuje Cię ch*l*od jaki emanuje od ognia.\nOkazuje si*e, *ze by*la to tylko iluzja, a w *srodku znicza znajdujesz kartk*e z napisem:.
 30
 0
 Code
@@ -65,13 +65,13 @@ Nagle z dymu wyrasta przera*zający demon.
 0
 Demon
 Spr*obuj odczyta*c tajemnicze runy
-Jest tam napisane: Wystrzegaj si*e przekl*etej Czarnej Ksi*egi. Hmm jest to chyba jaka*s wskaz*owka...
+Jest tam napisane: Wystrzegaj si*e przekl*etej Czarnej Ksi*egi.\nHmm jest to chyba jaka*s wskaz*owka...
 20
 0
 None
 *Swi*atynii wody
 B*l*ekitne wrota
-Przest*epujesz pr*og i czujesz ch*l*od oraz wilgo*c mocniejsz*a ni*z gdziekolwiek indziej.\nPomieszczenie jest wielkie i wysoko sklepione. Jest bardzo *slisko.\nPomieszczenie o*swietlaj*a magiczne lampy o *lagodnym b*l*ekitnym blasku.\nW centralnej cz*e*sci znajduje si*e wielka fontanna ze szklan*a figurk*a syreny na szczycie.
+Przestępujesz pr*og i czujesz ch*l*od oraz wilgo*c mocniejsz*a ni*z gdziekolwiek indziej.\nPomieszczenie jest wielkie i wysoko sklepione. Jest bardzo *slisko.\nPomieszczenie o*swietlaj*a magiczne lampy o *lagodnym b*l*ekitnym blasku.\nW centralnej cz*e*sci znajduje si*e wielka fontanna ze szklan*a figurk*a syreny na szczycie.
 Podejd*x do fontanny
 Postanawiasz napi*c si*e wody, czujesz si*e jak nigdy przedtem.
 10
@@ -88,13 +88,13 @@ Na tabliczce znajduje si*e wiadomo*s*c w j*ezyku nimf, a poni*zej napis:
 0
 Code
 Rozbij figurk*e syreny
-Z rozbitych od*lamk*ow unosi si*e b*l*ekitny dym, kt*ory przyjmuje posta*c Syreny naturalnych rozmiar*ow. Co gorsza jest ona najwyra*xniej w*sciek*la.
+Z rozbitych od*lamk*ow unosi si*e b*l*ekitny dym,\nkt*ory przyjmuje posta*c Syreny naturalnych rozmiar*ow.\nCo gorsza jest ona najwyra*xniej w*sciek*la.
 0
 0
 Syrena
 *Swi*atynii powietrza
 Szare wrota
-Ju*z od wej*scia czu*le*s przeci*ag.\n Znalaz*le*s si*e w bardzo d*lugiej i niezbyt szerokiej sali.\nSufit ginie w ciemno*sci, a samo pomieszczenie o*swietlone jest od posadzki z l*sni*ących kryszta*l*ow, kryszta*ly, a na s*cianach powiewj*a na wietrze poszarpane sztandary W*ladcy Wichru P*o*lnocy. Wzdrygasz si*e od tego lodowatego podmuchu. Na *srodku dostrzegasz o*ltarz.
+Ju*z od wej*scia czu*le*s przeci*ag.\nZnalaz*le*s si*e w bardzo d*lugiej i niezbyt szerokiej sali.\nSufit ginie w ciemno*sci, a samo pomieszczenie o*swietlone jest od posadzki z\nl*sni*ących kryszta*l*ow, kryszta*ly, a na scianach powiewj*a na wietrze poszarpane sztandary W*ladcy Wichru P*o*lnocy.\nWzdrygasz si*e od tego lodowatego podmuchu. Na *srodku dostrzegasz o*ltarz.
 Podejd*x do o*ltarza.
 Na o*ltarzu le*zy kilka fiolek z napisem “Oto podmuch Jego pot*egi, kto spo*zywa Jego podmuch ma oddech *swie*zy na wieki”. Za*zywasz jedn*a, i dzieje si*e tak jak g*losi napis.
 10
@@ -163,7 +163,7 @@ Możesz odczyta*c napis:
 Code
 Magazynie
 Dwuskrzyd*lowe duże drzwi
-Wchodzisz do pomieszczenia pe*lnego rega*l*ow i pude*l oraz innych rupieci. Czujesz zapach st*echlizy i starych mebli.
+Wchodzisz do pomieszczenia pe*lnego rega*l*ow i pude*l oraz innych rupieci.\nCzujesz zapach st*echlizy i starych mebli.
 Podejd*x do sekretarzyka.
 W szufladzie sekreta*zyka znajdujesz list z napisem:
 0
@@ -180,13 +180,13 @@ Znajdujesz fiolke z mikstur*a lecznicz*a.
 -15
 None
 Zajrzyj pod rega*l
-Pod rega*lem by*l karaczan i ci*e dziabn*a*l.
+Pod rega*lem by*l karaczan i Cię dziabn*a*l.
 0
 15
 None
 Pracownii alchemicznej
 Gazoszczelne drzwi
-Zaraz po przekroczeniu progu uderzy*l Ci*e zapach chemikali*ow.\nStarasz nieoddycha*c tymi oparami.\nPod *scian*a znajduje si*e aparatura alchemiczna, a naprzeciwko wej*scia szafka na sk*ladniki.
+Zaraz po przekroczeniu progu uderzy*l Cię zapach chemikali*ow.\nStarasz nieoddycha*c tymi oparami.\nPod *scian*a znajduje si*e aparatura alchemiczna, a naprzeciwko wej*scia szafka na sk*ladniki.
 Spr*obuj fiolki z niebieskim p*lynem
 Zrobi*lo Ci si*e s*labo, zacz*a*le*s si*e krztusi*c, nie by*lo to nic dobrego.
 5
@@ -198,7 +198,7 @@ Poczu*le*s si*e *swietnie, by*la to mikstura lecznicza.
 -30
 None
 Spr*obuj prob*owki z czerwonym eliksirem
-Poczu*le*s si*e jakby kto*s udzerzy*l Ci*e w brzuch.\nZabrak*lo Ci tchu, zacz*a*le*s osuwa*c si*e na pod*log*e.\nResztk*ami si*l wypowiedzia*le*s zakl*ecie, kt*ore uratowa*lo Ci *zycie.
+Poczu*le*s si*e jakby kto*s udzerzy*l Cię w brzuch.\nZabrak*lo Ci tchu, zacz*a*le*s osuwa*c si*e na pod*log*e.\nResztk*ami si*l wypowiedzia*le*s zakl*ecie, kt*ore uratowa*lo Ci *zycie.
 0
 20
 None
@@ -209,14 +209,14 @@ Poczu*le*s si*e jak nowo narodzony. Trafi*le*s na eliksir regeneracji, i to wyj*
 None
 Bibliotece ksi*ag magicznych
 Czerwone wyciszone drzwi
-Wchodzisz do *srodka. Pierwsze co Ci*e zaskakuje to cisza, miejsce to jest idealnie wyciszone. Przez ca*le pomieszczenie ci*agn*a si*e p*o*lki z ksi*egami.\nCzujesz pulsuj*ac*a w nich magi*e. 
+Wchodzisz do *srodka. Pierwsze co Cię zaskakuje to cisza, miejsce to jest idealnie wyciszone.\nPrzez ca*le pomieszczenie ci*agn*a si*e p*o*lki z ksi*egami.\nCzujesz pulsuj*ac*a w nich magi*e. 
 Przeczytaj ksi*eg*e w czerwonej oprawie
 Nauczy*le*s si*e przydatnego zakl*ecia bojowego.
 45
 0
 None
 Przeczytaj ksi*eg*e w czarnej oprawie
-Ta ksi*ega by*la przek*l*eta i wyssa*la cz*e*s*c twojej energii *zyciowej.
+Ta ksi*ega by*la przek*l*eta i wyssa*la cz*e*s*c Twojej energii *zyciowej.
 0
 20
 None
@@ -232,7 +232,7 @@ Nauczy*le*s si*e przydatnego zakl*ecia leczniczego.
 None
 Sali do rytua*l*ow
 Odrapane drzwi
-Od kiedy tylko przekroczy*le*s pr*og pomieszczenia odczuwasz nieuzasadniony niepok*oj.\nCzujesz, *ze kto*s lub kto*s lub co*s ci*e obserwuje. Na posadzce dostrzegasz namalowany krwi*a pentagram.\nPatrzysz na *scian*e i twoje serce zamiera, a sztylet strachu przeszywa twe serce.\nNa *scianach widniej*a symbole Upad*lych.\nPr*obujesz wyj*s*c, ale drzwi zatrzaskuj*a si*e z dono*snym hukiem.\nWiesz, *ze masz ma*lo czasu nim Oni si*e przebudz*a…
+Od kiedy tylko przekroczy*le*s pr*og pomieszczenia odczuwasz nieuzasadniony niepok*oj.\nCzujesz, *ze kto*s lub kto*s lub co*s Cię obserwuje. Na posadzce dostrzegasz namalowany krwi*a pentagram.\nPatrzysz na *scian*e i Twoje serce zamiera, a sztylet strachu przeszywa twe serce.\nNa *scianach widniej*a symbole Upad*lych.\nWiesz, *ze masz ma*lo czasu nim Oni si*e przebudz*a…
 Podejd*x do pentagramu
 Podchodzisz do pentagramu, a czarne *swiece w jego wierzcho*lkach zapalaj*a si*e.\nWiesz, *ze ju*z jest zap*o*xno na odwr*ocenie zakl*ecia.\nMusisz stawi*c czo*la Upad*lemu...
 0
@@ -249,13 +249,13 @@ Mi*edzy symbolami dostrzegasz przydatne zakl*ecie.
 0
 None
 Podnie*s medalion
-Gdy tylko twoje palce dotkn*e*ly medalionu, zacz*a*le*s odczuwa*c ogromny b*ol.\nTakich medalion*ow u*zywano przy wzywaniu Upad*lych, kt*orzy *zywi*a si*e cierpieniem…
+Gdy tylko Twoje palce dotkn*e*ly medalionu, zacz*a*le*s odczuwa*c ogromny b*ol.\nTakich medalion*ow u*zywano przy wzywaniu Upad*lych, kt*orzy *zywi*a si*e cierpieniem…
 0
 15
 None
 Marmurowej sali
 Bia*le drzwi
-Wchodzisz do *srodka. Podnios*lo*s*c tego pomieszczenia czu*c nawet bez magii.\nMarmurowa posadzka, marmurowe *sciany, marmurowe kolumny…\nNa przeciwleg*lej *scianie dostrzegasz tekst w j*ezyku elf*ow oraz 4 d*xwignie.\nNapis g*losi:\nOto *swi*ety ci*ag przekl*etych cyfr: 1, 6, 21, 62. Jaka b*edzie kolejna cyfra *swi*etego ci*agu?
+Wchodzisz do *srodka. Podnios*lo*s*c tego pomieszczenia czu*c nawet bez magii.\nMarmurowa posadzka, marmurowe *sciany, marmurowe kolumny…\nNa przeciwleg*lej *scianie dostrzegasz tekst w j*ezyku elf*ow oraz 4 d*xwignie.\nNapis g*losi:\n”Oto *swi*ety ci*ag przekl*etych cyfr: 1, 6, 21, 62.\nJaka b*edzie kolejna cyfra *swi*etego ci*agu?”
 D*xwignia z liczb*a “81”
 *Xle wybra*le*s…
 0
@@ -278,7 +278,7 @@ D*xwignia z liczb*a  “115”
 Sfinks
 Skarbcu
 Wzmocnione z*lote drzwi
-Jeszcze zanim przykroczy*le*s p*og pomieszczenia dostrzegasz blask bogactwa.\nSala wr*ecz nim ocieka. *Sciany, pod*loga, sufit - wszystko ze szczerego z*lota. Pod *scian*a znajduje si*e spory kufer.
+Jeszcze zanim przykroczy*le*s p*og pomieszczenia dostrzegasz blask bogactwa.\nSala wr*ecz nim ocieka. *Sciany, pod*loga, sufit - wszystko ze szczerego z*lota.\nPod *scian*a znajduje si*e spory kufer.
 Zbadaj kufer
 W kufrze znajdujesz eliksir leczniczy.
 10
@@ -295,13 +295,13 @@ Podejd*x do *sciany
 10
 None
 Przyjrzyj si*e swojemu odbiciu
-Patrzysz w z*loto jak w lustro i dostrzegasz skradaj*acego si*e za twoimi plecami potwora.
+Patrzysz w z*loto jak w lustro i dostrzegasz skradaj*acego si*e za Twoimi plecami potwora.
 0
 0
 Stra*znik
 Pracownii ru*zd*zkarskiej
 Lipowe drzwi
-Przest*epujesz pr*og i znajdujesz si*e w niewielkim pomieszczeniu, pe*lnym narz*edzi do obr*bki drewna oraz magicznych przyrz*ad*ow. Czujesz podekscytowanie. To staro*swiecka pracownia ru*zd*zkarska.
+Przest*epujesz pr*og i znajdujesz si*e w niewielkim pomieszczeniu,\npe*lnym narz*edzi do obróbki drewna oraz magicznych przyrz*ad*ow. Czujesz podekscytowanie.\nTo staro*swiecka pracownia ru*zd*zkarska.
 Podejd*x do warsztatu
 Jeste*s nieuwa*zny i zrzucasz na siebie rega*l.
 0

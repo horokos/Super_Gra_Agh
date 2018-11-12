@@ -77,11 +77,15 @@ class Action:
 
                 if abs(self.damage[num]) > 0:
                     player.update_hp(self.damage[num])
+                    if player.dead:
+                        break
 
                 if self.encounter[num][:4] not in ["None", "Item", "Code"]:
                     Addons.slow_print(self.encounter[num] + " atakuje Cię!", 0.01)
                     input("\nWciśnij ENTER, aby kontunuować...")
                     player.attack(self.encounter[num], random.randint(5 + player.lvl, 9 + player.lvl) * 10)
+                    if player.dead:
+                        break
 
                 print("...\n")
 

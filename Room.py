@@ -16,12 +16,15 @@ class Room:
 
     def introduce(self, num, sec):
         print("-"*20)
-        Addons.slow_print("Jesteś w " + self.rooms_names[num], sec)
+        if self.rooms_names[num] != "Cmentarzu":
+            Addons.slow_print("Jesteś w " + self.rooms_names[num], sec)
+        else:
+            Addons.slow_print("Jesteś na " + self.rooms_names[num], sec)
         Addons.slow_print(self.rooms_description[num], sec)
 
     def start(self):
         print("-" * 20)
         Addons.slow_print(self.rooms_doors[0], 0.001)
         Addons.slow_print("W kieszeni znajdujesz kartkę z napisem: " +
-                          Code.get_rand_num() + "Masz przeczucie, że jest to istotna informacja.", 0.05)
+                          Code.get_rand_num() + "Masz przeczucie, że będzie to istotna informacja.", 0.05)
         input("\n\nWciśnij ENTER, aby kontynuować...")

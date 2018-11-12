@@ -82,7 +82,6 @@ class Struktura:
 
                 if move == "1":
                     if Code.ending(player) == 1:
-                        player.save_score()
                         self.end = True
                         break
                     else:

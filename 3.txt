@@ -1,4 +1,4 @@
-Pokoju startowym
+#Pokoju startowym
 To jest pok*oj, z kt*orego zaczynasz swoj*a przygod*e.
 Ogrod przed zamkiem 2
 Drzwi 1
