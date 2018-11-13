@@ -26,7 +26,6 @@ class Struktura:
             os.system('cls')
             Load.room.introduce(self.id_room - 1, sec)
             print("-" * 20 + "\n\nGdzie się ruszasz?\n")
-            Code.cp()
 
             if self.id_room < 8:
                 print("1. " + Load.room.rooms_doors[self.id_room * 2 + - 1])
@@ -35,11 +34,11 @@ class Struktura:
                 if self.id_room > 1:
                     print("3. Zawróć")
                     if not all(Load.action[self.id_room - 2].done):
-                        print("\nLub...\n4. Wykonaj akcje\n5. Pokaż ekwipunek\n")
+                        print("\nLub...\n4. Wykonaj akcje\n5. Pokaż statystyki gracza\n")
                     else:
-                        print("\nLub...\n4. Pokaż ekwipunek\n")
+                        print("\nLub...\n4. Pokaż statystyki gracza\n")
                 else:
-                    print("\nLub...\n3. Pokaż ekwipunek\n")
+                    print("\nLub...\n3. Pokaż statystyki gracza\n")
 
                 move = input(">>>")
 
@@ -75,15 +74,14 @@ class Struktura:
                 print("1. Wejdź do portalu")
                 print("2. Zawróć")
                 if not all(Load.action[self.id_room - 2].done):
-                    print("\nLub...\n3. Wykonaj akcje\n4. Pokaż ekwipunek\n")
+                    print("\nLub...\n3. Wykonaj akcje\n4. Pokaż statystyki gracza\n")
                 else:
-                    print("\nLub...\n3. Pokaż ekwipunek\n")
+                    print("\nLub...\n3. Pokaż statystyki gracza\n")
 
                 move = input(">>>")
 
                 if move == "1":
                     if Code.ending(player) == 1:
-                        player.save_score()
                         self.end = True
                         break
                     else:

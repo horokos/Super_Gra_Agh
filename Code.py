@@ -1,22 +1,24 @@
 # -*- coding: utf-8 -*-
 import random as r
 import os
+import Addons
 
-code = str()
-unknown = list()
+code = ""
+unknown = []
+boss_name = ""
+boss_pict = ""
 
 
-def generate():
+def generate(amount):
     global code
     global unknown
-    code = "%s%s%s%s%s" % (r.randint(1, 9), r.randint(1, 9), r.randint(1, 9), r.randint(1, 9), r.randint(1, 9))
+    code = ""
+    unknown = []
+    for i in range(amount):
+        code += str(r.randint(1, 9))
 
     for i in range(len(code)):
         unknown.append("*" * i + code[i] + "*" * (len(code) - i - 1))
-
-
-def cp():
-    print(code)
 
 
 def get_rand_num():
@@ -29,11 +31,35 @@ def get_rand_num():
         return "Kod: " + code
 
 
+def return_known_code():
+    know = list(code)
+
+    for i in unknown:
+        for x in range(len(i)):
+            if i[x] != "*":
+                know[x] = "*"
+                break
+    know = "".join(know)
+    return know
+
+
 def ending(player):
+    sec = 0.005
     while True:
         os.system('cls')
         print("-" * 20)
-        print("Przed Tobą znajdują się duże wrota otwierane kodem, a za Tobą portal.\n\n")
+        Addons.slow_print("""Jesteś w pokoju przeznaczenia\n
+Twoje serce zaczyna bić szybciej. Przed Tobą znajdują się duże straszliwe wrota.
+Wygląda na to że, aby je otworzyć należy podać odpowiedni kod.""", sec, newline=False)
+        if return_known_code() == code:
+            print("\nZnasz już cały kod: " + code)
+        else:
+            print("\nZnasz część cyfr kodu: " + return_known_code())
+
+        Addons.slow_print("""Jednak czy jesteś na tyle odważny aby przekonać się co kryje się za tymi drzwiami?
+Widzisz, że masz też prawdopodobną możliwość powrotu przez ten sam portal,
+z którego tu przyszedłeś.""", sec)
+        sec = 0
         print("Co robisz? (1/2)\n")
         print("1. Próbujesz wpisać kod")
         print("2. Wchodzisz do portalu")
@@ -44,7 +70,7 @@ def ending(player):
                 return 1
 
         elif p == "2":
-            print("Portal przenosi Cię do pokoju startowego.\n\n")
+            Addons.slow_print("Portal przenosi Cię do pokoju startowego.\n", 0.05)
             input("\nWciśnij ENTER, aby kontunuować...")
             return 0
 
@@ -54,34 +80,22 @@ def guess(player):
     code1 = input(">>>")
 
     if code == code1:
-        if player.type == 1:
-            boss_name = 'Deathwing'
-            p = open('boss1.txt')
-        if player.type == 2:
-            boss_name = 'Czarnoksieznik'
-            p = open('boss2.txt')
-        if player.type == 3:
-            boss_name = 'Ksiezniczka'
-            p = open('boss3.txt')
-        print("Podałeś właściwy szyfr.")
-        print("Wrota otwierają się\n" + boss_name + " chce pożreć Twoją duszę!")
-        for i in p:
-            print(i.strip())
+        print("Podałeś właściwy Kod.")
+        Addons.slow_print("Wrota otwierają się z wielkim piskiem...\n" + boss_name + " chce pożreć Twoją duszę!", 0.1)
+        Addons.slow_print(boss_pict, 0.0001)
         input("\nWciśnij ENTER, aby kontunuować...")
-        p.close()
+
         player.attack(boss_name, r.randint(8 + player.lvl, 13 + player.lvl) * 10)
-        f = open('win.txt')
-        player.update_lvl(500)
-        for i in f:
-            print(i.strip())
-        print("\nKONIEC GRY")
-        player.save_score()
-        input("\nWciśnij ENTER, aby kontunuować...")
+        if not player.dead:
+            Addons.print_congrats()
+            print("\nKONIEC GRY")
+            player.save_score()
+            input("\nWciśnij ENTER, aby kontunuować...")
         os.system('cls')
         return 1
 
     else:
-        print("Zły kod.\nZ podłogi wysuwają się kłujące kolce.\n")
+        print("\nZły kod.\nZ podłogi wysuwają się kłujące kolce.\n")
         player.update_hp(10)
         input("\nWciśnij ENTER, aby kontunuować...")
         return 0
